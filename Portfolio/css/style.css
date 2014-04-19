@@ -1,0 +1,62 @@
+/* ----------- Header----------- */
+
+.wrap {
+	width: 1000px;
+	position: relative;
+	margin: 0 auto;
+}
+
+header {
+	height: 90px;
+}
+
+header nav {
+	position: absolute;
+	right: 0;
+	top: 18px;
+}
+
+header nav ul li {
+	display: inline;
+	margin-left: 22px;
+}
+
+header nav ul li a:hover, header nav ul li a.active {
+	color: rgba(0, 0, 0, 0.9);
+}
+
+header nav ul li a {
+	text-decoration: none;
+	font-family: georgia;
+	color: rgba(0, 0, 0, 0.6);
+	text-transform: uppercase;
+	font-weight: 700;
+	-webkit-transition: .2 color linear;
+	-moz-transition: .2 color linear;
+	-ms-transition: .2 color linear;
+	-o-transition: .2 color linear;
+	transition: .2 color linear;
+	position: relative;
+	font-size: 12px;
+}
+
+
+
+/* ----------- Navigation ----------- */
+nav ul {
+	list-style: none;
+	list-style-image: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
