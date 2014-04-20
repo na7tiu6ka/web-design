@@ -6,6 +6,7 @@ body {
 	margin: 0;
 	line-height: 1.4;
 	font-family: georgia;
+	
 }
 
 .birds {
@@ -15,10 +16,14 @@ body {
 	background-size: 1440px 964px;
 }
 
-.wrap {
+.wrapper {
 	width: 1000px;
 	position: relative;
 	margin: 0 auto;
+}
+
+.homeIntro {
+	background-color: #fbfbfa;
 }
 
 .homeIntro h1 {
@@ -55,11 +60,45 @@ body {
 	margin: 0 auto;
 }
 
+.spline .beige {
+	background: #fbfbfa;
+}
+
+.spline {
+	width: 100%;
+	padding: 50px 0;
+}
+
+
+
 /*************************
-Heading
+SKILLS SECTION
 *************************/
+#skills {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: center;
+}
+
+#skills li {
+	float: left;
+	margin: 3% auto;
+	padding-left: 130px;
+	color: #666;
+}
+
+#skills li p {
+	margin: 0;
+	padding: 6%;
+	font-size: 0.75em
+	color: #666;
+}
 
 
+/*************************
+HEADING
+*************************/
 header {
 	height: 90px;
 }
@@ -106,6 +145,26 @@ nav ul {
 nav a.selected, nav a:hover {
 	color: #000000;
 }
+
+/*************************
+FOOTER
+*************************/
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	color: #ccc;
+	background-color: #fbfbfa;
+}
+
+.social-icon {
+	width: 50px;
+	height: 50px;
+	margin: 0 5px;
+}
+
 
 /*************************
 COLORS
