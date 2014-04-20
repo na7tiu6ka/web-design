@@ -15,16 +15,49 @@ body {
 	background-size: 1440px 964px;
 }
 
+.wrap {
+	width: 1000px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.homeIntro h1 {
+	text-align: center;
+	margin-bottom: 8px;
+	font-weight: 300;
+}
+
+.homeIntro .subline {
+	display: block;
+	text-align: center;
+	color: #bbb;
+	font-family: georgia;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 40px;
+	letter-spacing: 3px;
+}
+
+.homeIntro p {
+	width: 90%;
+	font-size:  17px;
+	line-height: 1.6em;
+	color: #666;
+	font-family: georgia;
+	column-count: 2;
+	column-gap: 0;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 0;
+	-moz-column-count: 2;
+	-moz-column-gap: 0;
+	text-align: center;
+	margin: 0 auto;
+}
 
 /*************************
 Heading
 *************************/
-
-.wrap {
-	width: 1275px;
-	position: relative;
-	margin: 0 auto;
-}
 
 
 header {
@@ -33,7 +66,7 @@ header {
 
 header nav {
 	position: absolute;
-	right: 100px;
+	right: 60px;
 	top: 18px;
 
 }
@@ -53,16 +86,10 @@ header nav ul li a {
 	color: rgba(185, 185, 185, 0.6);
 	text-transform: uppercase;
 	font-weight: 700;
-	-webkit-transition: .3 color linear;
-	-moz-transition: .3 color linear;
-	-ms-transition: .3 color linear;
-	-o-transition: .3 color linear;
-	transition: .3 color linear;
 	position: relative;
 	font-size: 12px;
 
 }
-
 
 
 /*************************
