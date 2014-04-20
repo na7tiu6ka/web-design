@@ -6,7 +6,7 @@ body {
 	margin: 0;
 	line-height: 1.4;
 	font-family: georgia;
-	
+
 }
 
 .birds {
@@ -72,7 +72,7 @@ body {
 
 
 /*************************
-SKILLS SECTION
+SKILL SECTION
 *************************/
 #skills {
 	margin: 0;
@@ -84,17 +84,17 @@ SKILLS SECTION
 #skills li {
 	float: left;
 	margin: 3% auto;
-	padding-left: 130px;
+	padding-left: 140px;
 	color: #666;
 }
 
 #skills li p {
 	margin: 0;
 	padding: 6%;
-	font-size: 0.75em
+	font-size: 0.7em
 	color: #666;
+	text-align: center;
 }
-
 
 /*************************
 HEADING
