@@ -127,7 +127,7 @@ header nav ul li a:hover, header nav ul li a.active {
 header nav ul li a {
 	text-decoration: none;
 	font-family: 'Overlock', cursive;
-	color: rgba(148, 148, 148, 0.7);
+	color: rgba(178, 178, 178, 0.8);
 	text-transform: uppercase;
 	font-weight: 700;
 	position: relative;
@@ -185,7 +185,7 @@ PAGE: ABOUT
 .profilePhoto {
 	display: inline-block;
 	max-width: 140px;
-	margin: 10px 30px 40px;
+	margin: 10px 50px 40px;
 	border-radius: 100%;
 	border: #101010 2px solid;
 	float: left;
@@ -198,17 +198,17 @@ COLORS
 *************************/
 /* links */
 a {
-	color: rgba(128, 128, 128, 0.7);
+	color: rgba(178, 178, 178, 0.8);
 }
 
 /* nav link */
 nav a, nav a:visited {
-	color: rgba(128, 128, 128, 0.7)
+	color: rgba(178, 178, 178, 0.8);
 }
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-	color: rgba(200, 200, 200, 0.9);;
+	color: rgba(200, 200, 200, 0.9);
 }
 
 
