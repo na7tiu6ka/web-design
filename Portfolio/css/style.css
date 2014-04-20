@@ -20,15 +20,14 @@ a {
 	background-size: 1440px 964px;
 }
 
+
 .wrapper {
 	width: 1000px;
 	position: relative;
 	margin: 0 auto;
+
 }
 
-.homeIntro {
-	background-color: #fbfbfa;
-}
 
 .homeIntro h1 {
 	text-align: center;
@@ -79,28 +78,48 @@ a {
 /*************************
 SKILL SECTION
 *************************/
-#skills {
+
+#skillContainer {
+	width: 1000px;
+	position: relative;
+	margin: 1px auto;
+	
+}
+
+.skills {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	position: center;
+
 }
 
-#skills li {
+.skills li {
 	float: left;
-	margin: 3% auto;
-	padding-left: 140px;
+	margin: 2% auto;
+	padding: 0 50px;
 	color: #666;
 }
 
-#skills li p {
+.skills li p {
 	margin: 0;
-	padding: 6%;
+	padding: 2%;
 	font-size: 0.7em
 	color: #666;
 	text-align: center;
+
 }
 
+.box1,
+.box2,
+.box3 {
+	width: 50%;
+	height: 50%;
+	padding: 20px 50px;
+	margin: 0;
+	background: #F1F1F1;
+
+}
 
 
 /*************************
@@ -164,8 +183,8 @@ footer {
 	text-align: center;
 	clear: both;
 	padding-top: 50px;
-	color: #ccc;
-	background-color: #fbfbfa;
+	color: #808080;
+	background-color: #F6F6F6;
 }
 
 .social-icon {
