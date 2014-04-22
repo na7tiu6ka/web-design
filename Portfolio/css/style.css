@@ -45,7 +45,7 @@ a {
 	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: 700;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	letter-spacing: 3px;
 }
 
@@ -55,14 +55,8 @@ a {
 	line-height: 1.6em;
 	color: #666;
 	font-family: 'Overlock', cursive;
-	/*column-count: 2;
-	column-gap: 0;
-	-webkit-column-count: 2;
-	-webkit-column-gap: 0;
-	-moz-column-count: 2;
-	-moz-column-gap: 0;*/
 	text-align: justify;
-	margin: 0 auto;
+	margin: 1% auto;
 }
 
 
@@ -77,26 +71,22 @@ a {
 SKILL SECTION
 *************************/
 
-#skillContainer {
-	width: 100%;
+/*#skillContainer {
+	display: inline;
 	position: relative;
-	margin: 1px 150px;
+	margin: 0 auto;
+	background: #F1F1F1;
+
 	
 }
 
-.skills ul {
-	margin: 0;
-	padding: 0;
+.skills ul li {
+	float: left;
+	margin: 1% auto;
+	padding: 10px 20px 10px 10px;
+	color: #666;
 	list-style: none;
 	position: center;
-
-}
-
-.skills li {
-	float: left;
-	margin: 3% auto;
-	padding: 0 50px;
-	color: #666;
 }
 
 .skills li p {
@@ -112,16 +102,14 @@ SKILL SECTION
 .box1,
 .box2,
 .box3 {
-	width: 50%;
-	height: 50%;
-	padding: 20px 50px;
-	margin: 0;
+	padding: 10px 30px;
+	margin: 10px;
 	background: #F1F1F1;
 	border: #919191 1px solid;
 	border-radius: 10px;
 
 }
-
+*/
 
 /*************************
 HEADING
@@ -183,7 +171,8 @@ footer {
 	font-size: 0.85em;
 	text-align: center;
 	clear: both;
-	padding-top: 50px;
+	padding-top: 20px;
+	padding-bottom: 5px;
 	color: #808080;
 	background-color: #F6F6F6;
 	border-top: #919191 1px solid;
@@ -209,7 +198,7 @@ PAGE: ABOUT
 .profilePhoto {
 	display: inline-block;
 	max-width: 150px;
-	margin: -50px 10px 50px;
+	margin: -50px 30px 40px;
 	border-radius: 100%;
 	border: #101010 3px solid;
 	float: left;
@@ -236,7 +225,7 @@ PAGE: ABOUT + CONTACT
 	list-style: none;
 	list-style-image: none;
 	margin-top: -190px;
-	margin-right: 50px;
+	margin-right: 40px;
 }
 
 .contactInfo {
