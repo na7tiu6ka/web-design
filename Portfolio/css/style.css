@@ -18,6 +18,7 @@ a {
 	height: 300px;
 	background: url(../img/birds.JPG) center;
 	background-size: 1440px 964px;
+	border-bottom: #101010 3px solid;
 }
 
 
@@ -49,7 +50,7 @@ a {
 }
 
 .homeIntro p {
-	width: 90%;
+	width: 80%;
 	font-size:  17px;
 	line-height: 1.6em;
 	color: #666;
@@ -64,9 +65,6 @@ a {
 	margin: 0 auto;
 }
 
-.spline .beige {
-	background: #fbfbfa;
-}
 
 .spline {
 	width: 100%;
@@ -80,13 +78,13 @@ SKILL SECTION
 *************************/
 
 #skillContainer {
-	width: 1000px;
+	width: 100%;
 	position: relative;
-	margin: 1px auto;
+	margin: 1px 150px;
 	
 }
 
-.skills {
+.skills ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -96,19 +94,20 @@ SKILL SECTION
 
 .skills li {
 	float: left;
-	margin: 2% auto;
+	margin: 3% auto;
 	padding: 0 50px;
 	color: #666;
 }
 
 .skills li p {
 	margin: 0;
-	padding: 2%;
+	padding: 3%;
 	font-size: 0.7em
 	color: #666;
 	text-align: center;
 
 }
+
 
 .box1,
 .box2,
@@ -187,6 +186,7 @@ footer {
 	padding-top: 50px;
 	color: #808080;
 	background-color: #F6F6F6;
+	border-top: #919191 1px solid;
 }
 
 .social-icon {
@@ -199,26 +199,65 @@ footer {
 PAGE: ABOUT
 *************************/
 
-.about {
+#about {
 	margin: 0 auto;
 	padding: 0 5%;
-	max-width: 940px;
+	max-width: 950px;
 }
+
 
 .profilePhoto {
 	display: inline-block;
-	max-width: 140px;
-	margin: 10px 50px 40px;
+	max-width: 150px;
+	margin: -50px 10px 40px;
 	border-radius: 100%;
-	border: #101010 2px solid;
+	border: #101010 3px solid;
 	float: left;
 }
 
-.about p {
+#primary p {
 	text-align: justify;
+	width: 670px;
+	
 }
 
+/*************************
+PAGE: ABOUT + CONTACT
+*************************/
 
+#secondary {
+	float: right;
+
+}
+
+#secondary ul {
+	list-style: none;
+	list-style-image: none;
+}
+
+.contactInfo {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.95em;
+}
+
+.contactInfo a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+.contactInfo li.phone a {
+	background-image: url('../img/phone.png');
+}
+
+.contactInfo li.email a {
+	background-image: url('../img/mail.png');
+}
 
 /*************************
 COLORS
