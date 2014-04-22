@@ -227,8 +227,8 @@ footer {
 	clear: both;
 	padding-top: 20px;
 	padding-bottom: 5px;
-	color: #A1A1A1;
-	background-color: #E6E6E6;
+	color: #E5E5E5;
+	background-color: #C1C1C1;
 	border-top: #919191 1px solid;
 }
 
@@ -238,6 +238,20 @@ footer {
 	margin: 0 5px;
 }
 
+/* picture hover effect */
+
+.social-icon {
+	-webkit-filter: grayscale(100%);
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+		transition: all .3s linear;
+}
+ 
+.social-icon:hover {
+  -webkit-filter: grayscale(0%);
+}
 
 /*************************
 COLORS
