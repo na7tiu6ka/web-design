@@ -79,23 +79,18 @@ SKILL SECTION
 
 #skillContainer {
 	margin: 0;
-	padding: 0;
+	/*padding: 0 0 0px 350px;*/
+	padding-left: 34.375%;
+	display: block;
 }
 
 #skillContainer li {
 	float: left;
-	margin: 2%;
-	color: #BDC3C7;
+/*	margin: 3%;
+*/	color: #BDC3C7;
 	list-style: none;
+/*	margin: 5px 26px;*/
 
-}
-
-#skillContainer li p {
-	margin: 0;
-	padding: 6%;
-	font-size: 0.75em;
-	color: #808080;
-	position: center;
 }
 
 /*************************
