@@ -5,6 +5,7 @@ body {
 	margin: 0;
 	line-height: 1.4;
 	font-family: 'Overlock', cursive;
+	background-color: #F6F6F6;
 }
 
 a {
@@ -28,6 +29,11 @@ a {
 	margin: 0 auto;
 
 }
+
+
+/*************************
+MAIN PAGE INTRO
+*************************/
 
 
 .homeIntro h1 {
@@ -71,45 +77,94 @@ a {
 SKILL SECTION
 *************************/
 
-/*#skillContainer {
-	display: inline;
-	position: relative;
+#skillContainer {
+	margin: 0;
+	padding: 0;
+}
+
+#skillContainer li {
+	float: left;
+	margin: 2%;
+	color: #BDC3C7;
+	list-style: none;
+
+}
+
+#skillContainer li p {
+	margin: 0;
+	padding: 6%;
+	font-size: 0.75em;
+	color: #808080;
+	position: center;
+}
+
+/*************************
+PAGE: ABOUT
+*************************/
+
+#about {
 	margin: 0 auto;
-	background: #F1F1F1;
+	padding: 0 5%;
+	max-width: 940px;
+}
+
+
+.profilePhoto {
+	display: inline-block;
+	max-width: 150px;
+	margin: -60px 30px 40px;
+	border-radius: 100%;
+	border: #101010 3px solid;
+	float: left;
+}
+
+
+#primary p {
+	text-align: justify;
+	width: 640px;
 
 	
 }
 
-.skills ul li {
-	float: left;
-	margin: 1% auto;
-	padding: 10px 20px 10px 10px;
-	color: #666;
+/*************************
+PAGE: ABOUT + CONTACT
+*************************/
+
+#secondary {
+	float: right;
+
+}
+
+#secondary ul {
 	list-style: none;
-	position: center;
+	list-style-image: none;
+	margin-top: -190px;
+	margin-right: 40px;
 }
 
-.skills li p {
+.contactInfo {
+	list-style: none;
+	padding: 0;
 	margin: 0;
-	padding: 3%;
-	font-size: 0.7em
-	color: #666;
-	text-align: center;
-
+	font-size: 0.95em;
 }
 
-
-.box1,
-.box2,
-.box3 {
-	padding: 10px 30px;
-	margin: 10px;
-	background: #F1F1F1;
-	border: #919191 1px solid;
-	border-radius: 10px;
-
+.contactInfo a {
+	display: block;
+	min-height: 10px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 9px;
 }
-*/
+
+.contactInfo li.phone a {
+	background-image: url('../img/phone.png');
+}
+
+.contactInfo li.email a {
+	background-image: url('../img/mail.png');
+}
 
 /*************************
 HEADING
@@ -173,8 +228,8 @@ footer {
 	clear: both;
 	padding-top: 20px;
 	padding-bottom: 5px;
-	color: #808080;
-	background-color: #F6F6F6;
+	color: #A1A1A1;
+	background-color: #E6E6E6;
 	border-top: #919191 1px solid;
 }
 
@@ -184,73 +239,6 @@ footer {
 	margin: 0 5px;
 }
 
-/*************************
-PAGE: ABOUT
-*************************/
-
-#about {
-	margin: 0 auto;
-	padding: 0 5%;
-	max-width: 940px;
-}
-
-
-.profilePhoto {
-	display: inline-block;
-	max-width: 150px;
-	margin: -50px 30px 40px;
-	border-radius: 100%;
-	border: #101010 3px solid;
-	float: left;
-}
-
-
-#primary p {
-	text-align: justify;
-	width: 670px;
-
-	
-}
-
-/*************************
-PAGE: ABOUT + CONTACT
-*************************/
-
-#secondary {
-	float: right;
-
-}
-
-#secondary ul {
-	list-style: none;
-	list-style-image: none;
-	margin-top: -190px;
-	margin-right: 40px;
-}
-
-.contactInfo {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	font-size: 0.95em;
-}
-
-.contactInfo a {
-	display: block;
-	min-height: 10px;
-	background-repeat: no-repeat;
-	background-size: 20px 20px;
-	padding: 0 0 0 30px;
-	margin: 0 0 9px;
-}
-
-.contactInfo li.phone a {
-	background-image: url('../img/phone.png');
-}
-
-.contactInfo li.email a {
-	background-image: url('../img/mail.png');
-}
 
 /*************************
 COLORS
