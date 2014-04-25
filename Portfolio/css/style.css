@@ -113,14 +113,14 @@ PAGE: ABOUT
 .profilePhoto {
 	display: inline-block;
 	max-width: 150px;
-	margin: 1% 3% 4%;
+	margin: -6% 3% 4%;
 	border-radius: 100%;
 	border: #101010 3px solid;
 	float: left;
 }
 
 .profileBox {
-	margin-bottom: 16%;
+	margin-bottom: 20%;
 }
 
 #primary p {
@@ -253,7 +253,7 @@ footer {
 /* picture hover effect */
 
 .social-icon {
-	-webkit-filter: grayscale(75%);
+	-webkit-filter: grayscale(85%);
 	-webkit-transition: all .3s linear;
 	-moz-transition: all .3s linear;
 	-o-transition: all .3s linear;
