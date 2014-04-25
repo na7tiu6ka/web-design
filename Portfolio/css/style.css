@@ -4,12 +4,13 @@ GENERAL
 body {
 	margin: 0;
 	line-height: 1.4;
-	font-family: 'Overlock', cursive;
+	font-family: 'Raleway', 'sans-serif';
 	background-color: #F6F6F6;
 }
 
 a {
 	text-decoration: none;
+	font-family: 'Ubuntu', 'sans-serif';
 }
 
 
@@ -120,7 +121,7 @@ PAGE: ABOUT
 }
 
 .profileBox {
-	margin-bottom: 20%;
+	margin-bottom: 22%;
 }
 
 #primary p {
@@ -194,10 +195,10 @@ header nav ul li a:hover, header nav ul li a.active {
 
 header nav ul li a {
 	text-decoration: none;
-	font-family: 'Overlock', cursive;
+	font-family: 'Ubuntu', 'sans-serif';
 	color: rgba(121, 116, 124, 0.95);
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 500;
 	position: relative;
 	font-size: 17px;
 
