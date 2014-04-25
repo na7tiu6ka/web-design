@@ -173,12 +173,12 @@ PAGE: ABOUT + CONTACT
 HEADING
 *************************/
 header {
-	height: 90px;
+	height: 9%;
 }
 
 header nav {
 	position: absolute;
-	right: 55px;
+	right: 85px;
 	top: 28px;
 
 }
@@ -199,7 +199,7 @@ header nav ul li a {
 	text-transform: uppercase;
 	font-weight: 700;
 	position: relative;
-	font-size: 16px;
+	font-size: 17px;
 
 }
 
