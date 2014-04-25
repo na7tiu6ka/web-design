@@ -13,19 +13,19 @@ a {
 }
 
 
-.birds {
+/*.main {
 	width: 100%;
 	height: 300px;
-	background: url(../img/birds.JPG) center;
-	background-size: 1440px 964px;
+	background: url(../img/main.JPG) center;
+	background-size: 1440px 788px;
 	border-bottom: #101010 3px solid;
-}
+}*/
 
 .dreams {
 	width: 100%;
 	height: 300px;
 	background: url(../img/dreams.jpg) center;
-	background-size: 1440px 964px;
+	background-size: 1440px 788px;
 	border-bottom: #101010 3px solid;
 }
 
@@ -92,7 +92,6 @@ SKILL SECTION
 	margin: 3%;
 	color: #BDC3C7;
 	list-style: none;
-/*	margin: 5px 26px;*/
 
 }
 
@@ -101,14 +100,14 @@ PAGE: ABOUT
 *************************/
 
 #about {
-	margin: 0;
+	margin: 1%
 	padding: 0 5%;
 	max-width: 1000px;
 }
 
 .aboutBox {
-	right: 450px;
-	left: 450px;
+	right: 45%;
+	left: 45%;
 }
 
 .profilePhoto {
@@ -121,7 +120,7 @@ PAGE: ABOUT
 }
 
 .profileBox {
-	margin-bottom: 15%;
+	margin-bottom: 16%;
 }
 
 #primary p {
@@ -142,7 +141,7 @@ PAGE: ABOUT + CONTACT
 #secondary ul {
 	list-style: none;
 	list-style-image: none;
-	margin-top: -155%;
+	margin-top: -145%;
 	margin-right: 40px;
 
 }
@@ -190,13 +189,13 @@ header nav ul li {
 }
 
 header nav ul li a:hover, header nav ul li a.active {
-	color: rgba(200, 200, 200, 0.9);
+	color: rgba(34, 33, 45, 0.85);
 }
 
 header nav ul li a {
 	text-decoration: none;
 	font-family: 'Overlock', cursive;
-	color: rgba(178, 178, 178, 0.8);
+	color: rgba(121, 116, 124, 0.95);
 	text-transform: uppercase;
 	font-weight: 700;
 	position: relative;
@@ -218,7 +217,7 @@ nav ul {
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-	color: #F0F0F0;
+	color: rgba(34, 33, 45, 0.85);
 }
 
 /* nav transition effect */
@@ -241,7 +240,7 @@ footer {
 	padding-top: 2%;
 	padding-bottom: 0.05px;
 	color: #777777;
-	background-color: #C7C7C7;
+	background-color: rgba(201, 196, 188, 0.85);
 	border-top: #919191 1px solid;
 }
 
@@ -272,17 +271,17 @@ COLORS
 
 /* links */
 a {
-	color: rgba(178, 178, 178, 0.8);
+	color: rgba(121, 116, 124, 0.95);
 }
 
 /* nav link */
 nav a, nav a:visited {
-	color: rgba(178, 178, 178, 0.8);
+	color: rgba(121, 116, 124, 0.95);
 }
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-	color: rgba(200, 200, 200, 0.9);
+	color: rgba(34, 33, 45, 0.85);
 }
 
 
