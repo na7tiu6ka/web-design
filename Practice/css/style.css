@@ -1,0 +1,109 @@
+/*************************
+GENERAL
+*************************/
+
+body {
+	font-family: Georgia;
+}
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 20%;
+}
+
+
+/*************************
+HEADING
+*************************/
+
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0 ;
+	width: 100%;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	margin: 15px 0;
+	font-size: 1.75em;
+	line-height: 1em;
+}
+
+h2 {
+	font-size: 0.75em;
+	margin: -5px 0 0;
+}
+
+/*************************
+PHOTOS
+*************************/
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li {
+	float: left;
+	margin: 2.5%;
+	background-color: #F5F5F5;
+	color: #BDC3C7;
+}
+
+#gallery li a {
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75em;
+	color: #BDC3C7;
+}
+
+/*************************
+COLORS
+*************************/
+
+/* site body */
+body {
+	background-color: #FFF;
+	color: #999;
+}
+
+/* green header */
+header {
+	background: #11c380;
+	border-color: #0b9762; 
+}
+
+/* nav background on mobile devises */
+nav {
+	background: #0b9762;
+}
+
+/* logo text*/
+h1, h2 {
+	color: #fff;
+}
+
+/* links */
+a {
+	color: #11c380;
+}
+
+/* nav link */
+a:visited {
+	color: #fff;
+}
+
