@@ -60,10 +60,10 @@ nav li {
 nav a {
 	font-weight: 800;
 	padding: 15px 10px;
-	text-transform: suppercase;
+	text-transform: uppercase;
 }
 
-/*--------------PAGE: WOKR--------------*/
+/*--------------PAGE: WORK--------------*/
 
 /*--------------PAGE: INFO--------------*/
 
@@ -74,7 +74,7 @@ footer {
 	clear: both;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	color: #000;
+	color: #686868;
 	background-color: #ADADAD;
 }
 
