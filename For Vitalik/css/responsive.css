@@ -72,12 +72,12 @@
 	}
 
 	header {
-		border-bottom: 5px solid #0b9762;
+		border-bottom: 5px solid #848484;
 		margin-bottom: 60px;
 	}
 
 	nav a.selected, nav a:hover {
-	color: #037f50;
+	color: #999999;
 }
 
 
