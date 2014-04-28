@@ -29,6 +29,11 @@ header {
 #logo {
 	text-align: center;
 	margin: 0;
+	padding-top: 65px;
+}
+
+.box {
+	height: 250px;
 }
 
 h1 {
