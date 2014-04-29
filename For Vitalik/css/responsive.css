@@ -1,4 +1,15 @@
 
+@media screen and (min-width: 330px) {
+	nav {
+		background: none;
+		float: right;
+		font-size: 0.9em;
+		margin-right: 2%
+		width: 25%
+
+	}
+}
+
 @media screen and (min-width: 480px) {
 	
 	/*************************
@@ -37,19 +48,6 @@
 		margin: 0 5% 80px 0;
 	}
 
-	/*************************
-	HEADER
-	*************************/
-
-	nav {
-		background: none;
-		float: right;
-		font-size: 1.125em;
-		margin-right: 5%
-		text-align: right;
-		width: 45%
-	}
-
 }
 
 
@@ -63,14 +61,14 @@
 		background: none;
 		float: right;
 		font-size: 1.125em;
-		margin-right: 5%
+		margin-right: 2%
 		text-align: right;
-		width: 45%
+		width: 25%
 	}
 
 	#logo {
 		float: left;
-		margin-left: 5%
+		margin-left: 2%
 		text-align: left;
 		width: 45%
 	}
