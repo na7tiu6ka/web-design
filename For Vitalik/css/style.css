@@ -36,18 +36,21 @@ header {
 }
 
 .box1 {
-	height: 250px;
+	height: 280px;
 	background: url(../img/header1.jpg);
+	
 }
 
 .box2 {
-	height: 250px;
+	height: 280px;
 	background: url(../img/header2.jpg);
+	
 }
 
 .box3 {
-	height: 250px;
+	height: 280px;
 	background: url(../img/header3.jpg);
+	
 }
 
 h1 {
@@ -55,6 +58,16 @@ h1 {
 	margin: -120px 0;
 	font-size: 1.75em;
 	line-height: 1em;
+}
+
+.introText {
+	font-family: 'Playfair Display SC', 'serif';
+	font-size: 45px;
+	position: absolute;
+	left: 500px;
+	top: 200px;
+
+
 }
 
 /*h2 {
