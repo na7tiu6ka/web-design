@@ -32,12 +32,22 @@ header {
 	text-align: center;
 	margin: 0;
 	padding-top: 55px;
-	position: fixed;
+	position: absolute;
 }
 
-.box {
+.box1 {
 	height: 210px;
-	background: url(../img/picture.jpg);
+	background: url(../img/header1.jpg);
+}
+
+.box2 {
+	height: 210px;
+	background: url(../img/header2.jpg);
+}
+
+.box3 {
+	height: 210px;
+	background: url(../img/header3.jpg);
 }
 
 h1 {
