@@ -61,10 +61,13 @@ h1 {
 }
 
 
-/*h2 {
-	font-size: 0.75em;
-	margin: -5px 0 0;
-}*/
+#homeBanner {
+	font-size: 1.75em;
+	color: rgba(0, 0, 0, 0.6);
+	position: relative;
+	left: 40%;
+	top: 55%;
+}
 
 /*--------------NAVIGATION--------------*/
 
@@ -124,8 +127,13 @@ header {
 }
 
 /* logo text */
-h1, h2 {
+h1{
 	color: #656565;
+}
+
+/* Banner Text */
+h2 {
+	color: #909090;
 }
 
 /* links */
