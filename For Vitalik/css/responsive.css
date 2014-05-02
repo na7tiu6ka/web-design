@@ -12,16 +12,16 @@
 	header {
 		border-bottom: 2px solid #848484;
 		border-top: 2px solid #848484;
-		margin-top: 70px;
-		margin-bottom: 40px;
+		margin-top: 75;
+		margin-bottom: 4%;
 	}
 
 	#homeBanner {
-	font-size: 1.75em;
-	color: rgba(0, 0, 0, 0.55);
+	font-size: 1.85em;
+	color: rgba(0, 0, 0, 1);
 	position: relative;
-	right: 115px;
-	top: 150px;
+	right: 100%;
+	top: -90%;
 	}
 
 }
@@ -116,8 +116,8 @@
 	header {
 		border-bottom: 4px solid #848484;
 		border-top: 4px solid #848484;
-		margin-top: 70px;
-		margin-bottom: 60px;
+		margin-top: 7%;
+		margin-bottom: 6%;
 	}
 
 	nav a.selected, nav a:hover {
