@@ -56,18 +56,10 @@ header {
 h1 {
 	font-family: 'Playfair Display SC', 'serif';
 	margin: -120px 0;
-	font-size: 1.75em;
+	font-size: 1.85em;
 	line-height: 1em;
 }
 
-
-#homeBanner {
-	font-size: 1.75em;
-	color: rgba(0, 0, 0, 0.6);
-	position: relative;
-	left: 40%;
-	top: 55%;
-}
 
 /*--------------NAVIGATION--------------*/
 

@@ -4,8 +4,8 @@
 		background: none;
 		float: right;
 		font-size: 0.9em;
-		margin-right: 2%
-		width: 25%
+		margin-right: 2%;
+		width: 25%;
 
 	}
 
@@ -14,6 +14,14 @@
 		border-top: 2px solid #848484;
 		margin-top: 70px;
 		margin-bottom: 40px;
+	}
+
+	#homeBanner {
+	font-size: 1.75em;
+	color: rgba(0, 0, 0, 0.6);
+	position: relative;
+	right: 115px;
+	top: 150px;
 	}
 
 }
@@ -83,6 +91,14 @@
 
 	h1 {
 		font-size: 2.5em;
+	}
+
+	#homeBanner {
+	font-size: 1.75em;
+	color: rgba(0, 0, 0, 0.6);
+	position: relative;
+	right: 420px;
+	top: 200px;
 	}
 
 
