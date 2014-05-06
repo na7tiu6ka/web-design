@@ -5,6 +5,7 @@
 		font-size: 0.9em;
 		margin-right: 1%;
 		width: 20%;
+		top: -14%;
 
 	}
 
@@ -19,8 +20,8 @@
 	font-size: 1.85em;
 	color: rgba(0, 0, 0, 1);
 	position: relative;
-	right: 100%;
-	top: 85px;
+	right: 160%;
+	top: 95px;
 	}
 
 }
@@ -91,13 +92,6 @@
 		text-align: right;
 		width: 25%
 	}
-
-	/*#logo {
-		float: left;
-		margin-left: 1%
-		text-align: left;
-		width: 40%
-	}*/
 
 	h1 {
 		font-size: 2.5em;

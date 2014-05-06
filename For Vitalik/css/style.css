@@ -30,7 +30,7 @@ header {
 
 #logo {
 	text-align: center;
-	margin: 0 0 0 1%;
+	margin: 0 0 0 2%;
 	padding-top: -5%;
 	position: absolute;
 }
@@ -65,9 +65,10 @@ h1 {
 
 nav {
 	text-align: center;
-	padding-top: 5%;
+	padding-top: 7%;
 	padding-left: 50%;
 	margin: -8% 0 0;
+	position: relative;
 }
 
 li {
@@ -88,6 +89,7 @@ nav a {
 	font-weight: 800;
 	padding: 10px 10px;
 	text-transform: uppercase;
+
 }
 
 /*--------------PAGE: WORK--------------*/
