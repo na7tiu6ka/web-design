@@ -36,19 +36,19 @@ header {
 }
 
 .box1 {
-	height: 280px;
+	height: 350px;
 	background: url(../img/header1.jpg);
 	
 }
 
 .box2 {
-	height: 280px;
+	height: 350px;
 	background: url(../img/header2.jpg);
 	
 }
 
 .box3 {
-	height: 280px;
+	height: 350px;
 	background: url(../img/header3.jpg);
 	
 }
@@ -67,7 +67,7 @@ nav {
 	text-align: center;
 	padding-top: 7%;
 	padding-left: 50%;
-	margin: -8% 0 0;
+	margin: -7.5% 0 0;
 	position: relative;
 }
 

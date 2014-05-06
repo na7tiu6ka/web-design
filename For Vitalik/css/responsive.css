@@ -29,45 +29,6 @@
 
 @media screen and (min-width: 480px) {
 	
-	/*************************
-	TWO COLUMN LAYOUT
-	*************************/
-
-/*	#primary {
-		width: 50%;
-		float: left;
-	}
-
-	#secondary {
-		width: 40%;
-		float: right;
-	}*/
-
-
-	/*************************
-	PAGE: PORTOFOLIO
-	*************************/
-
-	/*#gallery li {
-		width: 28.3333%;
-	}
-
-	#gallery li:nth-child(4n) {
-		clear: left;
-	}*/
-
-	/*************************
-	PAGE: ABOUT
-	*************************/
-
-	.profile-photo {
-		float: left;
-		margin: 0 5% 80px 0;
-	}
-
-	/*************************
-	HOME BANNER
-	*************************/
 	#homeBanner {
 	font-size: 1.75em;
 	color: rgba(0, 0, 0, 0.55);
@@ -79,23 +40,19 @@
 }
 
 
-@media screen and (min-width: 660px) {
-
-	/*************************
-	HEADER
-	*************************/
+@media screen and (min-width: 600px) {
 
 	nav {
 		background: none;
 		float: right;
-		font-size: 1.125em;
+		font-size: 1em;
 		margin-right: 1%
 		text-align: right;
 		width: 25%
 	}
 
 	h1 {
-		font-size: 3em;
+		font-size: 2.5em;
 	}
 
 	#homeBanner {
@@ -110,17 +67,60 @@
 	header {
 		border-bottom: 4px solid #848484;
 		border-top: 4px solid #848484;
-		margin-top: 8%;
+		margin-top: 7.5%;
 		margin-bottom: 2%;
 	}
 
 	nav a.selected, nav a:hover {
 	color: #999999;
 }
-
-
-
-
-	
 	
 }
+
+@media screen and (min-width: 1200px) {
+
+	nav {
+		background: none;
+		float: right;
+		font-size: 1em;
+		margin-right: 1%
+		text-align: right;
+		width: 25%
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+
+	header {
+		border-bottom: 4px solid #848484;
+		border-top: 4px solid #848484;
+		margin-top: 6%;
+		margin-bottom: 2%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
