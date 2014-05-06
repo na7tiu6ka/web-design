@@ -23,15 +23,15 @@ a {
 
 header {
 	float: left;
-	margin: 70px 0 30px 0;
+	margin: 70px 0 20px 0;
 	padding: 5px 0 0 0 ;
 	width: 100%;
 }
 
 #logo {
 	text-align: center;
-	margin: 0;
-	padding-top: 55px;
+	margin: 0 0 0 1%;
+	padding-top: -5%;
 	position: absolute;
 }
 
@@ -65,7 +65,8 @@ h1 {
 
 nav {
 	text-align: center;
-	padding: 40px;
+	padding-top: 5%;
+	padding-left: 50%;
 	margin: -8% 0 0;
 }
 
@@ -75,7 +76,7 @@ li {
 
 nav ul {
 	list-style: none;
-	margin: 0 10px;
+	margin: 0 1%;
 	padding: 0;
 }
 
@@ -85,7 +86,7 @@ nav li {
 
 nav a {
 	font-weight: 800;
-	padding: 15px 10px;
+	padding: 10px 10px;
 	text-transform: uppercase;
 }
 

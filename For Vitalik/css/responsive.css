@@ -1,19 +1,18 @@
-
-@media screen and (min-width: 330px) {
+@media screen and (min-width: 350px) {
 	nav {
 		background: none;
 		float: right;
 		font-size: 0.9em;
-		margin-right: 2%;
-		width: 25%;
+		margin-right: 1%;
+		width: 20%;
 
 	}
 
 	header {
 		border-bottom: 2px solid #848484;
 		border-top: 2px solid #848484;
-		margin-top: 75;
-		margin-bottom: 4%;
+		margin-top: 50px;
+		margin-bottom: 5px;
 	}
 
 	#homeBanner {
@@ -21,7 +20,7 @@
 	color: rgba(0, 0, 0, 1);
 	position: relative;
 	right: 100%;
-	top: -90%;
+	top: 85px;
 	}
 
 }
@@ -32,7 +31,7 @@
 	TWO COLUMN LAYOUT
 	*************************/
 
-	#primary {
+/*	#primary {
 		width: 50%;
 		float: left;
 	}
@@ -40,20 +39,20 @@
 	#secondary {
 		width: 40%;
 		float: right;
-	}
+	}*/
 
 
 	/*************************
 	PAGE: PORTOFOLIO
 	*************************/
 
-	#gallery li {
+	/*#gallery li {
 		width: 28.3333%;
 	}
 
 	#gallery li:nth-child(4n) {
 		clear: left;
-	}
+	}*/
 
 	/*************************
 	PAGE: ABOUT
@@ -88,36 +87,36 @@
 		background: none;
 		float: right;
 		font-size: 1.125em;
-		margin-right: 2%
+		margin-right: 1%
 		text-align: right;
 		width: 25%
 	}
 
-	#logo {
+	/*#logo {
 		float: left;
-		margin-left: 2%
+		margin-left: 1%
 		text-align: left;
-		width: 45%
-	}
+		width: 40%
+	}*/
 
 	h1 {
 		font-size: 2.5em;
 	}
 
 	#homeBanner {
-	font-size: 1.75em;
-	color: rgba(0, 0, 0, 0.55);
-	position: relative;
-	right: 420px;
-	top: 200px;
+		font-size: 1.75em;
+		color: rgba(0, 0, 0, 0.55);
+		position: relative;
+		right: 410px;
+		top: 150px;
 	}
 
 
 	header {
 		border-bottom: 4px solid #848484;
 		border-top: 4px solid #848484;
-		margin-top: 7%;
-		margin-bottom: 6%;
+		margin-top: 5%;
+		margin-bottom: 4%;
 	}
 
 	nav a.selected, nav a:hover {
