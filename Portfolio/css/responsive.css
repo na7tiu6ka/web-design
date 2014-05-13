@@ -2,13 +2,13 @@
 @media screen and (min-width: 480px) {
 	
 	/*************************
-	TWO COLUMN LAYOUT
+	THREE COLUMN LAYOUT
 	*************************/
 
 #secondary ul {
 	list-style: none;
 	list-style-image: none;
-	margin-top: -145%;
+	margin-top: -160%;
 	margin-right: 40px;
 
 }
@@ -41,15 +41,15 @@
 	PAGE: ABOUT
 	*************************/
 
-	.profile-photo {
-		float: left;
-		margin: 0 5% 80px 0;
+.profilePhoto {
+	float: left;
+	margin: 0 5% 80px 0;
 	}
 
 }
 
 
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 600px) {
 
 	/*************************
 	HEADER
