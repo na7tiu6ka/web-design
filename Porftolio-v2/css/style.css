@@ -1,10 +1,13 @@
+/*-------------- MAIN --------------*/
+
 html,
 body {
 	margin: 0;
 	padding: 0;
 	color: #000;
-	background: #fff;
-	font-family: 'Raleway';
+	background-color: #ECEAE7;
+	line-height: 1.4;
+	font-family: 'Raleway', 'sans-serif';
 }
 
 #body {
@@ -15,10 +18,13 @@ body {
 
 #header {
 	background: #fdd;
+	height: 50px;
 }
 
 #content-1 {
 	background: #bfb;
+	text-align: justify;
+	padding: 0 60px 0 60px;
 }
 
 #content-2-1 {
@@ -31,4 +37,52 @@ body {
 
 #footer {
 	background: #ff9;
+	text-align: center;
+	padding-top: 10px;
 }
+
+h1, h2 {
+	text-align: center;
+	line-height: 1.2;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1em;
+}
+
+
+/*-------------- NAVIGATION --------------*/
+
+nav ul {
+	list-style: none;
+	float: right;
+	margin-right: 10px;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Ubuntu', 'sans-serif';
+}
+
+ul li {
+	display: inline;
+	padding: 10px 10px;
+}
+
+/*-------------- COLORS --------------*/
+
+/*-------------- link color --------------*/
+
+/*-------------- text color --------------*/
+
+
+
+
+
+
+
+
