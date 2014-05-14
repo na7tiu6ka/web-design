@@ -35,11 +35,22 @@ body {
 	background: #dff;
 }
 
+/*-------------- FOOTER --------------*/
+
 #footer {
 	background: #ff9;
 	text-align: center;
 	padding-top: 10px;
+	padding-bottom: 1px;
+
 }
+
+.copyright {
+	font-size: 0.7em;
+
+}
+
+/*-------------- HEADINGS--------------*/
 
 h1, h2 {
 	text-align: center;
@@ -61,6 +72,21 @@ nav ul {
 	list-style: none;
 	float: right;
 	margin-right: 10px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+	color: rgba(34, 33, 45, 0.85);
+}
+
+/* nav transition effect */
+nav a {
+	transition: color .2s linear;
+	-webkit-transition: color .2s linear;
+	-moz-transition: color .2s linear;
+	-o-transition: color .2s linear;
 }
 
 a {
@@ -75,11 +101,20 @@ ul li {
 
 /*-------------- COLORS --------------*/
 
-/*-------------- link color --------------*/
+/* links */
+a {
+	color: rgba(121, 116, 124, 0.95);
+}
 
-/*-------------- text color --------------*/
+/* nav link */
+nav a, nav a:visited {
+	color: rgba(121, 116, 124, 0.95);
+}
 
-
+/* selected nav link */
+nav a.selected, nav a:hover {
+	color: rgba(34, 33, 45, 0.85);
+}
 
 
 
