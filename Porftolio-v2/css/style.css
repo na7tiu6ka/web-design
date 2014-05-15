@@ -32,23 +32,42 @@ p {
 	padding: 0 20% 0;
 }
 
-#content-2-1 {
+#content-2 {
 	background: #fbfbfa;
+	width: 100%;
+	float: right;
+	padding: 20px 300px;
+
+}
+
+#content-2-1 {
+	background: #c3fde1;
+	width: 240px;
+	float: right;
 }
 
 #content-2-2 {
-	background: #dff;
+	background: #d8d7de;
+	width: 240px;
+	float: right;
 }
+
+#content-2-3 {
+	background: #f7f0e0;
+	width: 240px;
+	float: right;
+}
+
 
 /*-------------- FOOTER --------------*/
 
 #footer {
 	background: #ff9;
 	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 1px;
+	padding: 30px 0 20px 0;
 	background-color: #f1f1f1;
 	border-top: #919191 1px solid;
+	clear: both;
 
 }
 
