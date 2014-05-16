@@ -13,6 +13,14 @@ p {
 	color: #666;
 }
 
+::selection {
+	color: #000;
+	background: rgba(110,235,192,0.3);
+	text-shadow: none;
+
+}
+
+
 #body {
 	width: 100%;
 	margin: 0 auto;
@@ -36,7 +44,7 @@ p {
 	background: #fbfbfa;
 	width: 100%;
 	float: right;
-	padding: 20px 300px;
+	padding: 20px 250px;
 
 }
 
@@ -44,18 +52,21 @@ p {
 	background: #c3fde1;
 	width: 240px;
 	float: right;
+	margin: 20px;
 }
 
 #content-2-2 {
 	background: #d8d7de;
 	width: 240px;
 	float: right;
+	margin: 20px;
 }
 
 #content-2-3 {
 	background: #f7f0e0;
 	width: 240px;
 	float: right;
+	margin: 20px;
 }
 
 
@@ -66,7 +77,6 @@ p {
 	text-align: center;
 	padding: 30px 0 20px 0;
 	background-color: #f1f1f1;
-	border-top: #919191 1px solid;
 	clear: both;
 
 }
