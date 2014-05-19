@@ -22,7 +22,7 @@ p {
 
 
 #body {
-	max-width: 100%;
+	width: 100%;
 	margin: 0 auto;
 	background-color: #fff;
 }
@@ -32,6 +32,7 @@ p {
 	background: #73eac1;
 	height: 50px;
 }
+
 
 #content-1 {
 	max-width: 960px;
@@ -74,7 +75,7 @@ p {
 #about-1 {
 	float: left;
 	width: 220px;
-	padding: 20px 0 0 100px;
+	padding: 20px 0 0 150px;
 	background: #FFF;
 }
 
@@ -87,13 +88,14 @@ p {
 #about-2-1 {
 	float: left;
 	width: 460px;
-	padding: 10px;
+	padding: 10px 10px 30px 3px;
+	text-align: justify;
 }
 
 #about-2-2 {
 	float: right;
 	width: 220px;
-	padding: 10px;
+	padding: 0 200px 0 10px;
 }
 
 /* profile photo */
@@ -103,6 +105,30 @@ p {
 	border-radius: 100%;
 	width: 150px;
 	height: 150px;
+}
+
+/* contact info */
+.contactInfo {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.95em;
+}
+
+.contactInfo a {
+	min-height: 1%;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 25px;
+	margin: 0 0 8px;
+}
+
+.contactInfo li.phone a {
+	background-image: url('../img/phone.png');
+}
+
+.contactInfo li.email a {
+	background-image: url('../img/mail.png');
 }
 
 
@@ -155,6 +181,10 @@ h2 {
 	color: #bbb;
 }
 
+h3 {
+	font-size: 1.2em;
+	color: #bbb;
+}
 
 /*-------------- NAVIGATION --------------*/
 
