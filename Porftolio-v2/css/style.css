@@ -75,7 +75,7 @@ p {
 #about-1 {
 	float: left;
 	width: 220px;
-	padding: 20px 0 0 150px;
+	padding: 20px 0 0 175px;
 	background: #FFF;
 }
 
@@ -88,14 +88,14 @@ p {
 #about-2-1 {
 	float: left;
 	width: 460px;
-	padding: 10px 10px 30px 3px;
+	padding: 10px 15px 30px 0;
 	text-align: justify;
 }
 
 #about-2-2 {
 	float: right;
 	width: 220px;
-	padding: 0 200px 0 10px;
+	padding: 0 175px 0 10px;
 }
 
 /* profile photo */
@@ -131,6 +131,9 @@ p {
 	background-image: url('../img/mail.png');
 }
 
+ol li {
+	list-style: none;
+}
 
 /*-------------- FOOTER --------------*/
 
