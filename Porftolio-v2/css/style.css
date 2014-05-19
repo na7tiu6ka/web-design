@@ -22,7 +22,7 @@ p {
 
 
 #body {
-	width: 100%;
+	max-width: 100%;
 	margin: 0 auto;
 	background-color: #fff;
 }
@@ -44,7 +44,7 @@ p {
 	background: #fbfbfa;
 	width: 100%;
 	float: right;
-	padding: 20px 250px;
+	padding: 20px 240px;
 
 }
 
@@ -67,6 +67,42 @@ p {
 	width: 240px;
 	float: right;
 	margin: 20px;
+}
+
+/*-------------- ABOUT PAGE --------------*/
+
+#about-1 {
+	float: left;
+	width: 220px;
+	padding: 20px 0 0 100px;
+	background: #FFF;
+}
+
+.about-2 {
+	float: right;
+	width: 720px;
+
+}
+
+#about-2-1 {
+	float: left;
+	width: 460px;
+	padding: 10px;
+}
+
+#about-2-2 {
+	float: right;
+	width: 220px;
+	padding: 10px;
+}
+
+/* profile photo */
+
+.profilePhoto {
+	border: 10px #fbfbfa solid;
+	border-radius: 100%;
+	width: 150px;
+	height: 150px;
 }
 
 
