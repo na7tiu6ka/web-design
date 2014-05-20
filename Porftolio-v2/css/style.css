@@ -45,8 +45,17 @@ p {
 	background: #fbfbfa;
 	width: 100%;
 	float: right;
-	padding: 20px 240px;
+	padding: 20px 200px;
 
+}
+
+#content-2 img {
+	margin-left: 60px;
+}
+
+#content-2 p {
+	text-align: center;
+	font-size: 0.7em;
 }
 
 #content-2-1 {
@@ -63,12 +72,15 @@ p {
 	margin: 20px;
 }
 
+
 #content-2-3 {
 	background: #f7f0e0;
 	width: 240px;
 	float: right;
 	margin: 20px;
 }
+
+
 
 /*-------------- ABOUT PAGE --------------*/
 
@@ -81,13 +93,13 @@ p {
 
 .about-2 {
 	float: right;
-	width: 720px;
+	width: 700px;
 
 }
 
 #about-2-1 {
 	float: left;
-	width: 460px;
+	width: 360px;
 	padding: 10px 15px 30px 0;
 	text-align: justify;
 }
@@ -99,7 +111,6 @@ p {
 }
 
 /* profile photo */
-
 .profilePhoto {
 	border: 10px #fbfbfa solid;
 	border-radius: 100%;
@@ -140,7 +151,7 @@ ol li {
 #footer {
 	background: #ff9;
 	text-align: center;
-	padding: 30px 0 20px 0;
+	padding: 30px 0 25px 0;
 	background-color: #f1f1f1;
 	clear: both;
 
