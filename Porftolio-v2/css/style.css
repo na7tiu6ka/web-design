@@ -47,6 +47,7 @@ p {
 	float: right;
 	padding: 20px 200px;
 	margin: 0 0 -10px 0;
+	position: relative;
 
 }
 
@@ -252,6 +253,43 @@ nav a, nav a:visited {
 nav a.selected, nav a:hover {
 	color: rgba(34, 33, 45, 0.85);
 }
+
+
+
+/*-------------- MEDIA QUERIES --------------*/
+
+@media screen and (min-width: 400px) {
+
+}
+
+@media screen and (min-width: 600px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 900px) {
+
+}
+
+
+@media screen and (min-width: 1200px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
