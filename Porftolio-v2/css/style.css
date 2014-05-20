@@ -99,9 +99,10 @@ p {
 
 #about-2-1 {
 	float: left;
-	width: 360px;
+	width: 380px;
 	padding: 10px 15px 30px 0;
 	text-align: justify;
+	position: relative;
 }
 
 #about-2-2 {
