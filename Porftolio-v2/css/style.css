@@ -46,6 +46,7 @@ p {
 	width: 100%;
 	float: right;
 	padding: 20px 200px;
+	margin: 0 0 -10px 0;
 
 }
 
@@ -99,7 +100,7 @@ p {
 
 #about-2-1 {
 	float: left;
-	width: 380px;
+	width: 390px;
 	padding: 10px 15px 30px 0;
 	text-align: justify;
 	position: relative;
