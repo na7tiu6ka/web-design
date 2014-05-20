@@ -2,6 +2,7 @@
 
 html,
 body {
+	width: 100%;
 	margin: 0;
 	padding: 0;
 	line-height: 1.4;
@@ -35,7 +36,7 @@ p {
 
 
 #content-1 {
-	max-width: 960px;
+	max-width: 940px;
 	background: #FFF;
 	text-align: justify;
 	padding: 0 20% 0;
@@ -43,16 +44,14 @@ p {
 
 #content-2 {
 	background: #fbfbfa;
-	width: 100%;
 	float: right;
-	padding: 20px 200px;
-	margin: 0 0 -10px 0;
-	position: relative;
+	padding: 20px 215px;
+	margin: 0 0 0 0;
 
 }
 
 #content-2 img {
-	margin-left: 60px;
+	margin-left: 55px;
 }
 
 #content-2 p {
@@ -62,24 +61,27 @@ p {
 
 #content-2-1 {
 	background: #c3fde1;
-	width: 240px;
+	width: 220px;
 	float: right;
 	margin: 20px;
+	position: relative;
 }
 
 #content-2-2 {
 	background: #d8d7de;
-	width: 240px;
+	width: 220px;
 	float: right;
 	margin: 20px;
+	position: relative;
 }
 
 
 #content-2-3 {
 	background: #f7f0e0;
-	width: 240px;
+	width: 220px;
 	float: right;
 	margin: 20px;
+	position: relative;
 }
 
 
@@ -272,10 +274,12 @@ nav a.selected, nav a:hover {
 
 @media screen and (min-width: 900px) {
 
+
 }
 
 
 @media screen and (min-width: 1200px) {
+
 
 }
 
