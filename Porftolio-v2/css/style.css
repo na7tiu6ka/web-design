@@ -44,57 +44,53 @@ p {
 
 /*-------------- SKILL CONTAINER --------------*/
 
-#container-1 {
-	width: 1280px;
-	float: left;
+.container {
+	width: 100%;
+	display: inline-block;
 	background: #fbfbfa;
-	padding: 10px;
-	margin: 0 0 0 0;
-
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
-#container-2 {
+.column-left {
 	background: #c3fde1;
-	width: 220px;
-	padding: 10px;
-	margin: 1%;
-	float: right;
-	position: relative;
-}
-
-#container-2-1 {
-	background: #d8d7de;
-	width: 220px;
-	padding: 10px;
+	width: 230px;
 	float: left;
-	margin: 1%;
-	position: relative;
+	border-radius: 10%;
+	margin: 20px;
+}
+
+.column-center {
+	background: #d8d7de;
+	float: left;
+	width: 230px;
+	border-radius: 10%;
+	margin: 20px;
 }
 
 
-#container-2-2 {
+.column-right {
 	background: #f7f0e0;
-	width: 220px;
-	padding: 10px;
 	float: right;
-	margin: 1%;
-	position: relative;
+	width: 230px;
+	border-radius: 10%;
+	margin: 20px;
 }
 
-#container-2 img {
-	margin-left: 50px;
+.column-left img {
+	margin-left: 20%;
 }
 
-#container-2-1 img {
-	margin-left: 50px; 
+.column-center img {
+	margin-left: 20%;
 }
 
-#container-2-2, img {
-	margin-left: 50px;
+.column-right img {
+	margin-left: 20%;
 
 }
 
-#container-1 p {
+.container p {
 	text-align: center;
 	font-size: 0.7em;
 }
