@@ -37,28 +37,24 @@ p {
 
 #content-1 {
 	max-width: 940px;
-	background: #FFF;
+	background: #fbfbfa;
 	text-align: justify;
-	padding: 0 20% 0;
+	padding: 2% 20% 2%;
 }
 
 /*-------------- SKILL CONTAINER --------------*/
 
 
 .wrapper {
-	width: 780px;
+	width: 770px;
 	margin: 0 auto;
-	padding-top: 25px;
+	padding-top: 15px;
 	padding-bottom: 25px;
 }
 
-.background {
-	width: 100%;
-	background: #fbfbfa;
-}
 
 .entry {
-	width: 250px;
+	width: 235px;
 	float: left;
 	margin: 10px;
 	height: 198px;
@@ -66,17 +62,16 @@ p {
 
 figure {
 	display: inline-block;
-	width: 222px;
+	width: 230px;
 	height: 170px;
 	background-color: #c3fde1;
 	margin: 0;
 	padding: 9px;
 	text-align: center;
-	border-radius: 20px;
 }
 
 figcaption {
-	padding-left: 20px;
+	padding-left: 15px;
 	font-size: 0.75em;
 }
 
