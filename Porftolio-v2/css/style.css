@@ -44,55 +44,40 @@ p {
 
 /*-------------- SKILL CONTAINER --------------*/
 
-.container {
-	width: 100%;
-	display: inline-block;
-	background: #fbfbfa;
+
+.wrapper {
+	width: 780px;
+	margin: 0 auto;
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
 
-.column-left {
-	background: #c3fde1;
-	width: 230px;
+.background {
+	width: 100%;
+	background: #fbfbfa;
+}
+
+.entry {
+	width: 250px;
 	float: left;
-	border-radius: 10%;
-	margin: 20px;
+	margin: 10px;
+	height: 198px;
 }
 
-.column-center {
-	background: #d8d7de;
-	float: left;
-	width: 230px;
-	border-radius: 10%;
-	margin: 20px;
-}
-
-
-.column-right {
-	background: #f7f0e0;
-	float: right;
-	width: 230px;
-	border-radius: 10%;
-	margin: 20px;
-}
-
-.column-left img {
-	margin-left: 20%;
-}
-
-.column-center img {
-	margin-left: 20%;
-}
-
-.column-right img {
-	margin-left: 20%;
-
-}
-
-.container p {
+figure {
+	display: inline-block;
+	width: 222px;
+	height: 170px;
+	background-color: #c3fde1;
+	margin: 0;
+	padding: 9px;
 	text-align: center;
-	font-size: 0.7em;
+	border-radius: 20px;
+}
+
+figcaption {
+	padding-left: 20px;
+	font-size: 0.75em;
 }
 
 /*-------------- ABOUT PAGE --------------*/
