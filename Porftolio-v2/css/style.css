@@ -73,7 +73,8 @@ figure {
 
 figcaption {
 	padding-left: 0.5%;
-	font-size: 0.75em;
+	font-size: 1em;
+	font-weight: 600;
 }
 
 .mint {
@@ -86,6 +87,18 @@ figcaption {
 
 .sand {
 	background-color: #f7f0e0;
+}
+
+.caption1 {
+	color: #0d5e6c;
+}
+
+.caption2 {
+	color: #463750;
+}
+
+.caption3 {
+	color: #753040;
 }
 
 /*-------------- ABOUT PAGE --------------*/
