@@ -31,7 +31,7 @@ p {
 
 #header {
 	max-width: 100%;
-	background: #73eac1;
+/*	background: #73eac1;*/
 	height: 350px;
 	background: url('../img/mountain.jpg') no-repeat center -10px;
 	position: relative;
