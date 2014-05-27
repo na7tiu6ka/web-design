@@ -48,17 +48,17 @@ p {
 /*-------------- SKILL CONTAINER --------------*/
 
 .skillContainer {
-	width: 80%;
+	width: 65%;
 	margin: 0 auto;
-	padding-top: 15px;
-	padding-bottom: 30px;
+	padding-top: 1%;
+	padding-bottom: 16%;
 }
 
 
 .entry {
-	width: 25%;
+	width: 28%;
 	float: left;
-	margin: 1.5%;
+	margin: 2%;
 	height: 20%;
 }
 
@@ -66,8 +66,8 @@ figure {
 	display: block;
 	width: 100%;
 	height: 75%;
-	margin: 0;
-	padding: 1%;
+	margin: 1%;
+	padding: 3%;
 	text-align: center;
 }
 
@@ -270,7 +270,7 @@ nav a.selected, nav a:hover {
 @media screen and (max-width: 400px) {
 	.entry {
 		width: 100% !important;
-		margin-left: 10% !important;
+		margin-left: -5% !important;
 		clear: none !important;
 	}
 }
