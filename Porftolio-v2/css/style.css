@@ -110,63 +110,50 @@ figcaption {
 	background: url('../img/beach.jpg') no-repeat center -15px;
 }
 
-#about-1 {
-	float: left;
-	width: 220px;
-	padding: 20px 0 0 175px;
-	background: #FFF;
+#wrapper {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 5%;
 }
 
-.about-2 {
-	float: right;
-	width: 700px;
-
-}
-
-#about-2-1 {
-	float: left;
-	width: 390px;
-	padding: 10px 15px 30px 0;
-	text-align: justify;
-	position: relative;
-}
-
-#about-2-2 {
-	float: right;
-	width: 220px;
-	padding: 0 175px 0 10px;
-}
 
 /* profile photo */
 .profilePhoto {
-	border: 10px #F4F4F4 solid;
+	display: block;
+	max-width: 150px;
+	margin: 0 auto 30px;
 	border-radius: 100%;
-	width: 150px;
-	height: 150px;
+	border: 10px #F4F4F4 solid;
 }
 
-/* contact info */
+section {
+	text-align: justify;
+}
+
+
+/*-------------- CONTACT PAGE --------------*/
 .contactInfo {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-	font-size: 0.95em;
+	font-size: 0.9em;
 }
 
 .contactInfo a {
-	min-height: 1%;
+	display: block;
+	min-height: 20px;
 	background-repeat: no-repeat;
 	background-size: 20px 20px;
-	padding: 0 0 0 25px;
-	margin: 0 0 8px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
 }
 
 .contactInfo li.phone a {
-	background-image: url('../img/phone.png');
+	background-image: url('../img/contact/phone.png');
 }
 
 .contactInfo li.email a {
-	background-image: url('../img/mail.png');
+	background-image: url('../img/contact/mail.png');
 }
 
 ol li {
