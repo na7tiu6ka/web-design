@@ -33,8 +33,11 @@ p {
 	max-width: 100%;
 /*	background: #73eac1;*/
 	height: 350px;
-	background: url('../img/mountain.jpg') no-repeat center -10px;
 	position: relative;
+}
+
+.first {
+	background: url('../img/mountain.jpg') no-repeat center -15px;
 }
 
 
@@ -103,6 +106,10 @@ figcaption {
 
 /*-------------- ABOUT PAGE --------------*/
 
+.second {
+	background: url('../img/beach.jpg') no-repeat center -15px;
+}
+
 #about-1 {
 	float: left;
 	width: 220px;
@@ -165,6 +172,14 @@ figcaption {
 ol li {
 	list-style: none;
 }
+
+
+/*-------------- WORK PAGE --------------*/
+
+.third {
+	background: url('../img/mountain.jpg') no-repeat center -15px;
+}
+
 
 /*-------------- FOOTER --------------*/
 
@@ -235,7 +250,7 @@ nav ul {
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-	color: rgba(34, 33, 45, 0.85);
+	color: rgba(34, 33, 45, 0.65);
 }
 
 /* nav transition effect */
@@ -270,7 +285,7 @@ nav a, nav a:visited {
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-	color: rgba(34, 33, 45, 0.85);
+	color: rgba(34, 33, 45, 0.95);
 }
 
 
@@ -287,7 +302,7 @@ nav a.selected, nav a:hover {
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 400px) {
 	.entry {
 		width: 100% !important;
 		margin-left: -5% !important;
@@ -295,14 +310,36 @@ nav a.selected, nav a:hover {
 	}
 }
 
-@media screen and (min-width: 600px) {
-	.social-icon {
-		display: inline;
+@media screen and (min-width: 495px) {
+	.entry {
+		width: 100% !important;
+		margin-left: -5% !important;
+		clear: none !important;
+	}
+}
+
+@media screen and (min-width: 500px) {
+
+	.entry {
+		width: 100% !important;
+		margin-left: -5% !important;
+		clear: none !important;
 	}
 
+	.social-icon {
+		display: inline;
 
 }
 
+@media screen and (min-width: 1200px) {
+
+	.entry {
+		width: 28% !important;
+		float: left !important;
+		margin: 2% !important;
+		height: 20% !important;
+	}
+}
 
 
 
