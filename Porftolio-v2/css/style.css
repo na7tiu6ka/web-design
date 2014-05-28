@@ -6,13 +6,13 @@ body {
 	margin: 0;
 	padding: 0;
 	line-height: 1.5;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Poiret One', serif;
 	background-color: #ECEAE7;
 }
 
 p {
-	color: #666;
-	font-size: 1.0089em
+	color: #4A4A4A;
+	font-size: 1.0089em;
 }
 
 ::selection {
