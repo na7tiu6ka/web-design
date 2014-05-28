@@ -290,62 +290,6 @@ nav a.selected, nav a:hover {
 
 
 
-/*-------------- MEDIA QUERIES --------------*/
-
-/* For mobiles and tablets*/
-
-@media screen and (min-width: 320px) {
-	.social-icon {
-		display: none;
-	}
-
-
-}
-
-@media screen and (min-width: 400px) {
-	.entry {
-		width: 100% !important;
-		margin-left: -5% !important;
-		clear: none !important;
-	}
-}
-
-@media screen and (min-width: 495px) {
-	.entry {
-		width: 100% !important;
-		margin-left: -5% !important;
-		clear: none !important;
-	}
-}
-
-@media screen and (min-width: 500px) {
-
-	.entry {
-		width: 100% !important;
-		margin-left: -5% !important;
-		clear: none !important;
-	}
-
-	.social-icon {
-		display: inline;
-
-}
-
-@media screen and (min-width: 1200px) {
-
-	.entry {
-		width: 28% !important;
-		float: left !important;
-		margin: 2% !important;
-		height: 20% !important;
-	}
-}
-
-
-
-
-
-
 
 
 
