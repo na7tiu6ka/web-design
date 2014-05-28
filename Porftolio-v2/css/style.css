@@ -6,12 +6,13 @@ body {
 	margin: 0;
 	padding: 0;
 	line-height: 1.5;
-	font-family: 'Raleway', 'sans-serif';
+	font-family: 'Poiret One', cursive;
 	background-color: #ECEAE7;
 }
 
 p {
 	color: #666;
+	font-size: 1.0089em
 }
 
 ::selection {
@@ -120,8 +121,8 @@ figcaption {
 /* profile photo */
 .profilePhoto {
 	display: block;
-	max-width: 150px;
-	margin: 0 auto 30px;
+	max-width: 190px;
+	margin: 0 auto;
 	border-radius: 100%;
 	border: 10px #F4F4F4 solid;
 }
@@ -212,15 +213,16 @@ h1, h2 {
 h1 {
 	font-size: 2em;
 	color: #111;
+	font-family:'Donegal One', serif;
 }
 
 h2 {
-	font-size: 1em;
+	font-size: 1.1em;
 	color: #bbb;
 }
 
 h3 {
-	font-size: 1.2em;
+	font-size: 1em;
 	color: #bbb;
 }
 
