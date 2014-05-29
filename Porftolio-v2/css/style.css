@@ -121,7 +121,7 @@ figcaption {
 /* profile photo */
 .profilePhoto {
 	display: block;
-	max-width: 190px;
+	max-width: 160px;
 	margin: 0 auto;
 	border-radius: 100%;
 	border: 10px #F4F4F4 solid;
@@ -131,8 +131,12 @@ section {
 	text-align: justify;
 }
 
-
 /*-------------- CONTACT PAGE --------------*/
+
+.fourth {
+	background: url('../img/beach.jpg') no-repeat center -15px;
+}
+
 .contactInfo {
 	list-style: none;
 	padding: 0;
@@ -228,18 +232,21 @@ h3 {
 
 /*-------------- NAVIGATION --------------*/
 
+nav {
+	text-align: center;
+}
+
 nav ul {
 	list-style: none;
 	float: right;
 	margin-right: 2px;
 	padding-right: 45px;
 	text-transform: uppercase;
-	font-weight: 500;
 }
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-	color: rgba(34, 33, 45, 0.65);
+	color: rgba(34, 33, 45, 0.75);
 }
 
 /* nav transition effect */
