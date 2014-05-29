@@ -37,7 +37,7 @@
 
 }
 
-@media screen and (min-width: 495px) {
+@media screen and (min-width: 485px) {
 	.entry {
 		width: 100% !important;
 		margin-left: -5% !important;
@@ -63,14 +63,15 @@
 	*************************/
 
 	#firstColumn {
-	width: 20%;
-	float: left;
-	margin-top: 2%;
+		width: 43%;
+		float: left;
+		margin-top: 2%;
 }
 
 	#secongColulmn {
-		width: 70%;
+		width: 51%;
 		float: right;
+		margin-right: 3.056%;
 }
 
 }
@@ -118,6 +119,7 @@
 		font-size: 0.95em;
 		padding-top: 1%;
 	}
+
 
 }
 
