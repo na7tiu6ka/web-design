@@ -92,9 +92,10 @@
 		background: none;
 		float: right;
 		font-size: 1.125em;
-		margin-right: 5%
+		margin-right: 5%;
+		padding-top: 1%;
 		text-align: right;
-		width: 45%
+		width: 100%
 	}
 
 	h1 {
@@ -108,17 +109,12 @@
 
 	header {
 		border-bottom: 5px solid #0b9762;
-		margin-bottom: 60px;
+		margin-bottom: 50px;
 	}
 
 	nav a.selected, nav a:hover {
 	color: rgba(34, 33, 45, 0.75);
 }
-
-	nav {
-		font-size: 0.95em;
-		padding-top: 1%;
-	}
 
 
 }
