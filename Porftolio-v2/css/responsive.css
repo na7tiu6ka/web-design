@@ -21,6 +21,7 @@
 	*************************/
 	nav {
 		font-size: 0.9em;
+		padding-top: 2%;
 	}
 
 
@@ -115,6 +116,7 @@
 
 	nav {
 		font-size: 0.95em;
+		padding-top: 1%;
 	}
 
 }
@@ -130,6 +132,9 @@
 
 	nav {
 		font-size: 1.1em;
+		padding-top: 1%;
 	}
+
+
 }
 
