@@ -7,7 +7,6 @@ body {
 	padding: 0;
 	line-height: 1.5;
 	font-family: 'Poiret One', serif;
-	background-color: #ECEAE7;
 }
 
 p {
@@ -26,7 +25,7 @@ p {
 #body {
 	min-width: 100%;
 	margin: 0 auto;
-	background-color: #fff;
+	background: #fbfbfa;
 	position: relative;
 }
 
@@ -35,7 +34,6 @@ p {
 /*	background: #73eac1;*/
 	height: 350px;
 	position: relative;
-	bottom: 10px;
 }
 
 .first {
@@ -45,7 +43,7 @@ p {
 
 #content-1 {
 	max-width: 940px;
-	background: #fbfbfa;
+	background: #FFFFFF;
 	text-align: justify;
 	padding: 2% 20% 2%;
 }
@@ -57,6 +55,7 @@ p {
 	margin: 0 auto;
 	padding-top: 1%;
 	padding-bottom: 17%;
+	background: #fbfbfa;
 }
 
 
