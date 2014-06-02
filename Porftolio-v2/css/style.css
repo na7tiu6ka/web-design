@@ -6,7 +6,7 @@ body {
 	margin: 0;
 	padding: 0;
 	line-height: 1.5;
-	font-family: 'Poiret One', serif;
+	font-family: 'Noto Sans', sans-serif;
 }
 
 p {
@@ -217,7 +217,7 @@ h1, h2 {
 h1 {
 	font-size: 2em;
 	color: #111;
-	font-family:'Donegal One', serif;
+	font-family: 'Varela Round', sans-serif;
 }
 
 h2 {
