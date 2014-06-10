@@ -32,12 +32,12 @@ p {
 #header {
 	max-width: 100%;
 /*	background: #73eac1;*/
-	height: 320px;
+	height: 340px;
 	position: relative;
 }
 
 .first {
-	background: url('../img/mountain.jpg') no-repeat center -15px;
+	background: url('../img/mountain.jpg') no-repeat center;
 }
 
 
@@ -46,6 +46,12 @@ p {
 	background: #FFFFFF;
 	text-align: justify;
 	padding: 2% 20% 2%;
+}
+
+#wrapper {
+	max-width: 760px;
+	margin: 0 auto;
+	padding: 0 5%;
 }
 
 /*-------------- SKILL CONTAINER --------------*/
@@ -108,13 +114,7 @@ figcaption {
 /*-------------- ABOUT PAGE --------------*/
 
 .second {
-	background: url('../img/beach.jpg') no-repeat center -15px;
-}
-
-#wrapper {
-	max-width: 760px;
-	margin: 0 auto;
-	padding: 0 5%;
+	background: url('../img/beach.jpg') no-repeat center;
 }
 
 
@@ -131,10 +131,76 @@ section {
 	text-align: justify;
 }
 
+
+/*-------------- WORK PAGE --------------*/
+
+.third {
+	background: url('../img/mountain.jpg') no-repeat center;
+}
+
+.clearfix {
+	display:block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.details {
+	margin: 10px 15px;
+}
+
+h4 {
+	line-height:150%;
+	letter-spacing: .15em;
+	color: #fff;
+	text-shadow: 1px 1px 0 #000;
+}
+
+/*General Mosaic Styles*/
+.mosaic-block {
+	float: left;
+	position: relative;
+	overflow: hidden;
+	width: 300px;
+	height: 201px;
+	margin: 10px;
+	border: 1px solid #777;
+	-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.5);
+}
+
+.mosaic-backdrop {
+	display: none;
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background: #111;
+}
+	
+.mosaic-overlay {
+	display:none;
+	z-index: 5;
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	background: #111;
+}
+
+	/* BAR */
+
+.bar .mosaic-overlay {
+	bottom:-100px;
+	height:100px;
+	background:url(../img/portfolio_links/bg-black.png);
+}
+
+
+
+
 /*-------------- CONTACT PAGE --------------*/
 
 .fourth {
-	background: url('../img/beach.jpg') no-repeat center -15px;
+	background: url('../img/beach.jpg') no-repeat center;
 }
 
 .contactInfo {
@@ -165,69 +231,6 @@ ol li {
 	list-style: none;
 }
 
-
-/*-------------- WORK PAGE --------------*/
-
-.third {
-	background: url('../img/mountain.jpg') no-repeat center -15px;
-}
-
-
-.clearfix {
-	display:block;
-	height:0;
-	clear:both;
-	visibility:hidden;
-}
-
-.details {
-	margin:10px 15px;
-}
-
-h4 {
-	line-height:160%;
-	letter-spacing:.15em;
-	color:#fff;
-	text-shadow:1px 1px 0 #000;
-}
-
-/*General Mosaic Styles*/
-.mosaic-block {
-	float: left;
-	position: relative;
-	overflow: hidden;
-	width: 300px;
-	height: 201px;
-	margin: 10px;
-	border: 1px solid #777;
-	-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.5);
-}
-
-.mosaic-backdrop {
-	display:none;
-	position:absolute;
-	top:0;
-	height:100%;
-	width:100%;
-	background:#111;
-}
-	
-.mosaic-overlay {
-	display:none;
-	z-index:5;
-	position:absolute;
-	width:100%;
-	height:100%;
-	background:#111;
-}
-
-	/* BAR */
-
-.bar .mosaic-overlay {
-	bottom:-100px;
-	height:100px;
-	background:url(../img/portfolio_links/bg-black.png);
-}
 
 
 /*-------------- FOOTER --------------*/
