@@ -4,7 +4,7 @@
 		<title>Anastasija Scepak | Web-Designer</title>
 
 		<link rel="stylesheet" href="css/normalize.css">
-		<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic|Varela+Round' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/responsive.css">
 		<link rel="icon" href="img/favicon.ico">
@@ -30,13 +30,27 @@
 
 	<!-- gallery end -->
 
+	<!-- header -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+			<script type="text/javascript" src="js/stellar.js"></script>
+			<script>
+				$(function(){
+					$.stellar({
+						horizontalScrolling: false,
+						verticalOffset: 50
+					});
+				});
+			</script>
+
+
+
 	<!-- END JQUERY -->
 
 
 	</head>
 <body>
 	<div id="body">
-		<div id="header" class="third">
+		<div id="header3" data-stellar-background-ratio="2" data-stellar-offset-parent="true" style="background-position: 50%">
 			<nav>
 				<ul>
 					<li>
@@ -54,7 +68,7 @@
 				</ul>
 			</nav>
 		</div>
-		<div id="wrapper" class="height">
+		<div id="wrapper">
 
 		<!-- PORTFOLIO  -->
 
@@ -80,7 +94,7 @@
 			<div class="clearfix"></div>
 		</div>
 
-		<!-- 1st bar -->
+		<!-- 3rd bar -->
 		<div class="mosaic-block bar">
 			<a href="#" target="_blank" class="mosaic-overlay">
 				<div class="details">
@@ -90,7 +104,7 @@
 			<div class="mosaic-backdrop"><img src="img/portfolio_links/dreams.JPG"/></div>
 		</div>
 
-		<!-- 2nd bar -->
+		<!-- 4th bar -->
 		<div class="mosaic-block bar">
 			<a href="#" target="_blank" class="mosaic-overlay">
 				<div class="details">

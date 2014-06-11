@@ -20,7 +20,7 @@
 	NAVIGATION
 	*************************/
 	nav {
-		font-size: 0.9em;
+		font-size: .9em;
 		padding-top: 2%;
 	}
 
@@ -107,11 +107,6 @@
 		margin-bottom: 20px;
 	}
 
-	header {
-		border-bottom: 5px solid #0b9762;
-		margin-bottom: 50px;
-	}
-
 	nav a.selected, nav a:hover {
 	color: rgba(34, 33, 45, 0.75);
 }
@@ -119,7 +114,7 @@
 
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1220px) {
 
 	.entry {
 		width: 28% !important;
@@ -128,8 +123,8 @@
 		height: 20% !important;
 	}
 
-	nav {
-		font-size: 1.1em;
+	nav a {
+		font-size: 1.2em;
 		padding-top: 1%;
 	}
 
