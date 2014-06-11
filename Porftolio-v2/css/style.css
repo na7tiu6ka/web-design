@@ -32,12 +32,15 @@ p {
 #header {
 	max-width: 100%;
 /*	background: #73eac1;*/
-	height: 340px;
+	height: 380px;
 	position: relative;
+	border-bottom: 2px solid #f1f1f1;
 }
 
 .first {
 	background: url('../img/mountain.jpg') no-repeat center;
+	background-attachment: fixed;
+	position: relative;
 }
 
 
@@ -115,6 +118,8 @@ figcaption {
 
 .second {
 	background: url('../img/beach.jpg') no-repeat center;
+	background-attachment: fixed;
+	position: relative;
 }
 
 
@@ -135,7 +140,7 @@ section {
 /*-------------- WORK PAGE --------------*/
 
 .third {
-	background: url('../img/mountain.jpg') no-repeat center;
+	background: url('../img/mountain.jpg') no-repeat center -10px;
 }
 
 .clearfix {
@@ -161,8 +166,8 @@ h4 {
 	float: left;
 	position: relative;
 	overflow: hidden;
-	width: 300px;
-	height: 201px;
+	width: 340px;
+	height: 215px;
 	margin: 10px;
 	border: 1px solid #777;
 	-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.5);
@@ -201,6 +206,8 @@ h4 {
 
 .fourth {
 	background: url('../img/beach.jpg') no-repeat center;
+	background-attachment: fixed;
+	position: relative;
 }
 
 .contactInfo {

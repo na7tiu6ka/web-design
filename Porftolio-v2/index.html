@@ -7,10 +7,30 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/responsive.css">
 		<link rel="icon" href="img/favicon.ico">
+
+		<!-- JQUERY -->
+
+		<!-- header -->
+			<script type="text/javascript" src="js/jquery.min.js"></script>
+			<script type="text/javascript" src="js/stellar.js"></script>
+			<script>
+				$(function(){
+					$.stellar({
+						horizontalScrolling: false,
+						verticalOffset: 60
+					});
+				});
+			</script>
+
+	<!-- header end -->
+
+	<!-- END JQUERY -->
+
+
 	</head>
 	<body>
 		<div id="body">
-			<div id="header" class="first" data-stellar-background-ratio="0.5" style="background-position: 50% -10px">
+			<div id="header" class="first" data-stellar-background-ratio="2" data-stellar-offset-parent="true">
 				<nav>
 					<ul>
 						<li>
@@ -74,17 +94,6 @@
 	<!-- vector icons from http://www.shutterstock.com/
 	ww.iconsdownload.net
 	http://www.flaticon.com/ -->
-
-	<!-- JQUERY -->
-	<script type="text/javascript" src="/js/jquery.stellar.min.js"></script>
-	<script type="text/javascript" src="/js/jquery.stellar.js"></script>
-	<script type="text/javascript">
-		
-		
-	</script>
-
-	<!-- END JQUERY -->
-
 
 
 	</body>
