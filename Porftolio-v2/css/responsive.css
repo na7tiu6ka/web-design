@@ -21,7 +21,7 @@
 	*************************/
 	nav {
 		font-size: .9em;
-		padding-top: 2%;
+		padding-top: 1%;
 	}
 
 
@@ -29,9 +29,9 @@
 
 @media screen and (min-width: 400px) {
 	.entry {
-		width: 100% !important;
-		margin-left: -5% !important;
-		clear: none !important;
+		width: 100%;
+		margin-left: -5%;
+		clear: none;
 	}
 
 
@@ -39,9 +39,9 @@
 
 @media screen and (min-width: 485px) {
 	.entry {
-		width: 100% !important;
-		margin-left: -5% !important;
-		clear: none !important;
+		width: 100%;
+		margin-left: -5%;
+		clear: none;
 	}
 
 	/*************************
@@ -68,7 +68,7 @@
 		margin-top: 2%;
 }
 
-	#secongColulmn {
+	#secondColulmn {
 		width: 51%;
 		float: right;
 		margin-right: 3.056%;
@@ -79,9 +79,9 @@
 @media screen and (min-width: 500px) {
 
 	.entry {
-		width: 100% !important;
-		margin-left: -5% !important;
-		clear: none !important;
+		width: 100%;
+		margin-left: -5%;
+		clear: none;
 	}
 
 	.social-icon {
@@ -117,14 +117,14 @@
 @media screen and (min-width: 1220px) {
 
 	.entry {
-		width: 28% !important;
-		float: left !important;
-		margin: 2% !important;
-		height: 20% !important;
+		width: 28%;
+		float: left;
+		margin: 2%;
+		height: 20%;
 	}
 
 	nav a {
-		font-size: 1.2em;
+		font-size: 1.154em;
 		padding-top: 1%;
 	}
 
