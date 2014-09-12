@@ -1,0 +1,89 @@
+/*----------- MAIN CONTENT -----------*/
+
+body {
+	background-color: beige;
+
+}
+
+#wrapper {
+	max-width: 990px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+
+p {
+	font-family: 'Underdog', cursive;
+}
+
+h2 {
+	font-family: 'Marck Script', cursive;
+	text-align: center;
+}
+
+.center {
+	text-align: justify;
+}
+
+/*----------- HEADIGN -----------*/
+
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0 ;
+	width: 100%;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+/*----------- NAVIGATION AND LINKS -----------*/
+
+a {
+	font-family: 'Neucha', cursive;
+	text-decoration: none;
+}
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	padding: 15px 10px;
+}
+
+
+
+/*----------- ABOUT -----------*/
+
+/*----------- FANART -----------*/
+
+
+/*----------- FOOTER -----------*/
+
+footer {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
