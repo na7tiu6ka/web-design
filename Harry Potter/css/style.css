@@ -1,7 +1,7 @@
 /*----------- MAIN CONTENT -----------*/
 
 body {
-	background-color: beige;
+	background: url('../img/background1.jpg') repeat;
 
 }
 
@@ -9,6 +9,7 @@ body {
 	max-width: 990px;
 	margin: 0 auto;
 	padding: 0 5%;
+	background-color: white;
 }
 
 
@@ -74,13 +75,29 @@ nav a {
 
 /*----------- ABOUT -----------*/
 
+.about-info {
+	text-align: justify;
+}
+
 /*----------- FANART -----------*/
 
+.fan {
+	text-align: center;
+}
 
 /*----------- FOOTER -----------*/
 
 footer {
+	margin: -2% auto 0;
+	padding: 0 5%;
+	max-width: 990px;
 	text-align: center;
+	background-color: white;
+	border-top: 1px solid #000;
+}
+
+footer p {
+	font-size: 0.75em
 }
 
 
