@@ -21,6 +21,10 @@ h2 {
 	text-align: center;
 }
 
+span {
+	font-style: italic;
+}
+
 .center {
 	text-align: justify;
 }
