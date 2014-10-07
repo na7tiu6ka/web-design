@@ -6,6 +6,7 @@ body {
 	padding: 0;
 	line-height: 1.5;
 	background-color: #f1f1f1;
+	font-family: 'Lato', sans-serif;
 }
 
 h1 {
@@ -17,12 +18,13 @@ h2 {
 	font-size: 1.2em;
 }
 
-p {
-	font-family: 'Lato', sans-serif;
+h3 {
+	font-size: 1em;
 }
 
+
 .quote {
-	color: #737373;
+	color: #2F2F2F;
 	font-family: 'Playball', cursive;
 }
 
@@ -35,45 +37,89 @@ p {
 /* ------------- HEADER SECTION ------------- */
 
 #header {
+	width: 100%;
 	text-align: center;
 	overflow: hidden;
-	height: 300px;
-	background-color: #DCDCDC;
+	height: 370px;
+	background: url('../img/cover.jpg') center no-repeat;
+	position: relative;
 	background-size: cover; 
 	position: relative;
-	border-bottom: 2px solid #000;
+	border-bottom: 2px solid #595959;
 
 }
 
+.layer {
+    background-color: rgba(230, 230, 230, 0.45);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 #header h1 {
-	padding-top: 2%;
+	padding-top: 2.5%;
 }
 
 
 /* ABOUT SECTION */
 
 #about {
+	padding: 10px 0;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #595959;
 
 }
 
 .profilePhoto {
 	height: 220px;
 	width: 220px;
-	border: 2px solid #000;
+	border: 2px solid #595959;
 	border-radius: 100%;
-	margin-top: 10px;
 }
 
 /* ------------- WORK SECTION ------------- */
 
 #work {
+	padding: 10px 0;
+	background-color: #DDDDDD;
+	border-bottom: 1px solid #595959;
 
 }
 
 /* ------------- CONTACT SECTION ------------- */
 
 #contact {
+	padding: 10px 0;
+	border-bottom: 1px solid #000;
+	background-color: #f1f1f1;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
 
+}
+
+.contactInfo a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+.contactInfo li.phone a {
+	background-image: url('../img/contact/phone.png');
+}
+
+.contactInfo li.email a {
+	background-image: url('../img/contact/mail.png');
+}
+
+ol li {
+	list-style: none;
 }
 
 /* ------------- FOOTER ------------- */
@@ -81,15 +127,18 @@ p {
 	text-align: center;
 	margin: 0 auto;
 	bottom: 0;
+	background-color: #D9D9D9;
+	overflow: hidden;
 }
 
 .socialMedia {
-	margin: 0 1px;
+	margin: 10px 1px;
 }
 
 .socialMedia img {
 	width: 40px;
 	height: 40px;
+	margin: 0 2px;
 }
 
 /* icon hover effect */
@@ -105,7 +154,7 @@ p {
 }
 
 
-/* navigation */
+/* ------------- NAVIGATION ------------- */
 nav {
 	text-align: center;
 }
@@ -113,7 +162,7 @@ nav {
 nav ul {
 	list-style: none;
 	text-transform: uppercase;
-	margin-top: 5%;
+	margin-top: 7%;
 	font-size: 1.3em;
 
 }
@@ -125,12 +174,11 @@ ul li {
 
 a {
 	text-decoration: none;
-	font-family: 'Lato', sans-serif;
 }
 
 /* link colours */
 a {
-	color: #000000;
+	color: rgba(121, 116, 124, 0.95);
 }
 
 /* nav link */
@@ -140,7 +188,7 @@ nav a, nav a:visited {
 /* navigation hover effect */
 nav a:hover {
 	    filter: alpha(opacity=90);
-		opacity: .7;
+		opacity: .6;
 }
 
 
