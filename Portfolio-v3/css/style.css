@@ -13,8 +13,17 @@ h1 {
 	font-size: 2.5em;
 }
 
+h2 {
+	font-size: 1.2em;
+}
+
 p {
 	font-family: 'Lato', sans-serif;
+}
+
+.quote {
+	color: #737373;
+	font-family: 'Playball', cursive;
 }
 
 #wrapper {
@@ -27,7 +36,7 @@ p {
 
 #header {
 	text-align: center;
-	overflow: scroll;
+	overflow: hidden;
 	height: 300px;
 	background-color: #DCDCDC;
 	background-size: cover; 
@@ -37,15 +46,74 @@ p {
 }
 
 #header h1 {
-	padding-top: 60px;
+	padding-top: 2%;
+}
+
+
+/* ABOUT SECTION */
+
+#about {
+
+}
+
+.profilePhoto {
+	height: 220px;
+	width: 220px;
+	border: 2px solid #000;
+	border-radius: 100%;
+	margin-top: 10px;
+}
+
+/* ------------- WORK SECTION ------------- */
+
+#work {
+
+}
+
+/* ------------- CONTACT SECTION ------------- */
+
+#contact {
+
+}
+
+/* ------------- FOOTER ------------- */
+#footer {
+	text-align: center;
+	margin: 0 auto;
+	bottom: 0;
+}
+
+.socialMedia {
+	margin: 0 1px;
+}
+
+.socialMedia img {
+	width: 40px;
+	height: 40px;
+}
+
+/* icon hover effect */
+.socialMedia img:hover {
+	    filter: alpha(opacity=90);
+		opacity: .7;
+}
+
+.copyright {
+	font-size: 0.8em;
+	color: #777777;
+
 }
 
 
 /* navigation */
+nav {
+	text-align: center;
+}
+
 nav ul {
 	list-style: none;
 	text-transform: uppercase;
-	margin-top: 90px;
+	margin-top: 5%;
 	font-size: 1.3em;
 
 }
@@ -69,45 +137,11 @@ a {
 nav a, nav a:visited {
 	color: #000000;
 }
-
-
-/* ABOUT SECTION */
-.profilePhoto {
-	height: 220px;
-	width: 220px;
-	border: 2px solid #000;
-	border-radius: 100%;
-	margin-top: 10px;
-}
-
-/* ------------- WORK SECTION ------------- */
-
-/* ------------- CONTACT SECTION ------------- */
-
-/* ------------- FOOTER ------------- */
-#footer {
-	text-align: center;
-	margin: 0 auto;
-	bottom: 0;
-}
-
-.socialMedia {
-	margin: 0 1px;
-}
-
-.socialMedia img {
-	width: 40px;
-	height: 40px;
-}
-
-/* hover effect */
-.socialMedia img:hover {
+/* navigation hover effect */
+nav a:hover {
 	    filter: alpha(opacity=90);
 		opacity: .7;
 }
 
-.copyright {
-	font-size: 0.8em;
-	color: #777777;
 
-}
+
