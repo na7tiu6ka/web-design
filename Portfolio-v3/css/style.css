@@ -47,8 +47,26 @@ h3 {
 	background-size: cover; 
 	position: relative;
 	border-bottom: 2px solid #595959;
-
 }
+
+.coverNav{
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: 1;
+}
+
+.overlay {
+	position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+	background: url('../img/coverBlurred.jpg') center no-repeat;
+	background-size: cover; 
+	z-index: 0;
+    opacity: 0;
+}
+
 
 .layer {
     background-color: rgba(230, 230, 230, 0.45);
