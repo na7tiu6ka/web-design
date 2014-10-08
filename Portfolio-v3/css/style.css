@@ -20,12 +20,25 @@ h2 {
 
 h3 {
 	font-size: 1.1em;
-	text-transform: uppercase;
 }
 
+.borderNav {
+	margin-top: 5%;
+	@include transform(translate(-50%, -50%));
+	background-color: rgba(0, 0, 0, 0.25);
+	display: inline-block;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    color: #FBFCFE;
+    border: 5px solid #FBFCFE;
+    padding: .5em 3em;
+	z-index: 2;
+
+}
 
 .quote {
-	color: #2F2F2F;
+	color: #F0EBEB;
 	font-family: 'Playball', cursive;
 }
 
@@ -55,6 +68,7 @@ h3 {
 	z-index: 1;
 }
 
+
 .overlay {
 	position: absolute;
     top: 0;
@@ -69,7 +83,7 @@ h3 {
 
 
 .layer {
-    background-color: rgba(230, 230, 230, 0.45);
+    background-color: rgba(230, 230, 230, 0.30);
     position: absolute;
     top: 0;
     left: 0;
@@ -92,8 +106,13 @@ h3 {
 }
 
 .about1 {
-	margin: 0 auto;
+	margin: 1% auto;
 	width: 80%;
+}
+
+.aboutMe h2 {
+	text-transform: uppercase;
+	margin: 0 auto;
 }
 
 .profilePhoto {
@@ -115,7 +134,7 @@ section {
 
 #work {
 	padding: 10px 0;
-	background-color: #FBFCFE;
+	background-color: #F2F3F4;
 	border-bottom: 1px solid #595959;
 }
 
@@ -129,7 +148,7 @@ section {
 #contact {
 	padding: 10px 0;
 	border-bottom: 1px solid #000;
-	background-color: #D4C6C5;
+	background-color: #E9E5E3;
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -144,25 +163,30 @@ section {
 	text-align: center;
 }
 
+.contact1 h2 {
+	text-transform: uppercase;
+	margin: 0 auto;
+}
+
 
 /* ------------- FOOTER ------------- */
 #footer {
 	text-align: center;
 	margin: 0 auto;
 	bottom: 0;
-	background-color: #D9D9D9;
+	background-color: #D2CECC;
 	overflow: hidden;
 }
 
 .socialMedia {
 	float: right;
-	margin: 10px 1px;
-	padding-right: 25%
+	margin: 20px 1px;
+	padding-right: 20%
 }
 
 .socialMedia img {
-	width: 40px;
-	height: 40px;
+	width: 45px;
+	height: 58px;
 	margin: 0 2px;
 }
 
@@ -173,7 +197,7 @@ section {
 }
 
 .copyright {
-	margin-top: 1%;
+	margin-top: 2%;
 	float: left;
 	font-size: 0.8em;
 	color: #777777;
@@ -214,12 +238,12 @@ a {
 
 /* nav link */
 nav a, nav a:visited {
-	color: #000000;
+	color: #E4EBEC;
 }
 /* navigation hover effect */
 nav a:hover {
-	    filter: alpha(opacity=100);
-		opacity: .65;
+	    filter: alpha(opacity=80);
+		opacity: .9;
 }
 
 
@@ -244,7 +268,7 @@ nav a:hover {
 
 	.firstColumn,
 	.secondColulmn {
-		margin-bottom: 15px;
+		margin-bottom: 55px;
 	}
 
 }
