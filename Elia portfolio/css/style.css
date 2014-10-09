@@ -8,8 +8,9 @@
 }
 
 .icon {
-	height: 50px;
-	width: 50px;
+	margin: 0 2px;
+	height: 45px;
+	width: 45px;
 }
 
 img {
@@ -83,7 +84,7 @@ img {
 
 .bb-custom-firstpage {
 	text-align: center;
-	padding-top: 15%;
+	padding-top: 10%;
 	width: 50%;
 	float: left;
 	height: 100%;

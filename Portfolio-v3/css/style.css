@@ -4,7 +4,7 @@ html,
 body {
 	margin: 0 auto;
 	padding: 0;
-	line-height: 1.5;
+	line-height: 1.4;
 	background-color: #f1f1f1;
 	font-family: 'Lato', sans-serif;
 }
@@ -32,7 +32,7 @@ h3 {
     left: 50%;
     color: #FBFCFE;
     border: 5px solid #FBFCFE;
-    padding: .5em 3em;
+    padding: .4em 2em;
 	z-index: 2;
 
 }
