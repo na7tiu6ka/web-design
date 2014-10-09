@@ -59,6 +59,31 @@
 			<div id="contact">
 				<div class="contact1">
 					<h2>Contact me</h2>
+					<form action="contact.php" method="post">
+						<p>
+							<label for="name">Name:</label>
+							<input name="name" id="name" type="text" class="required">
+						</p>
+
+						<p>
+							<label for="email">Email:</label>
+							<input name="email" id="email" type="text" class="required"> 
+						</p>
+
+						<p>
+							<label for="subject">Subject:</label>
+							<input name="subject" id="subject" type="text"> 
+						</p>
+
+						<p>
+							<label for="message">Message:</label>
+							<textarea name="message" id="message" class="required"></textarea> 
+						</p>
+
+						<p class="submit">
+							<input type="submit" value="Submit" class="btn-submit">
+						</p>
+					</form>
 				</div>
 			</div>
 
@@ -153,8 +178,49 @@
 			var scroller = new Scroller();  
 			scroller.init();
 
+
 		</script>
 		<!-- Cover Blur Paralax End -->
+
+		<!-- Valid E-mail. Contact Forn -->
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/validEmail.js"></script>
+		<script>
+			var $submit = $(".submit input");
+			var $required = $(".required")
+			function containsBlanks() {
+				var blanks = $required.map(function(){ 
+					return $(this).val() == ""});
+				//return blanks.sort().pop();
+				return $.inArray(true, blanks) != -1;
+			}
+
+
+			function requiredFilledIn() {
+				if(containsBlanks() || !$("#email").validEmail())
+					$submit.attr("disabled", "disabled");
+				else $submit.removeAttr("disabled");
+			}
+
+			$("form span").hide();
+			$("input, textarea").focus(function(){
+				$(this).next().fadeIn("slow");
+
+			}).blur(function(){
+				$(this).next().fadeOut("slow");
+			}).keyup(function(){
+				//Check all required fields.
+				requiredFilledIn();
+			});
+			
+			$("#email").validEmail({on:"keyup", success:function(){
+				$(this).next().removeClass("error").addClass("valid");
+			}, failure: function() {
+				$(this).next().removeClass("valid").addClass("error");
+			}}); 
+			requiredFilledIn();
+		</script>
+		<!-- Valid E-mail. Contact Forn END -->
 
 
 

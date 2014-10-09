@@ -160,7 +160,7 @@ section {
 
 .contact1 {
 	margin: 1% auto;
-	width: 70%;
+	width: 80%;
 	text-align: center;
 }
 
@@ -168,6 +168,79 @@ section {
 	text-transform: uppercase;
 	margin: 0 auto;
 }
+
+/* Contact Form */
+
+.btn-submit {
+	width: 150px;
+	float: left;
+	margin: 2% 43%;
+	border: 0;
+	padding: 10px 25px;
+	color: #4D4D4D;
+	font-size: .75em;
+	background-color: #AAA6A6;
+	text-transform: uppercase;
+	border: 1px solid #595959;
+}
+
+.btn-submit:hover {
+	    filter: alpha(opacity=90);
+		opacity: .7;
+}
+
+label, input, textarea, span {
+	float: left;
+	margin: 0 25%;
+}
+	
+label {
+	width: 100%;
+	margin: 1% 0 1% 25%;
+}
+	
+input[type=text], textarea {
+	width: 50%;
+	background-color: #F2F3F4;
+	color: #4D4D4D;
+	border: 1px solid #595959;
+}
+	
+input, textarea {
+	padding: 1%;
+	border: 0;
+}
+	
+input:focus, textarea:focus { 
+	outline: none;
+	border: 1px solid #595959;
+}
+
+.required {
+}
+	
+textarea {
+	height: 150px;
+	border: 1px solid #595959;
+}
+
+.contact1 p {
+	clear:both;
+	min-height: 25px;
+	text-align: left;
+}
+	
+	
+#form span.valid {
+	background-color :#c0ce51;
+	color: #4D4D4D;
+}
+	
+#form span.error {
+	background-color:#b0240f;
+	color: #4D4D4D;
+}
+
 
 
 /* ------------- FOOTER ------------- */
