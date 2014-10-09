@@ -1,0 +1,360 @@
+/*-------------- MAIN --------------*/
+
+html,
+body {
+	min-width: 100%;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+	font-family: 'Noto Sans', sans-serif;
+	background-color: #f1f1f1;
+}
+
+
+p {
+	color: #4A4A4A;
+	font-size: 1.0089em;
+}
+
+::selection {
+	color: #000;
+	background: rgba(194, 224, 255, 0.3);
+	text-shadow: none;
+
+}
+
+
+#body {
+	min-width: 100%;
+	margin: 0 auto;
+	background: #fbfbfa;
+	position: relative;
+}
+
+#header1 {
+	min-width: 100%;
+	height: 350px;
+	background: url('../img/mountain.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	border-bottom: 2px solid #f1f1f1;
+}
+
+span {
+	font-family: 'Dancing Script', cursive;
+}
+
+
+.content {
+	max-width: 940px;
+	min-height: 100%;
+	background: #FFFFFF;
+	text-align: justify;
+	padding: 1% 20% 1%;
+}
+
+.wrapper {
+	max-width: 740px;
+	min-height: 100%;
+	padding: 0 5%;
+	margin: 20px auto;
+
+}
+
+
+/*-------------- SKILL CONTAINER --------------*/
+
+.skillContainer {
+	width: 65%;
+	margin: 0 auto;
+	padding-top: 1%;
+	padding-bottom: 15%;
+	background: #fbfbfa;
+}
+
+
+.entry {
+	width: 28%;
+	float: left;
+	margin: 2%;
+	height: 20%;
+}
+
+figure {
+	display: block;
+	width: 100%;
+	height: 75%;
+	margin: 1%;
+	padding: 3.5%;
+	text-align: center;
+}
+
+figcaption {
+	padding-left: 0.5%;
+	font-size: 1em;
+	font-weight: 600;
+}
+
+.blueish {
+	background-color: #C2D3E8;
+}
+
+.lightBlue {
+	background-color: #E2EAF7;
+}
+
+.lightGray {
+	background-color: #D6D5D5;
+}
+
+/*.caption1 {
+	color: #0d5e6c;
+}
+
+.caption2 {
+	color: #463750;
+}
+
+.caption3 {
+	color: #753040;
+}*/
+
+/*-------------- ABOUT PAGE --------------*/
+
+#header2 {
+	min-width: 100%;
+	height: 350px;
+	position: relative;
+	background: url('../img/beach.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	border-bottom: 2px solid #f1f1f1;
+}
+
+.aboutWrap {
+	max-width: 850px;
+	min-height: 100%;
+	padding: 0 5%;
+	margin: 10px auto;
+
+}
+
+/* profile photo */
+.profilePhoto {
+	display: block;
+	max-width: 200px;
+	margin: 0 auto;
+	border-radius: 100%;
+	border: 5px #DCDCDC solid;
+}
+
+section {
+	text-align: justify;
+}
+
+
+/*-------------- WORK PAGE --------------*/
+
+#header3 {
+	min-width: 100%;
+	height: 350px;
+	position: relative;
+	background: url('../img/beach2.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	border-bottom: 2px solid #f1f1f1;
+}
+
+.dashProjects img {
+	border: 2px solid #7A7A7A;
+	}
+
+	/* Dash Project picture hover effect */
+.dashProjects img {
+	-webkit-filter: grayscale(65%);
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+		transition: all .3s linear;
+}
+ 
+.dashProjects img:hover {
+  -webkit-filter: grayscale(0%);
+}
+
+
+
+/*-------------- CONTACT PAGE --------------*/
+
+#header4 {
+	min-width: 100%;
+	height: 350px;
+	position: relative;
+	background: url('../img/mountains2.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	border-bottom: 2px solid #f1f1f1;
+}
+
+.contactInfo {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+.contactInfo a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+.contactInfo li.phone a {
+	background-image: url('../img/contact/phone.png');
+}
+
+.contactInfo li.email a {
+	background-image: url('../img/contact/mail.png');
+}
+
+ol li {
+	list-style: none;
+}
+
+
+/*-------------- FOOTER --------------*/
+
+#footer {
+	text-align: center;
+	max-width: 100%;
+	margin: 15px 0 0 0;
+	padding-top: 10px;
+	background-color: #f1f1f1;
+	clear: both;
+	bottom: 0;
+
+}
+
+.copyright {
+	font-size: 0.7em;
+	color: #777777;
+
+}
+
+.social-icon {
+	margin: 0 1px;
+}
+
+/* picture hover effect */
+.social-icon {
+	-webkit-filter: grayscale(100%);
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+		transition: all .3s linear;
+}
+ 
+.social-icon:hover {
+  -webkit-filter: grayscale(0%);
+}
+
+/*-------------- HEADINGS--------------*/
+
+h1, h2 {
+	text-align: center;
+	line-height: 0.8;
+}
+
+h1 {
+	font-size: 2em;
+	color: #111;
+	font-family: 'Duru Sans', sans-serif;
+}
+
+h2 {
+	font-size: 1.1em;
+	color: #bbb;
+}
+
+h3 {
+	font-size: 1em;
+	color: #bbb;
+}
+
+/*-------------- NAVIGATION --------------*/
+
+nav {
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	float: right;
+	margin-right: 2px;
+	padding-right: 45px;
+	text-transform: uppercase;
+}
+
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+	color: rgba(34, 33, 45, 0.75);
+}
+
+/* nav transition effect */
+nav a {
+	transition: color .2s linear;
+	-webkit-transition: color .2s linear;
+	-moz-transition: color .2s linear;
+	-o-transition: color .2s linear;
+}
+
+a {
+	text-decoration: none;
+	font-family:'Noto Sans', sans-serif;;
+}
+
+ul li {
+	display: inline-block;
+	padding: 5px 5px;
+}
+
+/*-------------- COLORS --------------*/
+
+/* links */
+a {
+	color: rgba(121, 116, 124, 0.95);
+}
+
+/* nav link */
+nav a, nav a:visited {
+	color: rgba(121, 116, 124, 0.95);
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+	color: rgba(34, 33, 45, 0.95);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
