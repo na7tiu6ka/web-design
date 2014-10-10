@@ -232,12 +232,12 @@ textarea {
 	
 	
 #form span.valid {
-	background-color :#c0ce51;
+	background-color: #c0ce51;
 	color: #4D4D4D;
 }
 	
 #form span.error {
-	background-color:#b0240f;
+	background-color: #b0240f;
 	color: #4D4D4D;
 }
 
