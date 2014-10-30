@@ -5,6 +5,10 @@
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="icon" href="img/icon.ico">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+
+
 	</head>
 
 	<body>
@@ -19,21 +23,22 @@
 				</nav>
 			</div>
 		</div>
-		
+
 		<div id="wrapper">
 			<div id="content">
-				<h1></h1>
+				<h1>Vitalij Duk's</h1>
+				<h3>Personal Portfolio</h3>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-				<h2></h2>
+				<h2>Lorem Ipsum</h2>
 				<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-				<h2></h2>
+				<h2>Lorem Ipsum</h2>
 				<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-				<h2></h2>
+				<h2>Lorem Ipsum</h2>
 				<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-				<h2></h2>
+				<h2>Lorem Ipsum</h2>
 				<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
 			</div>
 		</div>
@@ -47,10 +52,34 @@
 				</ul>
 			</nav>
 
-			<div class="copyright">
-			    <p>Website by Anastasija Scepak &copy; 2014 </p> 
+			<div class="copyRight">
+				<p class="copyright">Site by <a href="http://www.staciedesign.com" target="_blank">Anastasija Scepak</a></p>
+			    <p class="copyright2">All Rights Reserved &copy; Vitalij Duk</p></br>
 			</div>
 		</div>
+
+		<script>
+			$(document).ready(function() {
+			$('body').css('display', 'none');
+			$('body').fadeIn(1000);
+
+
+			$('.link').click(function(event) {
+				event.preventDefault();
+				newLocation = this.href;
+				$('body').fadeOut(1000, newpage);
+
+			});
+
+
+
+			function newpage() {
+				window.location = newLocation;
+
+			}
+
+		});
+		</script>
 
 	</body>
 </html>
