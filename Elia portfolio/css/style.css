@@ -13,7 +13,6 @@
 	width: 45px;
 }
 
-
 /* MAIN */
 
 @font-face {
@@ -66,7 +65,7 @@
 }
 
 .bb-custom-side img {
-	max-height: 15em;
+	max-height: 50%;
 }
 
 .bb-custom-firstpage h1 {

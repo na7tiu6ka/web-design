@@ -1,0 +1,112 @@
+/**************** MAIN ****************/
+
+body {
+	background-color: #ccc;
+	font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+	font-size: 1em;
+
+}
+
+h2 {
+	font-size: 0.7em;
+}
+
+#wrapper {
+	background-color: #fff;
+	margin: 0 auto;
+	max-width: 800px;
+	margin-bottom: 10px;
+}
+
+p {
+	text-align: justify;
+}
+
+#content {
+	padding: 10px;
+}
+
+/**************** HEADER ****************/
+
+#header {
+	background: -webkit-linear-gradient(#959595, #CFCFCF); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#959595, #CFCFCF); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#959595, #CFCFCF); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#959595, #CFCFCF); /* Standard syntax */
+	text-align: right;
+	overflow: hidden;
+	border-bottom: 1px solid #000;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav ul {
+	list-style: none;
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+
+ul li {
+	display: inline-block;
+	padding: 5px 5px;
+}
+
+/* navigation */
+
+nav a {
+	text-decoration: none;
+	color: #2C2C2C;
+}
+
+nav a:hover {
+    color: #545454;
+}
+
+
+
+/**************** FOOTER ****************/
+
+#footer {
+	border-top: 1px solid #000;
+	padding: 20px 0;
+	max-height: 100px;
+	text-align: center;
+}
+
+.socialMedia {
+	float: right;
+	padding: 3px;
+}
+
+.socialMedia img {
+	max-width: 20%;
+}
+
+.copyright {
+	padding: 3px;
+	font-size: 0.75em;
+	color: #848484;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
