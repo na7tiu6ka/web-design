@@ -15,7 +15,7 @@
 			<div id="header">
 				<nav class="upperNav">
 					<ul>
-						<li><a href="index.html">Home</a></li>
+						<li><a href="index.html" class="selected">Home</a></li>
 						<li><a href="gallery.html">Gallery</a></li>
 						<li><a href="contact.html">Contact</a></li>
 					</ul>
@@ -34,11 +34,6 @@
 				<h2>Lorem Ipsum</h2>
 				<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-				<h2>Lorem Ipsum</h2>
-				<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-				<h2>Lorem Ipsum</h2>
-				<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
 			</div>
 		</div>
 
@@ -74,12 +69,12 @@
 			$(document).ready(function(){
 			    // to fade in on page load
 			    $("body").css("display", "none");
-			    $("body").fadeIn(400); 
+			    $("body").fadeIn(350); 
 			    // to fade out before redirect
 			    $('a').click(function(e){
 			        redirect = $(this).attr('href');
 			        e.preventDefault();
-			        $('body').fadeOut(400, function(){
+			        $('body').fadeOut(500, function(){
 			            document.location.href = redirect
 			        });
 			    });
