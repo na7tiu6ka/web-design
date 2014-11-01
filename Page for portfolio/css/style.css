@@ -64,6 +64,7 @@ p {
 }
 
 ul li {
+	position: relative;
 	display: inline-block;
 	padding: 0 10px 0;
 }
@@ -94,8 +95,10 @@ a {
 	padding: 20px 0;
 	max-height: 40%;
 	text-align: center;
-	bottom: 0;
 	overflow: hidden;
+	clear: both;
+	bottom: 0;
+
 }
 
 .footerNav {
