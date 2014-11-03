@@ -35,7 +35,7 @@ h3 {
 
 #wrapper {
 	margin: 0 auto;
-	max-width: 800px;
+	max-width: 900px;
 	margin-bottom: 10px;
 	overflow: hidden;
 }
@@ -98,11 +98,24 @@ a {
 }
 
 
-/**************** CONTACT PAGE ****************/
+/**************** INFO / CONTACT PAGE ****************/
+
+/* Info */
+
+.info {
+	text-transform: uppercase;
+}
+
+.profilePhoto {
+	text-align: center;
+}
+
+.profilePhoto img {
+	max-width: 100%;
+}
 
 #additionalInfo {
 	max-width: 100%;
-	margin: 0 auto;
 }
 
 
@@ -119,6 +132,12 @@ a {
 }
 
 /* Contact Form */
+
+#contact {
+	margin-left: -10%;
+	margin-right: 10%;
+}
+
 .btn-submit {
 	width: 150px;
 	float: left;
@@ -151,10 +170,11 @@ label, input, textarea, span {
 label {
 	width: 100%;
 	margin: 1% 0 1% 25%;
+	text-transform: uppercase;
 }
 	
 input[type=text], textarea {
-	width: 50%;
+	width: 70%;
 	background-color: #F2F3F4;
 	color: #4D4D4D;
 	border: 1px solid #595959;
@@ -176,12 +196,6 @@ input:focus, textarea:focus {
 textarea {
 	height: 180px;
 	border: 1px solid #595959;
-}
-
-.contact1 p {
-	clear:both;
-	min-height: 25px;
-	text-align: left;
 }
 	
 	
@@ -241,9 +255,22 @@ textarea {
 
 }
 
+/**************** MEDIA QUERIES ****************/
 
+	
+	/*************************
+	PAGE: PORTOFOLIO
+	*************************/
 
+	#gallery li {
+		width: 28.3333%;
+	}
 
+	#gallery li:nth-child(4n) {
+		clear: left;
+	}
+
+}
 
 
 

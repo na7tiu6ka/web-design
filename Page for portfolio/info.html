@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Vitalij Duk | Personal Portfolio</title>
+		<title>Info | Vitalij Duk </title>
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -24,35 +24,39 @@
 		</div>
 
 		<div id="wrapper">
-			<h2>Contact me</h2>
+			<h2 class="info">About Vitalij Duk</h2>
 			<div id="additionalInfo">
-				<p>Feel free to message me or contact via social media.</p>
+				<div class="profilePhoto"><img src="img/profilePhoto.jpg" alt="photo of Vitalij Duk"></div>
+
+				<p>Some text about the architect to know him better.</p>
+				<p>If you have any questions, don't hesitate to contact me.</p>
 				<div class="socialMedia">
 					<a href="https://www.linkedin.com/profile/view?id=345471874"><img src="img/linkedin.png"></a>
 					<a href="https://www.facebook.com/vitalij.duk"><img src="img/facebook.png"></a>
 				</div>
 			</div>
+			<h2 class="info">Get in touch</h2>
 			<div id="contact">
-					<p>
-						<label for="name">Name:*</label>
-						<input name="name" id="name" type="text" class="required emailField">
-					</p>
+				<p>
+					<label for="name">Your name:</label>
+					<input name="name" id="name" type="text" class="required emailField">
+				</p>
 
-					<p>
-						<label for="email">Email:*</label>
-						<input name="email" id="email" type="text" class="required emailField"> 
-					</p>
+				<p>
+					<label for="email">Email adress:</label>
+					<input name="email" id="email" type="text" class="required emailField"> 
+				</p>
 
-					<p>
-						<label for="message">Message:</label>
-						<textarea name="message" id="message" class="required emailField"></textarea> 
-					</p>
+				<p>
+					<label for="message">Write your message here:</label>
+					<textarea name="message" id="message" class="required emailField"></textarea> 
+				</p>
 
-					<p class="submit">
-						<img src="img/loader.gif" class="btn-submit-img" style="display: none">
-						<input type="submit" value="Submit" class="btn-submit" disabled>
-						<div class="btn-submit-txt" style="display: none">Your email has been successfully sent!</div>
-					</p>
+				<p class="submit">
+					<img src="img/loader.gif" class="btn-submit-img" style="display: none">
+					<input type="submit" value="Submit" class="btn-submit" disabled>
+					<div class="btn-submit-txt" style="display: none">Your email has been successfully sent!</div>
+				</p>
 			</div>
 		</div>
 
@@ -80,7 +84,7 @@
 			var footerTop = $('#footer').position().top + footerHeight;
 
 			if (footerTop < docHeight) {
-			$('#footer').css('margin-top', 10 + (docHeight - footerTop) + 'px');
+			$('#footer').css('margin-top', 300 + (docHeight - footerTop) + 'px');
 			}
 			});
 			/* Sticky footer end */
