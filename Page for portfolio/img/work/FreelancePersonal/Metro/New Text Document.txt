@@ -1,0 +1,5 @@
+3D Modeling & CAD autodesk-3d-studio-max,vray,adobe-photoshop,3d-rendering,3d-modeling
+In this project I wanted to play around with old materials and dark/grimy lighting.
+
+Project name: Old Underground Metro
+Software used: 3D max + Vray + Ps
