@@ -106,6 +106,10 @@ a {
 	text-transform: uppercase;
 }
 
+.about {
+	text-align: justify;
+}
+
 .profilePhoto {
 	text-align: center;
 }
@@ -116,11 +120,6 @@ a {
 
 #additionalInfo {
 	max-width: 100%;
-}
-
-
-#additionalInfo p {
-	text-align: center;
 }
 
 .socialMedia img {
