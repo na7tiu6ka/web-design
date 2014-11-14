@@ -56,7 +56,7 @@ p {
 	text-align: center;
 	overflow: hidden;
 	height: 20%;
-	width: 40%;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -96,6 +96,34 @@ a {
 	color: #888888;
 	text-decoration: none;
 }
+
+
+/**************** GALLERY ****************/
+
+.entry {
+	width: 220px;
+	float: left;
+	margin: 10px;
+	height: 198px;
+
+}
+
+figure {
+	display: block;
+	width: 202px;
+	height: 170px;
+	margin: 0;
+	padding: 9px;
+	text-align: left;
+}
+
+figure img {
+	width: 200px;
+	height: 150px;
+	border: 1px solid #000;
+}
+
+
 
 
 /**************** INFO / CONTACT PAGE ****************/
