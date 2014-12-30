@@ -100,18 +100,20 @@
 			/* Sticky footer end */
 
 			/* Fade in/out */
-			$(document).ready(function(){
-			    // to fade in on page load
-			    $("body").css("display", "none");
-			    $("body").fadeIn(350); 
-			    // to fade out before redirect
-			    $('a').click(function(e){
-			        redirect = $(this).attr('href');
-			        e.preventDefault();
-			        $('body').fadeOut(500, function(){
-			            document.location.href = redirect
-			        });
-			    });
+			$(document).ready(function() {
+			$('body').css('display', 'none');
+			$('body').fadeIn(1000);
+				$('.link').click(function() {
+				event.preventDefault();
+				newLocation = this.href;
+
+			$('body').fadeOut(1000, newpage);
+
+			});
+				function newpage() {
+					window.location = newLocation;
+				}
+
 			});
 
 		</script>
