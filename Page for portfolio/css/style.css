@@ -35,7 +35,7 @@ h3 {
 
 #wrapper {
 	margin: 0 auto;
-	max-width: 900px;
+	max-width: 75%;
 	margin-bottom: 10px;
 	overflow: hidden;
 }
@@ -100,29 +100,33 @@ a {
 
 /**************** GALLERY ****************/
 
+#gallery {
+	margin: 0 auto;
+}
+
 .entry {
-	width: 220px;
+	width: 230px;
 	float: left;
-	margin: 10px;
+	margin: 10px 30px;
 	height: 198px;
 
 }
 
-figure {
+.figure {
 	display: block;
-	width: 202px;
-	height: 170px;
+	width: 222px;
+	height: 180px;
 	margin: 0;
-	padding: 9px;
+	padding: 5px 5px;
 	text-align: left;
+	max-width: 50%;
 }
 
-figure img {
-	width: 200px;
+.figure img {
+	width: 230px;
 	height: 150px;
 	border: 1px solid #000;
 }
-
 
 
 
@@ -282,22 +286,6 @@ textarea {
 
 }
 
-/**************** MEDIA QUERIES ****************/
-
-	
-	/*************************
-	PAGE: PORTOFOLIO
-	*************************/
-
-	#gallery li {
-		width: 28.3333%;
-	}
-
-	#gallery li:nth-child(4n) {
-		clear: left;
-	}
-
-}
 
 
 
