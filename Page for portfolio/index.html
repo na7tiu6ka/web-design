@@ -8,6 +8,7 @@
 
 		<link rel="icon" href="img/icon.ico">
 		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/responsiveslides.min.js"></script>
 
 	</head>
 
@@ -24,25 +25,25 @@
 			</div>
 		</div>
 
-		<div id="wrapper">
-			<div id="content">
+		<div class="wrapper">
+			<div class="content">
 				<h1>Vitalij Duk's</h1>
 				<h3>Personal Portfolio</h3>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-				<h2>Lorem Ipsum</h2>
-				<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+			</div>
+
+				<ul class="rslides">
+					<li><img src="img/work/FreelancePersonal/LakeHouse/2.jpg"></li>
+					<li><img src="img/work/Year2/9TsuboHouseAutocad/3.jpeg"></li>
+					<li><img src="img/work/Year2/TechnologyHS2Gallery/1.jpg"></li>
+					<li><img src="img/work/Year2/LivingAndAorkingInDigbethFinal/3.jpg"></li>
+				</ul>
+
+			<div class="content">
 				<h2>Lorem Ipsum</h2>
 				<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
 
-				<div id="slides">
-					<div><img src="img/work/FreelancePersonal/Kitchen/Virtuve7.jpg"></div>
-					<div><img src="img/work/FreelancePersonal/LakeHouse/2.jpg"></div>
-					<div><img src="img/work/FreelancePersonal/Metro/WIP12.jpg"></div>
-					<div><img src="img/work/FreelancePersonal/WorkPlacement2/Refurbishment1.jpg"></div>
-					<div><img src="img/work/Year2/LivingAndAorkingInDigbethFinal/3.jpg"></div>
-				</div>
-				
 			</div>
 		</div>
 
@@ -90,17 +91,14 @@
 				}
 
 			});
+		</script>
 
-			/* slideshow */
-			$("#slides > div:gt(0)").hide();
-				setInterval(function() { 
-				  $('#slides > div:first')
-				    .fadeOut(1000)
-				    .next()
-				    .fadeIn(1000)
-				    .end()
-				    .appendTo('#slides');
-				},  3000);
+		<script>
+		/* slides */
+		  $(function() {
+		    $(".rslides").responsiveSlides();
+
+		  });
 		</script>
 
 	</body>
