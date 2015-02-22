@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Ely's Art</title>
+		<link rel="icon" href="img/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div id="container">
+			<!-- Navigation -->
+			<div class="navigation"></div>
+
+			<!-- About Section -->
+			<div id="about">
+				<div class="profile-photo">
+					<img src="img/profile-photo.jpg">
+				</div>
+				<div class="socialStuff">
+					<a href="https://www.facebook.com/profile.php?id=100001265558955"><img src="img/social/facebook.png"></a>
+					<a href="#contact"><img src="img/social/mail.png"></a>
+				</div>
+
+				<div class="info">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+				</div>
+
+			</div>
+
+			<!-- Works Section -->
+			<div id="works">
+			</div>
+
+			<!-- Contact Section -->
+			<div id="contact">
+				
+			</div>
+			<!-- Footer -->
+			<div id="footer"></div>
+		</div>
+
+		<script>
+			    $(document).ready(function() { 
+			            $("#form_wrap").addClass('hide');
+			            $("#form_wrap").prepend( '<div id="before"></div>').append( '<div id="after"</div>');
+			            $("#form_wrap").hover(function(){
+			             $(this).stop(true, false).animate({
+			                  height : '836px',
+			                  top : '-200px'
+			             }, 2000);  
+			            $('form').stop(true, false).animate({
+			        height : '580px'
+			        }, 2000, function(){
+			                         $('#form_wrap input[type=submit]').css({'z-index' : '1', 'opacity' : '1'})} ) }, function() {
+			        $('#form_wrap input[type=submit]').stop(true, true).css({ 'opacity' : '0'})
+			            $(this).stop(true, false).animate({
+			            height : '446px',
+			            top : '0px'
+			 
+			        }, 2000);   
+			        $('form').stop(true, false).animate({
+			                height : '200px'}, 2000)    
+			        })
+			})
+		</script>
+	</body>
+</html>
