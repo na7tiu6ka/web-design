@@ -8,11 +8,25 @@
 	<body>
 		<div id="container">
 			<!-- Navigation -->
-			<div class="navigation"></div>
+			<div class="navigation">
+				<ul>
+					<li>
+						<a href="#about">About</a>
+					</li>
+
+					<li>
+						<a href="#works">Works</a>
+					</li>
+
+					<li>
+						<a href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
 
 			<!-- About Section -->
 			<div id="about">
-				<div class="profile-photo">
+				<div class="profile">
 					<img src="img/profile-photo.jpg">
 				</div>
 				<div class="socialStuff">
@@ -21,7 +35,7 @@
 				</div>
 
 				<div class="info">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+					<img src="img/aboutme.png">
 				</div>
 
 			</div>
@@ -35,32 +49,10 @@
 				
 			</div>
 			<!-- Footer -->
-			<div id="footer"></div>
+			<div id="footer">
+				All rights reserved &copy; Site by <a href="http://www.staciedesign.com">Anastasija Scepak</a>
+			</div>
 		</div>
 
-		<script>
-			    $(document).ready(function() { 
-			            $("#form_wrap").addClass('hide');
-			            $("#form_wrap").prepend( '<div id="before"></div>').append( '<div id="after"</div>');
-			            $("#form_wrap").hover(function(){
-			             $(this).stop(true, false).animate({
-			                  height : '836px',
-			                  top : '-200px'
-			             }, 2000);  
-			            $('form').stop(true, false).animate({
-			        height : '580px'
-			        }, 2000, function(){
-			                         $('#form_wrap input[type=submit]').css({'z-index' : '1', 'opacity' : '1'})} ) }, function() {
-			        $('#form_wrap input[type=submit]').stop(true, true).css({ 'opacity' : '0'})
-			            $(this).stop(true, false).animate({
-			            height : '446px',
-			            top : '0px'
-			 
-			        }, 2000);   
-			        $('form').stop(true, false).animate({
-			                height : '200px'}, 2000)    
-			        })
-			})
-		</script>
 	</body>
 </html>
