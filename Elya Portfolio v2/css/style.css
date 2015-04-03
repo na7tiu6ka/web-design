@@ -5,17 +5,23 @@ body {
 }
 
 #container {
-	max-width: 850px;
+	max-width: 950px;
 	margin: 0 auto;
-	border: 2px solid #000;
+	border: 2px solid #542a30;
 }
 
 /* ----------------- NAVIGATION ----------------- */
 
 .navigation {
-	background: #ccc;
-	padding: 20px;
+	background: #f8eae1;
+	padding: 10px;
 	text-align: center;
+	border-bottom: 1px solid #b1a7a7;
+}
+
+.nav-links a {
+	font-size: 20px;
+
 }
 
 ul li {
@@ -25,32 +31,106 @@ ul li {
 
 a {
 	text-decoration: none;
+	color: #4d3930;
+}
+
+.nav-links a:hover {
+	color: #6B2424;
+	border-bottom: 1px dashed #6B2424;
+
 }
 
 /* ----------------- ABOUT ----------------- */
 
 #about {
-	background: url('../img/bg-about.jpg');
+	background: #fffbf8; 
 	padding: 10px;
 }
 
-.profile, .info, .socialStuff {
-	margin: 10px;
+.profile img {
+	margin: 30px;
+	border-radius: 100%;
+	max-width: 250px;
+	border: 2px solid #b1a7a7;
 }
 
-.socialStuff img {
+.social img {
 	width: 50px;
 	height: 50px;
 }
 
+.social {
+	text-align: left;
+}
+
+.info {
+	width: 50%;
+	text-align: justify;
+	float: right;
+	margin-top: -275px;
+	margin-right: 40px;
+}
+
+#about.profile {
+	float: left;
+}
+
 /* ----------------- WORKS ----------------- */
+#works {
+	margin: 0 auto;
+	background: #fffbf8; 
+	padding: 10px;
+	border-top: 1px solid #b1a7a7;
+	height: auto;
+}
+
+
 
 /* ----------------- CONTACT ----------------- */
+#contact {
+	background: #fffbf8; 
+	padding: 10px;
+	border-top: 1px solid #b1a7a7;
+	height: auto;
+}
+
+#contact, h3.contactText {
+	text-align: center;
+	line-height: 5px;
+}
+
+iframe {
+	border-style: none;
+	margin: 10px;
+	width: 600px;
+	height: 540px;
+
+}
 
 /* ----------------- FOOTER ----------------- */
 #footer {
 	text-align: center;
-	background: #ccc;
+	background: #f8eae1;
 	bottom: 0;
-	padding: 50px;
+	padding: 40px;
+	border-top: 1px solid #b1a7a7;
 }
+
+.social2 img {
+	width: 50px;
+	height: 50px;
+}
+
+.copyright {
+	font-style: italic;
+}
+
+.stacie-link {
+	color: #6B2424;
+}
+
+.stacie-link:hover {
+	border-bottom: 1px dashed #6B2424;
+
+}
+
