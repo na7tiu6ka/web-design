@@ -35,7 +35,7 @@ p {
 #wrap {
 	width: 530px;
 	margin: 20px auto 0;
-	height: 100%;
+	height: auto;
 }
 
 h1 {
@@ -51,6 +51,7 @@ h2 {
 }
 
 #form_wrap {
+	margin-top: 35px;
 	overflow: hidden;
 	height: 446px;
 	position: relative;
