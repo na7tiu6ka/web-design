@@ -14,8 +14,8 @@
    
    	/* Page Wrappers */
 	.booklet .b-wrap       {top:0; position:absolute;}
-	.booklet .b-wrap-left  {background:#fff;}
-	.booklet .b-wrap-right {background:#efefef;}
+	.booklet .b-wrap-left  {background:#FAF9F4;}
+	.booklet .b-wrap-right {background:#f5f2eb;}
 	
 	.booklet .b-pN .b-wrap,
 	.booklet .b-p1 .b-wrap,

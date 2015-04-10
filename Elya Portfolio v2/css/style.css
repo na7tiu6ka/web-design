@@ -1,7 +1,11 @@
 /* ----------------- MAIN ----------------- */
 
 body {
-	background: url('../img/bg-roses.jpg');
+	background: url('../img/site-bg.jpg') no-repeat center center fixed;
+	 -webkit-background-size: cover; 
+	 -moz-background-size: cover; 
+	 -o-background-size: cover; 
+	 background-size: cover;
 }
 
 #container {
@@ -63,6 +67,7 @@ a {
     -ms-filter: sepia(65%);
     -o-filter: sepia(65%);
     filter: sepia(65%);
+    margin-bottom: 10px;
 }
 
 .social img:hover {
@@ -94,8 +99,14 @@ a {
 #works {
 	margin: 0 auto;
 	background: #fffbf8; 
-	padding: 10px;
+	padding: 20px;
 	border-top: 1px solid #b1a7a7;
+	height: 620px;
+}
+
+.shutterLink {
+	margin: 35px 0 25px;
+	text-align: center;
 }
 
 
@@ -162,7 +173,7 @@ iframe {
 	border-radius:10px;
 }
 .booklet .b-wrap-left  {
-	background:#fff url(../img/left_bg.jpg) no-repeat top left;
+	background:#F5F5F5 url(../img/left_bg.jpg) no-repeat top left;
 	-webkit-border-top-left-radius: 10px;
 	-webkit-border-bottom-left-radius: 10px;
 	-moz-border-radius-topleft:10px;
