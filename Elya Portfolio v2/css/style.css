@@ -6,6 +6,7 @@ body {
 	 -moz-background-size: cover; 
 	 -o-background-size: cover; 
 	 background-size: cover;
+	 font-family: 'Source Serif Pro', serif;
 }
 
 #container {
@@ -14,18 +15,19 @@ body {
 	border: 2px solid #542a30;
 }
 
+
 /* ----------------- NAVIGATION ----------------- */
 
 .navigation {
-	background: #f8eae1;
+	background: #DCD8D4;
 	padding: 10px;
 	text-align: center;
 	border-bottom: 1px solid #b1a7a7;
 }
 
 .nav-links a {
-	font-size: 20px;
-
+	font-size: 25px;
+	font-family: 'Lobster Two', cursive;
 }
 
 ul li {
@@ -40,9 +42,24 @@ a {
 
 .nav-links a:hover {
 	color: #6B2424;
-	border-bottom: 1px dashed #6B2424;
-
 }
+
+/* ------------- SCROLL TO TOP ------------- */
+#scrollUp {
+	bottom: 30px;
+	right: 30px;
+	width: 38px; /* Width of image */
+	height: 38px; /* Height of image */
+	background: url(../img/top.png) no-repeat;
+	filter: alpha(opacity=90);
+	opacity: .7;
+}
+
+#scrollUp:hover {
+    filter: alpha(opacity=100);
+	opacity: 1;
+}
+
 
 /* ----------------- ABOUT ----------------- */
 
@@ -85,7 +102,8 @@ a {
 
 .info {
 	width: 50%;
-	text-align: justify;
+	text-align: left;
+	font-size: 0.9em;
 	float: right;
 	margin-top: -275px;
 	margin-right: 40px;
@@ -101,7 +119,13 @@ a {
 	background: #fffbf8; 
 	padding: 20px;
 	border-top: 1px solid #b1a7a7;
-	height: 620px;
+	height: 630px;
+}
+
+.work-header {
+	text-align: center;
+	margin-top: -3px;
+	margin-bottom: -20px;
 }
 
 .shutterLink {
@@ -109,6 +133,14 @@ a {
 	text-align: center;
 }
 
+.shutterLink a {
+	color: #4d3930;
+	font-family: 'Bree Serif', serif;
+}
+
+.shutterLink a:hover {
+	text-decoration: underline;
+}
 
 
 /* ----------------- CONTACT ----------------- */
@@ -135,33 +167,23 @@ iframe {
 /* ----------------- FOOTER ----------------- */
 #footer {
 	text-align: center;
-	background: #f8eae1;
+	background: #DCD8D4;
 	bottom: 0;
 	padding: 40px;
 	border-top: 1px solid #b1a7a7;
 }
 
-.social2 img {
-	width: 50px;
-	height: 50px;
-}
-
-.copyright {
-	font-style: italic;
-}
-
 .stacie-link {
-	color: #6B2424;
+	color: #4d3930;
+	font-family: 'Bree Serif', serif;
 }
 
 .stacie-link:hover {
-	border-bottom: 1px dashed #6B2424;
+	text-decoration: underline;
 
 }
 
-
-
-
+/* ----------------- BOOKLET ----------------- */
 
 /* Booklet jQuery Plugin Style*/
 .booklet{
