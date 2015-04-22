@@ -13,6 +13,7 @@ body {
 	max-width: 950px;
 	margin: 0 auto;
 	border: 2px solid #542a30;
+	border-radius: 5px;
 }
 
 
@@ -23,6 +24,8 @@ body {
 	padding: 10px;
 	text-align: center;
 	border-bottom: 1px solid #b1a7a7;
+	border-top-left-radius: 5px;
+  	border-top-right-radius: 5px;
 }
 
 .nav-links a {
@@ -171,6 +174,8 @@ iframe {
 	bottom: 0;
 	padding: 20px;
 	border-top: 1px solid #b1a7a7;
+	border-bottom-left-radius: 5px;	
+	border-bottom-right-radius: 5px;
 }
 
 .stacie-link {
