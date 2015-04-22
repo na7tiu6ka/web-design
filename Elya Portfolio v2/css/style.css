@@ -169,7 +169,7 @@ iframe {
 	text-align: center;
 	background: #DCD8D4;
 	bottom: 0;
-	padding: 40px;
+	padding: 20px;
 	border-top: 1px solid #b1a7a7;
 }
 
@@ -232,7 +232,7 @@ iframe {
 .book_wrapper{
 	margin:0 auto;
 	padding-top:50px;
-	width:890px;
+	width:910px;
 	height:540px;
 	position:relative;
 	background:transparent url(../img/bg.png) no-repeat 9px 27px;
@@ -294,10 +294,10 @@ a#prev_page_button{
 	background:transparent url(../img/buttons.png) no-repeat 0px -40px;
 }
 a#prev_page_button{
-	left:-30px;
+	left:-18px;
 }
 a#next_page_button{
-	right:-30px;
+	right:-18px;
 	background-position:-41px -40px;
 }
 a#next_page_button:hover{
