@@ -5,6 +5,18 @@
 		<title>Envelope Contact Form</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="icon" href="../envelope/img/icon.ico">
+       	<script src="js/createEmailSending.js" type="text/javascript"></script>
+		<script src="js/validateForm.js" type="text/javascript"></script>
+
+		<script>
+			$(document).ready(
+				function() {
+					createFormValidation();
+					createEmailSending();
+				}
+			);	
+		</script>
+
 	</head>
 	<body>
 		<div id="wrap">
@@ -21,6 +33,10 @@
 					<input type="submit" name="submit" value="Send!" class="btn-submit">
 				</form>
 			</div>
+
+		<div class="mea" style="visibility: hidden">
+			&#101;&#108;&#052;&#097;&#110;&#101;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
+		</div>
 
 			<script>
 			    $(document).ready(function() { 

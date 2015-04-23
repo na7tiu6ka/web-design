@@ -1,0 +1,11 @@
+body {
+	background-color: #000;
+}
+
+#board {
+	position: relative;
+	width: 1024px;
+	height: 863px;
+	margin: auto;
+	background: url("../img/board.jpg") no-repeat;
+}
