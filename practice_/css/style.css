@@ -9,6 +9,8 @@ a {
 	font-size: 18px;
 	color: #000000;
 	font-weight: 700;
+	transition-duration: 0.5s;
+  	transition-timing-function: linear;
 }
 
 a:hover {
@@ -71,7 +73,7 @@ div.push-right {
 }
 
 .food-icon {
-	margin-top: 20px;
+	margin-top: 12px;
 	text-align: center;
 }
 
@@ -91,19 +93,33 @@ div.push-right {
 	color: #BB5577;
 	font-size: 15px;
 	font-weight: 700;
+	transition-duration: 0.5s;
+  	transition-timing-function: linear;
+}
+
+.other-color a:hover {
+	color: #558877;
+	font-size: 15px;
+	font-weight: 700;
 }
 
 
 footer {
-	padding: 20px;
+	padding: 25px;
 	height: auto;
 	margin-bottom: 20px; 
+}
+
+.copyright {
+	color: #334422;
+	margin: 10px 0;
 }
 
 h4 {
 	font-size: 1.75em;
 	font-weight: 700;
 	margin: 10px auto;
+	color: #334422;
 }
 
 ol li {
