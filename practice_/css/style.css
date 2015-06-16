@@ -61,15 +61,7 @@ ul li {
 
 .section p {
 	margin-top: 15px;
-	padding: 20px;
-}
-
-div.push-left {
-	left: 15px;
-}
-
-div.push-right {
-	right: 15px;
+	padding: 15px;
 }
 
 .food-icon {
@@ -103,7 +95,6 @@ div.push-right {
 	font-weight: 700;
 }
 
-
 footer {
 	padding: 25px;
 	height: auto;
@@ -118,7 +109,7 @@ footer {
 h4 {
 	font-size: 1.75em;
 	font-weight: 700;
-	margin: 10px auto;
+	margin: 0 auto;
 	color: #334422;
 }
 
