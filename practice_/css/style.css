@@ -99,7 +99,10 @@ span.other-color {
 	font-weight: 700;
 }
 
-footer {
+/* FOOTER */
+
+#footer {
+	margin-top: 260px;
 	padding: 25px;
 	height: auto;
 	margin-bottom: 20px; 
@@ -108,6 +111,8 @@ footer {
 .copyright {
 	color: #334422;
 	margin: 10px 0;
+	margin: 0 auto;
+	float: right;
 }
 
 h4 {
@@ -131,6 +136,34 @@ ol li {
 }
 
 .fa {
+	margin: 0 auto;
+	float: right;
+	padding: 8px;
 	font-size: 30px;
-	margin: 180px 5px 0;
 }
+
+
+
+/* slides */
+#slideshow {
+    position:relative;
+    height:350px;
+}
+
+#slideshow img {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+}
+
+#slideshow img.active {
+    z-index:10;
+}
+
+#slideshow img.last-active {
+    z-index:9;
+}
+
+
+
