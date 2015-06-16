@@ -7,7 +7,7 @@ body {
 a {
 	font-family: 'Lato', sans-serif;
 	font-size: 18px;
-	color: #000000;
+	color: #3C322A;
 	font-weight: 700;
 	transition-duration: 0.5s;
   	transition-timing-function: linear;
@@ -19,9 +19,9 @@ a:hover {
 }
 
 #container {
-	max-width: 65%;
+	max-width: 62%;
 	margin: 0 auto;
-	background-color: rgba(255, 255, 255, 0.7);
+	background-color: rgba(234, 230, 226, 0.7);
 }
 
 h3 {
@@ -54,7 +54,7 @@ ul li {
 }
 
 .section {
-	background-color: rgba(255, 255, 255, 0.6);
+	background-color: rgba(234, 230, 226, 0.6);
 	text-align: center;
 
 }
@@ -102,7 +102,7 @@ span.other-color {
 /* FOOTER */
 
 #footer {
-	margin-top: 260px;
+	margin-top: 230px;
 	padding: 25px;
 	height: auto;
 	margin-bottom: 20px; 
