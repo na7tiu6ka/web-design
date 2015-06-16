@@ -1,0 +1,12 @@
+/* media queries */
+@media (max-width: 480px) {
+	#slideshow {
+	    position:relative;
+	    height:140px;
+	}
+
+	.icons-copy {
+		margin-right: 18px;
+	}
+
+}
