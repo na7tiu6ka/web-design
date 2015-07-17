@@ -1,0 +1,93 @@
+body {
+	margin: 0;
+	background-color: #EEEEEE;
+}
+
+#nav {
+	text-align: center;
+}
+
+#nav ul li {
+	list-style: none;
+	display: inline;
+	margin: 10px;
+	text-transform: uppercase;
+
+}
+
+ul, li {
+	margin-top: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+li a {
+	font-size: 18px;
+	color: #000000;
+}
+
+#cover-image {
+	height: 450px;
+	width: 100%;
+	background: url('../img/black-and-white-city-skyline-buildings.jpg') center no-repeat;
+	position: relative;
+	background-size: cover;
+	top: -18px;
+}
+
+#wrapper {
+	max-width: 65%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+h3 {
+	font-size: 1.75em;
+	text-align: left;
+	padding: 5px;
+}
+
+/* --- ABOUT --- */
+
+.profilePhoto img {
+	border-radius: 100%;
+	width: 300px;
+	padding: 5px;
+}
+
+
+/* --- FOOTER --- */
+
+#footer {
+	background-color: #D4D4D4;
+	text-align: center;
+	padding: 20px 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

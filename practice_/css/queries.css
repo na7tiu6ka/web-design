@@ -9,4 +9,22 @@
 		margin-right: 18px;
 	}
 
+	.push-r {
+		padding-left: 25px;
+	}
+
+	.push-l {
+		padding-right: 25px;
+	}
+}
+
+@media (max-width: 1680px) {
+	.push-r {
+		padding-right: 25px;
+	}
+
+	.push-l {
+		padding-left: 25px;
+	}
+
 }

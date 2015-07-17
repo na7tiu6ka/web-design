@@ -1,0 +1,136 @@
+
+.wrapper .col-md-3 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.social a {
+	color: #FFFFFF;
+	-webkit-transition: .5s;
+    transition: .5s;	
+}
+
+.social a:hover {
+	color: #DB69A2;
+	-webkit-transition: .5s;
+    transition: .5s;	
+}
+
+.navigation a {
+	color: #FFFFFF;
+	-webkit-transition: .5s;
+    transition: .5s;	
+}
+
+.navigation a:hover {
+	color: #1992B3;
+	-webkit-transition: .5s;
+    transition: .5s;	
+}
+h3 {
+    position: absolute; 
+    top: 250px; 
+    left: 0; 
+    width: 100%;
+    font-size: 4em;
+    font-weight: 600;
+    -webkit-text-stroke-width: 1px;
+   	-webkit-text-stroke-color: black;
+}
+
+h4 {
+    position: absolute;
+    top: 400px;
+    left: 0;
+    width:100%;
+    font-size: 4em;
+    -webkit-text-stroke-width: 1px;
+   	-webkit-text-stroke-color: black;
+}
+
+.fa-angle-double-down {
+    color: #ffffff;
+}
+
+.fa-angle-double-down:hover {
+    color: rgba(148, 148, 148, 0.6);
+}
+
+.carousel-indicators li {
+	border-radius: 0;
+	width: 45px;
+
+}
+
+.carousel-indicators .active {
+	border-radius: 0;
+	width: 45px;
+
+}
+
+/* media queries */
+@media (max-width: 480px) {
+	.cover-photo img {
+		/*background: url(../assets/desk-space.jpg) no-repeat;*/
+		background-size: 140% 100%;
+		padding: 0 0 5px 0;
+	}
+
+     h3 {
+        top: 180px;
+        font-size: 1.876em;
+    }
+
+}
+
+
+@media (max-width: 765px) {
+	.cover-photo img{
+		/*background: url(../assets/desk-space.jpg) no-repeat;*/
+		background: 100% 100%;
+		margin-top: 10px;
+		padding-bottom: 3px;
+	}
+
+    h3 {
+        font-size: 1.9em;
+
+
+    }
+}
+
+
+@media (max-width: 992px) and (min-width: 768px) {
+	.cover-photo img {
+		/*background: url(../assets/desk-space.jpg) no-repeat;*/
+		background-size: 200% 100%;
+		margin-top: 0;
+		background-position: -390px 0;
+		padding: 0;
+	}
+
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+	.cover-photo img {
+		/*background: url(../assets/desk-space.jpg) no-repeat;*/
+		background-size: 140% 100%;
+		margin-top: -50px;
+		background-position: -130px 0;
+		padding: 0;
+	}
+
+
+
+}
+
+@media (max-width: 1920px) and (min-width: 1200px) {
+	.cover-photo img {
+		background-size: 99.99% 100%;
+	/*	background: url(../assets/desk-space.jpg) no-repeat;*/
+		float: left;
+		margin-top: -310px;	
+		position: relative;
+		margin-bottom: -5px;
+    }
+} 
