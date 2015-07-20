@@ -1,0 +1,57 @@
+@media screen and (min-width: 660px) {
+
+	/*************************
+	HEADER
+	*************************/
+
+	
+		#cover-photo {
+		width: 100%;
+		overflow: hidden;
+		height: 720px;
+		background: url('../img/cat_lying.jpg') center no-repeat;
+		position: relative;
+		top: 100px;
+		background-size: cover;
+		margin-bottom: 150px;
+	}
+
+
+	nav {
+		background: none;
+		float: right;
+		font-size: 1.125em;
+		margin-right: 5%;
+		margin-bottom: 1%;
+		text-align: right;
+		width: 45%
+	}
+
+	#logo {
+		float: left;
+		margin-left: 5%;
+		text-align: left;
+		width: 45%
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+
+	h2 {
+		font-size: 1.65em;
+		margin-bottom: 20px;
+	}
+
+	header {
+		/*border-bottom: 3px solid #410d4f;*/
+		margin-bottom: 35px;
+	}
+
+	nav a.selected, nav a:hover {
+		color: #99e7e9;
+}
+
+
+	
+}
