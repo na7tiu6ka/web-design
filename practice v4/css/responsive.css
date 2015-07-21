@@ -9,7 +9,7 @@
 		width: 100%;
 		overflow: hidden;
 		height: 720px;
-		background: url('../img/cat_lying.jpg') center no-repeat;
+		background: url('../img/cats.jpg') center no-repeat;
 		position: relative;
 		top: 100px;
 		background-size: cover;
@@ -51,7 +51,28 @@
 	nav a.selected, nav a:hover {
 		color: #99e7e9;
 }
-
-
 	
 }
+
+
+@media (max-width: 1250px) and (min-width: 730px) {
+	#cover-photo {
+		width: 100%;
+		overflow: hidden;
+		height: 720px;
+		background: url('../img/cat-lying.jpg') center no-repeat;
+		position: relative;
+		top: 100px;
+		background-size: cover;
+		margin-bottom: 150px;
+	}
+
+}
+
+
+
+
+
+
+
+

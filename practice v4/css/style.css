@@ -143,11 +143,11 @@ COVER IMAGE
 	width: 100%;
 	overflow: hidden;
 	height: 420px;
-	background: url('../img/cat_lying_smaller.jpg') center no-repeat;
+	background: url('../img/cat-lying.jpg') center no-repeat;
 	position: relative;
-	top: 100px;
+	top: 140px;
 	background-size: cover;
-	margin-bottom: 150px;
+	margin-bottom: 180px;
 }
 
 
@@ -165,6 +165,7 @@ MEET THE TEAM
 *************************/
 
 .team-section {
+	text-align: center;
 	margin: 40px 0;
 }
 
