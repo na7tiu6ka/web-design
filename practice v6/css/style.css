@@ -1,0 +1,225 @@
+/* GENERAL */
+body {
+	max-width: 100%;
+	background-color: #FFFCF7;
+	overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Roboto', sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	color: #7D9DD2;
+}
+
+/* menu */
+.slideout-menu .btn {
+	padding: 5px 15px;
+	font-size: 15px;
+}
+
+/* Buttons */
+nav {
+	width: 100%;
+}
+
+
+.buttons {
+	position: relative;
+	text-align: center;
+    top: 150px;
+    z-index: 1;
+}
+
+.btn {
+  padding: 20px 35px;
+  margin: 5px;
+  font-size: 21px;
+}
+
+/* Cover Photo */
+.cover-photo {
+	width: 100%;
+	height: 500px;
+	background: url('../img/cats.jpg') center no-repeat;
+	position: relative;
+	background-size: cover;
+	border-top: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+
+}
+
+.wrap {
+	max-width: 750px;
+	padding: 25px 0;
+	margin: 0 auto;
+}
+
+h2 {
+	color: #483A53;
+	text-align: center;
+	margin: 10px 0 15px;
+	padding: 5px 0 10px 0;
+	font-weight: 700;
+}
+
+/* HEADER */
+header {
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+	margin: 0 auto;
+	padding: 5px;
+	text-align: center;
+}
+
+header a {
+	color: #ffffff;
+}
+
+
+/* NAVIGATION */
+ul li {
+	list-style: none;
+}
+
+/* ABOUT SECTION */
+.about {
+	text-align: justify;
+	margin: 5px;
+}
+
+
+/* HOW IT WORKS */
+.how-it {
+	max-width: 100%;
+	background-color: #DFD7FF;
+	padding: 15px 0 25px;
+	max-width: 0 auto;
+}
+
+.box {
+	max-width: 760px;
+	padding: 5px;
+	margin: auto;
+	text-align: center;
+}
+
+.how-it .box img {
+	max-width: 50px;
+}
+
+.box p {
+	margin: 10px;
+	text-align: center;
+	font-size: 18px;
+}
+
+/* MEET THE TEAM */
+.meet-the-team {
+	max-width: 950px;
+	margin: 0 auto;
+	padding: 15px 25px;
+	text-align: center;
+}
+
+.meet-the-team img {
+	border-radius: 100%;
+	max-width: 100%;
+	margin: 20px 15px;
+
+}
+
+.meet-the-team p {
+	margin: 5px;
+	text-align: center;
+}
+
+.meet-the-team h2 {
+	margin: 16px 0;
+}
+
+.meet-the-team h3 {
+	margin: 0 auto;
+	font-size: 1.5em;
+	text-align: center;
+	padding-left: inherit;
+}
+
+/* SLIDER SECTION */
+
+.slider-section {
+	margin: 0 auto;
+}
+
+.cat-bg {
+	width: 100%;
+	height: 500px;
+	background: url('../img/kitten.jpg') center no-repeat;
+	position: relative;
+	background-size: cover;
+	border-top: 1px solid #E0E0E0;
+}
+
+.colour-layer {
+	background-color: rgba(130, 68, 153, 0.65);
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 500px;
+}
+
+.quote {
+	text-align: right;
+	margin: 5% 20% 15% 10%;
+	padding: 100px 0 50px;
+	color: #FFFCF7;
+}
+
+/* FOOTER */
+footer {
+	width: 100%;
+	background-color: #BE98CC;
+	padding: 50px 35px 50px;
+}
+
+footer a {
+	color: #824499;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #483A53;
+	text-decoration: none;
+}
+
+.social-media .fa {
+	margin: 5px;
+	font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -8,12 +8,13 @@
 		#cover-photo {
 		width: 100%;
 		overflow: hidden;
-		height: 720px;
+		height: 700px;
 		background: url('../img/cats.jpg') center no-repeat;
 		position: relative;
-		top: 100px;
+		top: -100px;
 		background-size: cover;
-		margin-bottom: 150px;
+		margin-bottom: -55px;
+		z-index: 0;
 	}
 
 
@@ -24,15 +25,20 @@
 		margin-right: 5%;
 		margin-bottom: 1%;
 		text-align: right;
-		width: 45%
+		width: 60%;
+  		top: 6%;
+  		left: 12%;
+		position: absolute;
+		z-index: 1;
+
 	}
 
-	#logo {
+/*	#logo {
 		float: left;
 		margin-left: 5%;
 		text-align: left;
-		width: 45%
-	}
+		width: 45%;
+	}*/
 
 	h1 {
 		font-size: 3em;
@@ -62,15 +68,22 @@
 		height: 720px;
 		background: url('../img/cat-lying.jpg') center no-repeat;
 		position: relative;
-		top: 100px;
 		background-size: cover;
-		margin-bottom: 150px;
+		z-index: 0;
 	}
 
 }
 
+/*********************************
+REWRITING SOME BOOTSTRAP STYLES
+*********************************/
 
-
+.btn-group-lg>.btn, .btn-lg {
+  padding: 15px 40px;
+  font-size: 26px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
 
 
 
