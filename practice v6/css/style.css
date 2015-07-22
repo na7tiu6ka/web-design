@@ -61,6 +61,7 @@ nav {
 	position: relative;
 	background-size: cover;
 	border-bottom: 1px solid #E0E0E0;
+	z-index: 0;
 
 }
 
@@ -83,9 +84,11 @@ header {
 	width: 100%;
 	/*background-color: #55443E;*/
 	background: -webkit-linear-gradient(#55443E, #5C4E49);
+	background: -o-linear-gradient(#55443E, #5C4E49); 
+  	background: -moz-linear-gradient(#55443E, #5C4E49); 
+  	background: linear-gradient(#55443E, #5C4E49); 
 	color: #fff;
 	margin: 0 auto;
-	padding: 5px;
 	text-align: left;
 }
 
@@ -103,18 +106,25 @@ header a:hover {
 	transition: .5s;
 }
 
+header .menu {
+	z-index: 1;
+}
+
+.menu {
+	padding: 10px;
+}
+
 /* menu */
-.slideout-menu .btn {
+.menu .btn {
 	padding: 5px 15px;
 	font-size: 18px;
 }
 
-.slideout-menu ul li {
+.menu ul li {
 	display: inline-block;
 	margin: 10px 5px;
 	font-size: 18px;
 }
-
 
 /* NAVIGATION */
 ul li {
@@ -252,22 +262,4 @@ footer a:hover {
 	font-size: 35px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* MEDIA QUERIES */
