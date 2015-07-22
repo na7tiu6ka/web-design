@@ -1,7 +1,7 @@
 /* GENERAL */
 body {
 	max-width: 100%;
-	background-color: #FFFCF7;
+	background-color: #E7E1E1;
 	overflow-x: hidden;
 	font-family: 'Lato', sans-serif;
 }
@@ -18,39 +18,48 @@ a {
 	color: #7D9DD2;
 }
 
-/* menu */
-.slideout-menu .btn {
-	padding: 5px 15px;
-	font-size: 15px;
-}
-
 /* Buttons */
 nav {
-	width: 100%;
+	max-width: 100%;
+	margin-bottom: -75px;
 }
 
 
 .buttons {
 	position: relative;
-	text-align: center;
-    top: 150px;
+	text-align: right;
+	margin: 0 6%;
+    top: 240px;
     z-index: 1;
 }
 
 .btn {
-  padding: 20px 35px;
-  margin: 5px;
-  font-size: 21px;
+	padding: 10px 25px;
+	margin: 5px;
+	font-size: 21px;
 }
 
+.btn-default {
+	color: #D0C6C6;
+	background-color: #422A20;
+	border-color: #75635C;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+	background-color: #339966;
+	text-decoration: none;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
 /* Cover Photo */
 .cover-photo {
 	width: 100%;
-	height: 500px;
-	background: url('../img/cats.jpg') center no-repeat;
+	height: 550px;
+	background: url('../img/adorable-cat.jpg') center no-repeat;
 	position: relative;
 	background-size: cover;
-	border-top: 1px solid #E0E0E0;
 	border-bottom: 1px solid #E0E0E0;
 
 }
@@ -62,7 +71,7 @@ nav {
 }
 
 h2 {
-	color: #483A53;
+	color: #422A20;
 	text-align: center;
 	margin: 10px 0 15px;
 	padding: 5px 0 10px 0;
@@ -72,15 +81,38 @@ h2 {
 /* HEADER */
 header {
 	width: 100%;
-	background-color: #000;
+	/*background-color: #55443E;*/
+	background: -webkit-linear-gradient(#55443E, #5C4E49);
 	color: #fff;
 	margin: 0 auto;
 	padding: 5px;
-	text-align: center;
+	text-align: left;
 }
 
 header a {
-	color: #ffffff;
+	color: #D0C6C6;
+	text-decoration: none;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+header a:hover {
+	color: #339966;
+	text-decoration: underline;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+/* menu */
+.slideout-menu .btn {
+	padding: 5px 15px;
+	font-size: 18px;
+}
+
+.slideout-menu ul li {
+	display: inline-block;
+	margin: 10px 5px;
+	font-size: 18px;
 }
 
 
@@ -99,7 +131,7 @@ ul li {
 /* HOW IT WORKS */
 .how-it {
 	max-width: 100%;
-	background-color: #DFD7FF;
+	background-color: rgba(51, 153, 102, 0.45);
 	padding: 15px 0 25px;
 	max-width: 0 auto;
 }
@@ -132,7 +164,7 @@ ul li {
 .meet-the-team img {
 	border-radius: 100%;
 	max-width: 100%;
-	margin: 20px 15px;
+	margin: 18px 15px;
 
 }
 
@@ -142,7 +174,8 @@ ul li {
 }
 
 .meet-the-team h2 {
-	margin: 16px 0;
+	margin: 20px 0;
+
 }
 
 .meet-the-team h3 {
@@ -161,14 +194,14 @@ ul li {
 .cat-bg {
 	width: 100%;
 	height: 500px;
-	background: url('../img/kitten.jpg') center no-repeat;
+	background: url('../img/sleepy-cat.jpg') center no-repeat;
 	position: relative;
 	background-size: cover;
 	border-top: 1px solid #E0E0E0;
 }
 
 .colour-layer {
-	background-color: rgba(130, 68, 153, 0.65);
+	background-color: rgba(195, 159, 150, 0.65);
 	position: absolute;
 	z-index: 1;
 	width: 100%;
@@ -180,23 +213,38 @@ ul li {
 	margin: 5% 20% 15% 10%;
 	padding: 100px 0 50px;
 	color: #FFFCF7;
+	-webkit-text-stroke-width: 1px;
+   	-webkit-text-stroke-color: #301F17;
+}
+
+.quote h1 {
+	font-size: 2.8em;
+}
+
+.quote h4 {
+	font-size: 1.8em;
 }
 
 /* FOOTER */
 footer {
 	width: 100%;
-	background-color: #BE98CC;
+	background-color: #422A20;
+	color: #FBFBFB;
 	padding: 50px 35px 50px;
 }
 
 footer a {
-	color: #824499;
+	color: #D0C6C6;
 	text-decoration: none;
+	-webkit-transition: .5s;
+	transition: .5s;
 }
 
 footer a:hover {
-	color: #483A53;
+	color: #339966;
 	text-decoration: none;
+	-webkit-transition: .5s;
+	transition: .5s;
 }
 
 .social-media .fa {
