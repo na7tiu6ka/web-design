@@ -1,0 +1,51 @@
+body,
+html {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#header{
+    width: 100%;
+    text-align: center;
+    height: 560px;
+    background: url(../img/computer.jpg) center no-repeat;
+    background-size: cover;
+    border-bottom: 1px #000 solid;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ------------- WORK SECTION ------------- */
+
+
+/* ------------- ABOUT SECTION ------------- */
+.about-me {
+	margin: 10px auto;
+	padding: 10px 180px;
+}
+
+.profile-photo img {
+	max-width: 80%;
+	border-radius: 10%;
+}
+
+.my-story {
+	text-align: justify;
+}
+
+
+
+
+
+
+
+/* ------------- FOOTER SECTION ------------- */
+
+.copyright {
+	text-align: center;
+}
