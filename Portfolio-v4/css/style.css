@@ -2,6 +2,7 @@ body,
 html {
     margin: 0 auto;
     padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 #header{
@@ -14,38 +15,49 @@ html {
 }
 
 .layer {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(7, 9, 11, .4);
     width: 100%;
     height: 100%;
 }
 
+h1, h2, h3, h4, h5 {
+    font-family: 'Open Sans', sans-serif;
+    color: #5c5a56;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    color: #07090b;
+}
 
 /* ------------- WORK SECTION ------------- */
 
 
 /* ------------- ABOUT SECTION ------------- */
-.about-me {
-	margin: 10px auto;
-	padding: 10px 180px;
+.profile-image img {
+    padding: 10px;
 }
 
-.profile-photo img {
-	max-width: 80%;
-	border-radius: 10%;
-}
-
-.my-story {
-	text-align: justify;
+.info p {
+    padding: 10px;
+    text-align: justify;
+    font-size: 13px;
 }
 
 
-
-
+/* ------------- CONTACT FORM -------------- */
 
 
 
 /* ------------- FOOTER SECTION ------------- */
+ #footer {
+    background-color: #bac3bf;
+    height: 100px;
+    padding-top: 40px;
+    font-family: 'Lato', sans-serif;
+ }
 
-.copyright {
+.copyright p {
 	text-align: center;
+    font-size: 1em;
 }
