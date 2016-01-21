@@ -156,15 +156,19 @@ a {
 
 #contact, h3.contactText {
 	text-align: center;
-	line-height: 5px;
+	line-height: 6px;
 }
 
-iframe {
-	border-style: none;
-	margin: 10px;
-	width: 600px;
-	height: 600px;
+.email-logo a{
+	font-size: 18em;
+	text-align: center;
+	transition: all 0.5s ease;
+}
 
+.email-logo a:hover {
+	text-align: center;
+	transition: all 0.5s ease;
+	color: #6B2424;
 }
 
 /* ----------------- FOOTER ----------------- */
