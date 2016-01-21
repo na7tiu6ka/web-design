@@ -1,0 +1,289 @@
+body{
+     background:#222;
+     color:#ddd;
+     font-family: sans-serif;
+}
+
+h1 {
+     text-align: center;
+     font-size: 3em;
+}
+
+h2 {
+     text-align: center;
+     font-size: 1.2em;
+}
+
+h1, h2 {
+     margin-top: 2em;
+     line-height: 0.2;
+}
+
+
+.wrapper {
+     max-width:700px;
+     padding:0 20px;
+     margin:0 auto;
+}
+.pacman-holder{
+     position:relative;
+     width:200px;
+     margin:100px auto;
+}
+.pacman-container {
+     display:block;
+     width:100px;
+     height: 100px;
+     -webkit-transform:rotate(45deg);
+     -moz-transform:rotate(45deg);
+     -o-transform:rotate(45deg);
+     transform:rotate(45deg);
+     -moz-animation: bite 0.5s linear infinite; 
+     -webkit-animation: bite 0.5s linear infinite; 
+     animation: bite 0.5s linear infinite;
+}
+.pacman-body {
+     background-color: #ff0;
+     position: absolute;
+     width: 100px;
+     height: 100px;
+     -moz-border-radius: 50px;
+     -webkit-border-radius: 50px;
+     -o-border-radius: 50px;
+     border-radius: 50px;
+
+}
+.dot {
+     background-color: #fff;
+     position: absolute;
+     z-index:0;
+     top:40px;
+     left:200px;
+     width: 20px;
+     height: 20px;
+     -moz-border-radius: 50px;
+     -webkit-border-radius: 50px;
+     -o-border-radius: 50px;
+     border-radius: 50px;
+     -moz-animation: movedot 0.5s linear infinite;
+     -webkit-animation: movedot 0.5s linear infinite;
+     animation: movedot 0.5s linear infinite;
+     -moz-animation-delay:0.2s; 
+     -webkit-animation-delay:0.2s; 
+     animation-delay:0.2s;
+}
+.pacman {
+     position: absolute;
+     width: 100px;
+     height: 100px;
+     -moz-border-radius: 50px;
+     -webkit-border-radius: 50px;
+     -o-border-radius: 50px;
+     border-radius: 50px;
+     clip: rect(0px, 50px, 100px, 0px);
+     z-index:2;
+}
+.pacman-mouth {
+     position: absolute;
+     left:2px;
+     width: 102px;
+     height: 102px;
+     -moz-border-radius: 50px;
+     -webkit-border-radius: 50px;
+     -o-border-radius: 50px;
+     border-radius: 50px;
+     clip: rect(0px, 100px, 100px, 52px);
+}
+
+.pacman-mouth .pacman {
+     background-color: #222;
+     -webkit-transform:rotate(90deg);
+     -moz-transform:rotate(90deg);
+     -o-transform:rotate(90deg);
+     transform:rotate(90deg);
+     -moz-animation: munch 0.5s linear infinite; 
+     -webkit-animation: munch 0.5s linear infinite; 
+     animation: munch 0.5s linear infinite;
+
+	  /* To fix a yellow border on pacman's mouth */
+	  border: 3px solid #222;
+}
+
+.pacman-holder.moving{
+     width:100px;
+     -moz-animation: move 2.7s linear infinite;
+     -webkit-animation: move 2.7s linear infinite;
+     animation: move 2.7s linear infinite;
+}
+
+.pacman-holder.moving .dot{
+     -moz-animation: movedot 1s linear infinite; 
+     -webkit-animation: movedot 1s linear infinite;
+     animation: movedot 1s linear infinite;
+     -moz-animation-delay:0.2s;
+     -webkit-animation-delay:0.2s;
+     animation-delay:0.2s;
+}
+
+@-moz-keyframes munch 
+{
+     0% {
+          -moz-transform:rotate(90deg);
+     }
+     50% {
+          -moz-transform:rotate(0deg);
+     }
+     100% {
+          -moz-transform:rotate(90deg);
+     }
+}
+@-webkit-keyframes munch 
+{
+     0% {
+          -webkit-transform:rotate(90deg);
+     }
+     50% {
+          -webkit-transform:rotate(0deg);
+     }
+     100% {
+          -webkit-transform:rotate(90deg);
+     }
+}
+@keyframes munch
+{
+     0% {
+          transform:rotate(90deg);
+     }
+     50% {
+          transform:rotate(0deg);
+     }
+     100% {
+          transform:rotate(90deg);
+     }
+}
+
+@-moz-keyframes bite 
+{
+     0% {
+          -moz-transform:rotate(45deg);
+     }
+     50% {
+          -moz-transform:rotate(90deg);
+     }
+     100% {
+          -moz-transform:rotate(45deg);
+     }
+}
+@-webkit-keyframes bite 
+{
+     0% {
+          -webkit-transform:rotate(45deg);
+     }
+     50% {
+          -webkit-transform:rotate(90deg);
+     }
+     100% {
+          -webkit-transform:rotate(45deg);
+     }
+}
+@keyframes bite
+{
+     0% {
+          transform:rotate(45deg);
+     }
+     50% {
+          transform:rotate(90deg);
+     }
+     100% {
+          transform:rotate(45deg);
+     }
+}
+
+@-webkit-keyframes movedot 
+{
+     0% {
+          left:200px;
+     }
+     100% {
+          left:50px;
+     }
+}     
+@-moz-keyframes movedot 
+{
+     0% {
+          left:200px;
+     }
+     100% {
+          left:50px;
+     }
+}
+@keyframes movedot 
+{
+     0% {
+          left:200px;
+     }
+     100% {
+          left:50px;
+     }
+}
+
+@-webkit-keyframes move
+{
+	 0% {
+		  -webkit-transform: scaleX(1);         
+		  left:0px;
+	 }
+
+	 49.999% {
+		  left:200px;
+		  -webkit-transform: scaleX(1);
+	 }
+	 50%{
+		-webkit-transform: scaleX(-1);
+   }
+
+   100% {
+	 left:0px;
+	 -webkit-transform: scaleX(-1);     
+	}        
+}
+@-moz-keyframes move
+{
+	 0% {
+		  -moz-transform: scaleX(1);               
+		  left:0px;
+	 }
+
+	 49.999% {
+		  left:200px;
+		  -moz-transform: scaleX(1);
+	 }
+	 50%{
+		-moz-transform: scaleX(-1);
+	 }
+
+   100% {
+	 left:0px;
+	 -moz-transform: scaleX(-1);          
+	}   
+}
+@keyframes move
+	 {
+		  0% {
+			   transform: scaleX(1);           
+			   left:0px;
+		  }
+
+		  49.999% {
+			   left:200px;
+			   transform: scaleX(1);
+		  }
+		  50%{
+			transform: scaleX(-1);
+	   }
+
+	   100% {
+		  left:0px;
+		  transform: scaleX(-1);     
+	 }          
+}

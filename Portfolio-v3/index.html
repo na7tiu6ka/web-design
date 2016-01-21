@@ -2,227 +2,264 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<title>Anastasija Scepak | Web Developer/Designer</title>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="HTML5, CCS3, JavaScript, JQuery, Front End Web Development, Web Design, Web Development">
+		<meta name="author" content="Anastasija Scepak">
+		<title>Anastasija Scepak | Front End Web Developer/Designer</title>
 		<link rel="stylesheet" href="css/normalize.css">
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic|Alegreya+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=IM+Fell+French+Canon:400italic' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/bootstrap-3.3.6/css/bootstrap.css">
+		
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="icon" href="img/icon.ico">
+
+		<link rel="icon" href="img/favicon.ico">
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/stellar.js"></script>
+		<script type="text/javascript" src="js/scroll.js"></script>
+		<script type="text/javascript" src="js/jquery.scrollUp.js"></script>
+		<script type="text/javascript" src="js/validateForm.js"></script>
+		<script type="text/javascript" src="js/createEmailSending.js"></script>
+		<script type="text/javascript" src="js/modernizr.custom.97074.js"></script>
+		<!-- Not script  -->
+		<noscript><link rel="stylesheet" href="css/noJS.css"></noscript>
+
+		<!-- Scroll, Cover Blur, Form Validation, Email Sending -->
+		<script>
+		$(document).ready(
+			function() {
+				createScroll();
+				createFormValidation();
+				createEmailSending();
+			}
+		);	
+		</script>
+
+		<script>
+		$(function(){
+			  $.scrollUp();
+		});
+		</script>
+
 
 	</head>
 	<body>
 		<div id="header">
 			<div id="top"></div>
+			
+			<div class="media-container">
+  				<video class="cover" width="960" height="600" autoplay loop>
+			    <source src="video/typ4.mp4" type="video/mp4">
+			  </video>
+			</div>
+
 			<div class="layer">
+				
 				<div class="coverNav">
 					<div class="borderNav">
-						<h1>Stacie's Personal Portfolio</h1>
-						<h2 class="quote">The journey of a thousand miles begins with one step. &copy; Lao Tzu</h2>
+						<h1><img src="img/small-logo.png" width="183" height="202">Personal Portfolio</h1>
 						<nav>
 							<ul>
-								<li><a href="#about">About</a></li>
 								<li><a href="#work">Work</a><li>
+								<li><a href="#about">About</a></li>
 								<li><a href="#contact">Contact</a></li>
 							</ul>
 						</nav>
 					</div>
 				</div>
+				
 				<div class="overlay"></div>
+
 			</div>
+
 		</div>
 
 		<div id="wrapper">
-			<div id="about">
-				<div class="about1">
-					<section class="firstColumn">
-						<img src="img/profile-photo.jpg" alt="Photograph of Anastasija Scepak" class="profilePhoto">
-					</section>
-
-					<section class="secondColumn">
-						<div class="aboutMe"><h2>About me</h2></div>
-						<p>Hello, I'm Anastasija Scepak a web developer/desginer, curently located in United Kingdom. I'm a passionate web designer who likes to think out of the box and use my imagination while drafting, sketching and designing beautiful and interesting websites.
-						<br>
-						<br>I've graduated as a bachelor in philology from Vilnius University (Kaunas Faculty of Humanities) in 2013. The idea of becoming a web designer was given by my boyfriend before graduating. But at that moment my mind was set at becoming a translator. My first experience in making a website was when I was 13 years old. I made my first website dedicated to Harry Potter. To tell the truth - I didn't know what I was doing. Everything was made in HTML without using CSS or JavaScript. In a word - there was no decent design. But at that moment I was proud of myself. That experience really helped me a lot while I was and still am learning about web design and web development. I really enjoy working on websites, polishing up my skills and learn something new.
-						<br>If you'd like to follow me on Twitter, my user name is <a href="http://www.twitter.com/na7tiu6ka" target="_blank">@na7tiu6ka</a>.</p>
-					</section>
-				</div>
-			</div>
-
+			<!-- Work Gallery -->
 			<div id="work">
 				<div class="work1">
-					<p></p>
+  						<ul id="da-thumbs" class="da-thumbs">
+  							<li>
+  								<a href="http://el4anes.ucoz.com/" target="_blank">
+  									<img src="work/img-links/elia.png">
+  									<div class="fontSize"><span><p>Elya's Personal Porfolio</p></span></div>
+  								</a>
+  							</li>
+
+  							<li>
+  								<a href="work/dummy-website3/index.html" target="_blank">
+  									<img src="work/img-links/dummy3.png">
+  									<div class="fontSize"><span><p>Dummy Webpage 3</p></span></div>
+  								</a>
+  							</li>
+
+  							<li>
+  								<a href="work/dummy-website2/index.html" target="_blank">
+  									<img src="work/img-links/dummy2.png">
+  									<div class="fontSize"><span><p>Dummy Webpage 2</p></span></div>
+  								</a>
+  							</li>
+
+  							<li>
+  								<a href="work/dummy-website/index.html" target="_blank">
+  									<img src="work/img-links/dummy.png">
+  									<div class="fontSize"><span><p>Dummy Webpage</p></span></div>
+  								</a>
+  							</li>
+
+  							<li>
+  								<a href="work/battleship/battleship.html" target="_blank">
+  									<img src="work/img-links//battleship.png">
+  									<div class="fontSize"><span><p>Battleship Game</p></span></div>
+  								</a>
+  							</li>
+
+  							<li>
+  								<a href="work/snake/snake-game.html" target="_blank">
+  									<img src="work/img-links/snake.png">
+  									<div class="fontSize"><span><p>The Snake Game</p></span></div>
+  								</a>
+  							</li>
+  							<li>
+  								<a href="work/pacman/pacman.html" target="_blank">
+  									<img src="work/img-links/pacman.png">
+  									<div class="fontSize"><span><p>CSS3 Pacman Animation</p></span></div>
+  								</a>
+  							</li>
+  							<li>
+  								<a href="work/clock/clock.html" target="_blank">
+  									<img src="work/img-links//clock.png">
+  									<div class="fontSize"><span><p>Date &amp; Time</p></span></div>
+  								</a>
+  							</li>
+  							<li>
+  								<a href="work/orbit/orbit.html" target="_blank">
+  									<img src="work/img-links//orbit.png">
+  									<div class="fontSize"><span><p>CSS3 Orbit Animation</p></span></div>
+  								</a>
+  							</li>
+						    <li>
+							    <a href="work/calculator/calculator.html" target="_blank">
+							    	<img src="work/img-links/calc.png">
+							    	<div class="fontSize"><span><p>Simple Calculator</p></span></div>
+							    </a>
+						    </li>
+						    <li>
+							    <a href="work/dashProject/game.html" target="_blank">
+							    	<img src="work/img-links/madlibs.png">
+							    	<div class="fontSize"><span><p>Simple Madlibs Game</p></span></div>
+							    </a>
+						    </li>
+						    <li>
+								<a href="https://dash.generalassemb.ly/na7tiu6ka/build-your-own-blog-theme" target="_blank">
+									<img src="work/img-links/dash1.png">
+									<div class="fontSize"><span></p>Dash Project: Blog Theme</p></span></div>
+								</a>
+							</li>
+						    <li>
+							    <a href="https://dash.generalassemb.ly/na7tiu6ka/build-your-own-business-website" target="_blank">
+							    	<img src="work/img-links/dash2.png">
+							    	<div class="fontSize"><span><p>Dash Project: Business Website</p></span></div>
+							    </a>
+						    </li>
+						</ul>
 				</div>
 			</div>
 
+
+
+			<div id="about">
+				<div class="about1">
+					<div class="row">
+						<div class="col-xs-12 col-md-5">
+							<img src="img/stacie-profile-photo.jpg" alt="Photograph of Anastasija Scepak" class="profilePhoto">
+						</div>
+
+						<div class="col-xs-12 col-md-6">
+							<p id="greeting"></p>
+							<p>I'm Anastasija Scepak, a front end web developer/designer. Currently I'm located in the United Kingdom. I'm a passionate about front end web development/design, I like to think out of the box and use my imagination while drafting, sketching and developing/designing beautiful, yet interesting websites.
+							<br> 
+							<br>In 2013 I've graduated from Vilnius University as a translator. I've always had an interest in web development &amp; design, but was too afraid to try to learn it. My partner was always supportive about it and he encouraged me to try a few online courses. After a finishing one of the online courses I've started building my own page. 
+							<br>
+							<br>My very first experience in making a website was when I was in my teen years. Back then I had no idea what I was doing, but I really enjoyed it. That experience in the past really helped me out while learning HTML, CSS, JavaScript &amp; JQuery.
+							<br>If you'd like to follow me on Twitter, my user name is <a href="http://www.twitter.com/na7tiu6ka" target="_blank">@na7tiu6ka</a>.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Contact Me section -->
 			<div id="contact">
 				<div class="contact1">
 					<h2>Contact me</h2>
-					<form action="" method="post">
 						<p>
-							<label for="name">Name:</label>
-							<input name="name" id="name" type="text" class="required">
+							<label for="name">Name:*</label>
+							<input name="name" id="name" type="text" class="required emailField">
 						</p>
 
 						<p>
-							<label for="email">Email:</label>
-							<input name="email" id="email" type="text" class="required"> 
-						</p>
-
-						<p>
-							<label for="subject">Subject:</label>
-							<input name="subject" id="subject" type="text"> 
+							<label for="email">Email:*</label>
+							<input name="email" id="email" type="text" class="required emailField"> 
 						</p>
 
 						<p>
 							<label for="message">Message:</label>
-							<textarea name="message" id="message" class="required"></textarea> 
+							<textarea name="message" id="message" class="required emailField"></textarea> 
 						</p>
 
 						<p class="submit">
-							<input type="submit" value="Submit" class="btn-submit">
+							<img src="img/loader.gif" class="btn-submit-img" style="display: none">
+							<input type="submit" value="Submit" class="btn-submit" disabled>
+							<div class="btn-submit-txt" style="display: none">Your email has been successfully sent!</div>
 						</p>
-					</form>
 				</div>
 			</div>
 
 			<div id="footer">
 				<div class="socialMedia">
-						<a href="https://www.linkedin.com/profile/view?id=295708852" target="_blank"><img src="img/icons/linkedin.png"></a>
-						<a href="https://plus.google.com/u/0/+AnastasijaScepak" target="_blank"><img src="img/icons/googleplus.png"></a>
-						<a href="https://www.facebook.com/anastasija.scepak" target="_blank"><img src="img/icons/facebook.png"></a>
-						<a href="https://twitter.com/na7tiu6ka" target="_blank"><img src="img/icons/twitter.png"></a>
-						<a href="http://instagram.com/na7tiu6ka" target="_blank"><img src="img/icons/instagram.png"></a>
+						<a href="https://www.linkedin.com/profile/view?id=295708852" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+						<a href="https://www.facebook.com/anastasija.scepak" target="_blank"><i class="fa fa-facebook-square"></i></a>
+						<a href="https://twitter.com/na7tiu6ka" target="_blank"><i class="fa fa-twitter-square"></i></a>
+						<a href="http://instagram.com/na7tiu6ka" target="_blank"><i class="fa fa-instagram"></i></a>
 					</div>
 
 				<div class="copyright">
-				    <p>&copy; 2014 Anastasija Scepak</p> 
+				    <p>Anastasija Scepak &copy; 2014 - 2016</p> 
 				</div>
 			</div>
 
 		</div>
+		<div class="mea" style="visibility: hidden">
+			&#097;&#110;&#097;&#115;&#116;&#097;&#115;&#105;&#106;&#097;&#046;&#115;&#099;&#101;&#112;&#097;&#107;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
+		</div>
 
 
-		<!-- Cover Blur Paralax -->
-		<script>
 
-		/* Cache */
-			var $content = $('#header .coverNav')
-			  , $blur    = $('#header .overlay')
-			  , wHeight  = $(window).height();
-
-			$(window).on('resize', function(){
-			  wHeight = $(window).height();
-			});
-
-			/* requestAnimationFrame Shim */
-			window.requestAnimFrame = (function()
-			{
-			  return  window.requestAnimationFrame       ||
-			          window.webkitRequestAnimationFrame ||
-			          window.mozRequestAnimationFrame    ||
-			          function( callback ){
-			            window.setTimeout(callback, 1000 / 60);
-			          };
-			})();
-
-			/*  Scroller */
-			function Scroller()
-			{
-			  this.latestKnownScrollY = 0;
-			  this.ticking            = false;
-			}
-
-			Scroller.prototype = {
-			  /* Initialize */
-			  init: function() {
-			    window.addEventListener('scroll', this.onScroll.bind(this), false);
-			  },
-			  /* Capture Scroll */
-			  onScroll: function() {
-			    this.latestKnownScrollY = window.scrollY;
-			    this.requestTick();
-			  },
-
-			  /* Request a Tick */
-			  requestTick: function() {
-			    if( !this.ticking ) {
-			      window.requestAnimFrame(this.update.bind(this));
-			    }
-			    this.ticking = true;
-			  },
-
-			  /* Update */
-			  update: function() {
-			    var currentScrollY = this.latestKnownScrollY;
-			    this.ticking       = false;
-			    
-			    /*  Do The Dirty Work Here */
-			    var slowScroll = currentScrollY / 4
-			      , blurScroll = currentScrollY * 2;
-			    
-			    $content.css({
-			      'transform'         : 'translateY(-' + slowScroll + 'px)',
-			      '-moz-transform'    : 'translateY(-' + slowScroll + 'px)',
-			      '-webkit-transform' : 'translateY(-' + slowScroll + 'px)'
-			    });
-			    
-			    $blur.css({
-			      'opacity' : blurScroll / wHeight
-			    });
-			  }
-			};
-
-			/*  Attach!  */
-			var scroller = new Scroller();  
-			scroller.init();
-
-
-		</script>
-		<!-- Cover Blur Paralax End -->
-
-		<!-- Valid E-mail. Contact Forn -->
-		<script type="text/javascript" src="js/jquery.js"></script>
-		<script type="text/javascript" src="js/validEmail.js"></script>
-		<script>
-			var $submit = $(".submit input");
-			var $required = $(".required")
-			function containsBlanks() {
-				var blanks = $required.map(function(){ 
-					return $(this).val() == ""});
-				//return blanks.sort().pop();
-				return $.inArray(true, blanks) != -1;
-			}
-
-
-			function requiredFilledIn() {
-				if(containsBlanks() || !$("#email").validEmail())
-					$submit.attr("disabled", "disabled");
-				else $submit.removeAttr("disabled");
-			}
-
-			$("form span").hide();
-			$("input, textarea").focus(function(){
-				$(this).next().fadeIn("slow");
-
-			}).blur(function(){
-				$(this).next().fadeOut("slow");
-			}).keyup(function(){
-				//Check all required fields.
-				requiredFilledIn();
-			});
+		<script type="text/javascript" src="js/jquery.hoverdir.js"></script>	
+		<script type="text/javascript">
+			$(function() {
 			
-			$("#email").validEmail({on:"keyup", success:function(){
-				$(this).next().removeClass("error").addClass("valid");
-			}, failure: function() {
-				$(this).next().removeClass("valid").addClass("error");
-			}}); 
-			requiredFilledIn();
+				$(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
+
+			});
 		</script>
-		<!-- Valid E-mail. Contact Forn END -->
 
+		<!-- Greeting message -->
+		<script type="text/javascript">
+		var hr = (new Date()).getHours();
 
+			if (hr >= 5 && hr <  12) {
+			  $('#greeting').html('Good moring,');
+			} if (hr >= 12 && hr <  18) {
+			  $('#greeting').html('Good afternoon,');
+			} if (hr >= 18 && hr <=  24) {
+			  $('#greeting').html('Good evening,');
+			} if (hr > 0 && hr <  5) {
+			  $('#greeting').html("Hello,");
+			}    
+		</script>
 
 	</body>
 </html>
