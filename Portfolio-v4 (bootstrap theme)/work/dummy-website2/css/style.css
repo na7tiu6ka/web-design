@@ -1,0 +1,168 @@
+body {
+	background: url(../img/wood.jpg);
+	font-family: 'PT Sans', sans-serif;
+	color: #000000;
+}
+
+a {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	color: #3C322A;
+	font-weight: 700;
+	transition-duration: 0.5s;
+  	transition-timing-function: linear;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #BB5577;
+}
+
+#container {
+	max-width: 62%;
+	margin: 0 auto;
+	background-color: rgba(234, 230, 226, 0.7);
+}
+
+h3 {
+	font-size: 2.85em;
+	font-weight: 800;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin: 0 auto;
+	color: #334422;
+}
+
+p {
+	font-size: 15px;
+}
+
+ul li {
+	display: inline;
+	margin: 0 10px;
+	list-style: none;
+}
+
+#nav {
+	float: right;
+}
+
+#header {
+	margin: 20px;
+	padding-top: 1%;
+	height: 50px;
+}
+
+.section {
+	background-color: rgba(234, 230, 226, 0.6);
+	text-align: center;
+
+}
+
+.section p {
+	margin-top: 15px;
+	padding: 15px;
+}
+
+.food-icon {
+	margin-top: 12px;
+	text-align: center;
+}
+
+.food-icon img {
+	width: 20%;
+	margin-bottom: 5px;
+}
+
+.mini-rectangle {
+	width: 55px;
+	height: 8px;
+	background: #BB5577;
+	margin: 10px auto;
+}
+
+span.other-color {
+	padding-bottom: 10px;
+}
+
+.other-color a {
+	color: #BB5577;
+	font-size: 15px;
+	font-weight: 700;
+	transition-duration: 0.5s;
+  	transition-timing-function: linear;
+}
+
+.other-color a:hover {
+	color: #558877;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+/* FOOTER */
+
+#footer {
+	margin-top: 10px;
+	padding: 25px;
+	height: auto;
+}
+
+.copyright {
+	color: #334422;
+	margin: 10px 0;
+	margin: 0 auto;
+	float: right;
+}
+
+h4 {
+	font-size: 1.65em;
+	font-weight: 700;
+	margin: 0 auto;
+	color: #334422;
+}
+
+ol li {
+	margin-left: -10px;
+	list-style: none;
+	font-size: 18px;
+}
+
+.mini-rectangle1 {
+	width: 55px;
+	height: 8px;
+	background: #BB5577;
+	margin: 15px 70px;
+}
+
+.fa {
+	margin: 0 auto;
+	float: right;
+	padding: 8px;
+	font-size: 30px;
+}
+
+
+
+/* slides */
+#slideshow {
+    position:relative;
+    height:570px;
+}
+
+#slideshow img {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+}
+
+#slideshow img.active {
+    z-index:10;
+}
+
+#slideshow img.last-active {
+    z-index:9;
+}
+
+
+
