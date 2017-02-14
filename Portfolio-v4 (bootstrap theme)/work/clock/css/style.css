@@ -1,0 +1,96 @@
+
+body {
+	background-color: #333333;
+	color: #D6D6D6;
+}
+
+h1 {
+	font-family: 'Lilita One', cursive;
+	font-size: 4.5em;
+	padding: 20px;
+	margin: 0;
+	text-align: center;
+}
+
+.contaner {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.clock {
+	font-family: 'Lilita One', cursive;
+	width: 800px;
+	margin: 0 auto;
+	padding: 30px;
+	border: 1px solid #404040;
+	color: #D6D6D6;
+	font-size: 1em;
+}
+
+#Date {
+	font-family: 'Lilita One', cursive;
+	text-align: center;
+	font-size: 35px;
+	text-shadow: 0 0 5px #005CE6;
+}
+
+ul {
+	width: 800px;
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+ul li {
+	display: inline;
+	font-size: 10em;
+	text-align: center;
+	text-shadow: 0 0 5px #005CE6;
+}
+
+#point {
+	position: relative;
+	-webkit-animation-name: mymove;
+	-moz-animation: mymove 1s ease infinite;
+	-webkit-animation: mymove 1s ease infinite;
+	-o-animation: mymove 1s ease infinite;
+	animation: mymove 1s ease infinite;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* Animation */
+
+@keyframes mymove {
+	0% { opacity: 1.0; text-shadow: 0 0 20px #005CE6; }
+
+	50% { opacity: 0; text-shadow: none; }
+
+	100% { opacity: 1.0; text-shadow: 0 0 20px #005CE6; }
+}
+
+@-webkit-keyframes mymove {
+	0% { opacity: 1.0; text-shadow: 0 0 20px #005CE6; }
+
+	50% { opacity: 0; text-shadow: none; }
+
+	100% { opacity: 1.0; text-shadow: 0 0 20px #005CE6; }
+}
+
+@-moz-keyframes mymove {
+	0% { opacity: 1.0; text-shadow: 0 0 20px #005CE6; }
+
+	50% { opacity: 0; text-shadow: none; }
+
+	100% { opacity: 1.0; text-shadow: 0 0 20px #005CE6; }
+}
+
+@-o-keyframes mymove {
+	0% { opacity: 1.0; text-shadow: 0 0 20px #005CE6; }
+
+	50% { opacity: 0; text-shadow: none; }
+
+	100% { opacity: 1.0; text-shadow: 0 0 20px #005CE6; }
+}
