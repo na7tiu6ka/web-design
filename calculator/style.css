@@ -1,6 +1,6 @@
 html {
     height: 100%;
-    background-color: #ECE2D8;
+    background-color: #ffffff;
 }
 
 #calculator {
@@ -21,7 +21,7 @@ html {
     height: 60px;
     background: rgba(0, 0, 0, 0.25);
     font-size: 60px;
-    color: #ECECEC;
+    color: #e5e2e2;
     border-radius: 5px;
     border: 0.5px solid rgba(0, 0, 0, 0.15);
     text-align: right;
