@@ -1,0 +1,129 @@
+html {
+    height: 100%;
+    background-color: #ECE2D8;
+}
+
+#calculator {
+    margin: 30px auto 0;
+    padding: 15px;
+    width: 276px;
+    height: 445px;
+    background-color: #A7D9E9;
+    background: linear-gradient(#A8CDD8, #83BDCF);
+    border-radius: 10px;
+    box-shadow: 0px 10px #538DA0, 0px 15px 25px rgba(0, 0, 0, 0.35);
+}
+
+#total {
+    margin: 5px;
+    padding: 10px;
+    width: 240px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.25);
+    font-size: 60px;
+    color: #ECECEC;
+    border-radius: 5px;
+    border: 0.5px solid rgba(0, 0, 0, 0.15);
+    text-align: right;
+    box-shadow: inset 0px 4px rgba(0, 0, 0, 0.15);
+    text-shadow: 2.5px 2.5px 3.5px rgba(0, 0, 0, 0.2);
+}
+
+.operNum {
+    margin-top: 10px;
+}
+
+a {
+    cursor: pointer;
+}
+
+.operators a {
+    margin: 0 auto;
+    float: left;
+    width: 45px;
+    height: 45px;
+    margin: 6px 6px;
+    padding: 5px;
+    font-size: 32px;
+    background-color: #00A6CF;
+    color: #FFFFFF;
+    border-radius: 15px;
+    border: 0.5px solid #4C4C4C;
+    text-align: center;
+    box-shadow: 0px 3px #0085A6, 0px 5px 10px rgba(0, 0, 0, 0.35);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.numbers a {
+    float: left;
+    width: 45px;
+    height: 45px;
+    margin: 6px;
+    padding: 5px;
+    font-size: 32px;
+    background-color: #E0E0E0;
+    color: #3A3A3A;
+    border-radius: 15px;
+    border: 0.5px solid #4C4C4C;
+    text-align: center;
+    box-shadow: 0px 3px #7A7A7A, 0px 5px 10px rgba(0, 0, 0, 0.35);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* All clear, clear & equal button colors */
+ .operators .allClear {
+    background-color: #83A8BA;
+    color: #fff;
+    box-shadow: 0px 3px #5E7E8E, 0px 5px 10px rgba(0, 0, 0, 0.35);
+}
+
+.operators .clear {
+    background-color: #83A8BA;
+    color: #fff;
+    box-shadow: 0px 3px #5E7E8E, 0px 5px 10px rgba(0, 0, 0, 0.35);
+}
+
+.operators .equal {
+    background-color: #D83074;
+    color: #FFFFFF;
+    box-shadow: 0px 3px #6F545F, 0px 5px 10px rgba(0, 0, 0, 0.35);
+    float: right;
+    width: 250px;
+    font-weight: bold;
+}
+
+/* Hovers on buttons*/
+ .operators .equal:hover {
+    background-color: #DC4582;
+    transition: all 0.35s ease;
+}
+
+.operators .clear:hover {
+    background-color: #8EB7CC;
+    transition: all 0.35s ease;
+}
+
+.operators .allClear:hover {
+    background-color: #8EB7CC;
+    transition: all 0.35s ease;
+}
+
+.operators a:hover {
+    background-color: #16BCE6;
+    transition: all 0.35s ease;
+}
+.numbers a:hover {
+    background-color: #fff;
+    transition: all 0.35s ease;
+}
+
+/* Pressed simulation */
+ .operators a:active {
+    box-shadow: 0 0 #7A7A7A;
+    top: 4px;
+}
+
+.numbers a:active {
+    box-shadow: 0 0 #7A7A7A;
+    top: 4px;
+}
