@@ -1,0 +1,155 @@
+body {
+    width: 700px;
+    text-align: center;
+    font-family: 'Arvo';
+    font-size: 20px;
+    background: #e6eaf0;
+    border: 2px solid #000;
+    border-radius: 20px;
+    margin: 100px 20% 10px 25%;
+
+  }
+
+  ::selection {
+  color: #000;
+  background: rgba(110,235,192,0.3);
+  text-shadow: none;
+
+}
+
+
+  h1 {
+    font-size: 2.5em;
+    font-family: 'Lobster';
+    color: #64D489;
+    text-shadow: 0 0 2px #000;
+    -moz-text-shadow: 0 0 2px #000;
+    -webkit-text-shadow: 0 0 2px #000;
+  }
+  
+  button {
+    margin: 40px;
+  }
+
+  /* BUTTONS START */
+
+   .next {
+    -moz-box-shadow: inset 0px 1px 0px 0px #cae3fc;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #cae3fc;
+    box-shadow: inset 0px 1px 0px 0px #cae3fc;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #4197ee) );
+    background: -moz-linear-gradient( center top, #79bbff 5%, #4197ee 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#4197ee');
+    background-color: #79bbff;
+    -webkit-border-top-left-radius: 20px;
+    -moz-border-radius-topleft:2 0px;
+    border-top-left-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -moz-border-radius-topright: 20px;
+    border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -moz-border-radius-bottomright: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    border-bottom-left-radius: 20px;
+    text-indent: 0;
+    border: 1px solid #469df5;
+    display: inline-block;
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    height: 45px;
+    line-height: 40px;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0px #287ace;
+  }
+  .next:hover {
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4197ee), color-stop(1, #79bbff) );
+    background: -moz-linear-gradient( center top, #4197ee 5%, #79bbff 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4197ee', endColorstr='#79bbff');
+    background-color: #4197ee;
+  }
+
+  .next:active {
+    position: relative;
+    top: 1px;
+  }
+
+  /* reset button */
+
+    .reset {
+    -moz-box-shadow: inset 0px 1px 0px 0px #c1ed9c;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #c1ed9c;
+    box-shadow: inset 0px 1px 0px 0px #c1ed9c;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9dce2c), color-stop(1, #8cb82b) );
+    background: -moz-linear-gradient( center top, #9dce2c 5%, #8cb82b 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9dce2c', endColorstr='#8cb82b');
+    background-color: #9dce2c;
+    -webkit-border-top-left-radius: 20px;
+    -moz-border-radius-topleft: 20px;
+    border-top-left-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -moz-border-radius-topright: 20px;
+    border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -moz-border-radius-bottomright: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    border-bottom-left-radius: 20px;
+    text-indent: 0;
+    border: 1px solid #83c41a;
+    display: inline-block;
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    height: 45px;
+    line-height:4 0px;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow:1 px 1px 0px #689324;
+  }
+
+  .reset:hover {
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8cb82b), color-stop(1, #9dce2c) );
+    background: -moz-linear-gradient( center top, #8cb82b 5%, #9dce2c 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cb82b', endColorstr='#9dce2c');
+    background-color: #8cb82b;
+  }
+
+  .reset:active {
+    position: relative;
+    top: 1px;
+  }
+
+/* BUTTONS END */
+
+
+  input {
+    font-size: 24px;
+    border-radius: 8px;
+    background-color: #F5FFFF;
+  }
+
+  form {
+    margin: 30px;
+  }
+  
+  .fill {
+    background: white;
+    color: #B22400;
+    border-bottom: 2px black solid;
+    font-family: 'Lobster';
+    padding: 0 6px;
+    margin: 4px;
+
+  }
+

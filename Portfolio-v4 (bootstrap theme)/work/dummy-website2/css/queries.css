@@ -1,0 +1,31 @@
+/* media queries */
+@media (max-width: 480px) {
+	#slideshow {
+	    position:relative;
+	    height:140px;
+	}
+
+	.icons-copy {
+		margin-right: 18px;
+	}
+
+	.push-r {
+		padding-left: 25px;
+	}
+
+	.push-l {
+		padding-right: 25px;
+	}
+}
+
+
+@media (max-width: 1920px) and (min-width: 1200px) {
+	.push-r {
+		padding-right: 25px;
+	}
+
+	.push-l {
+		padding-left: 25px;
+	}
+
+}
