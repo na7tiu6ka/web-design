@@ -61,7 +61,7 @@ a {
     margin: 6px;
     padding: 5px;
     font-size: 32px;
-    background-color: #E0E0E0;
+    background-color: #c3d7db;
     color: #3A3A3A;
     border-radius: 15px;
     border: 0.5px solid #4C4C4C;
@@ -84,9 +84,9 @@ a {
 }
 
 .operators .equal {
-    background-color: #D83074;
+    background-color: #3630d8;
     color: #FFFFFF;
-    box-shadow: 0px 3px #6F545F, 0px 5px 10px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 3px #54586f, 0px 5px 10px rgba(0, 0, 0, 0.35);
     float: right;
     width: 250px;
     font-weight: bold;
@@ -94,7 +94,7 @@ a {
 
 /* Hovers on buttons*/
  .operators .equal:hover {
-    background-color: #DC4582;
+    background-color: #4551dc;
     transition: all 0.35s ease;
 }
 
