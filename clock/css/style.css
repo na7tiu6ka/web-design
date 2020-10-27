@@ -1,6 +1,6 @@
 
 body {
-	background-color: #333333;
+	background-color: #212020;
 	color: #D6D6D6;
 }
 
@@ -32,7 +32,7 @@ h1 {
 	font-family: 'Lilita One', cursive;
 	text-align: center;
 	font-size: 35px;
-	text-shadow: 0 0 5px #005CE6;
+	text-shadow: 0 0 5px #2881a2;
 }
 
 ul {
@@ -47,7 +47,7 @@ ul li {
 	display: inline;
 	font-size: 10em;
 	text-align: center;
-	text-shadow: 0 0 5px #005CE6;
+	text-shadow: 0 0 5px #00ffff;
 }
 
 #point {
@@ -64,33 +64,33 @@ ul li {
 /* Animation */
 
 @keyframes mymove {
-	0% { opacity: 1.0; text-shadow: 0 0 20px #005CE6; }
+	0% { opacity: 1.0; text-shadow: 0 0 20px #00e6dd; }
 
 	50% { opacity: 0; text-shadow: none; }
 
-	100% { opacity: 1.0; text-shadow: 0 0 20px #005CE6; }
+	100% { opacity: 1.0; text-shadow: 0 0 20px #2881a2; }
 }
 
 @-webkit-keyframes mymove {
-	0% { opacity: 1.0; text-shadow: 0 0 20px #005CE6; }
+	0% { opacity: 1.0; text-shadow: 0 0 20px #00e6dd; }
 
 	50% { opacity: 0; text-shadow: none; }
 
-	100% { opacity: 1.0; text-shadow: 0 0 20px #005CE6; }
+	100% { opacity: 1.0; text-shadow: 0 0 20px #2881a2; }
 }
 
 @-moz-keyframes mymove {
-	0% { opacity: 1.0; text-shadow: 0 0 20px #005CE6; }
+	0% { opacity: 1.0; text-shadow: 0 0 20px #00e6dd; }
 
 	50% { opacity: 0; text-shadow: none; }
 
-	100% { opacity: 1.0; text-shadow: 0 0 20px #005CE6; }
+	100% { opacity: 1.0; text-shadow: 0 0 20px #2881a2; }
 }
 
 @-o-keyframes mymove {
-	0% { opacity: 1.0; text-shadow: 0 0 20px #005CE6; }
+	0% { opacity: 1.0; text-shadow: 0 0 20px #00e6dd; }
 
 	50% { opacity: 0; text-shadow: none; }
 
-	100% { opacity: 1.0; text-shadow: 0 0 20px #005CE6; }
+	100% { opacity: 1.0; text-shadow: 0 0 20px #2881a2; }
 }
