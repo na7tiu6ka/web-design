@@ -1,0 +1,124 @@
+<html>
+<head>
+    <title>Keyboard animals</title>
+    
+    
+    <style>
+        html {
+          background-color: #000;
+          background: url(https://static.pexels.com/photos/269481/pexels-photo-269481.jpeg) bottom center;
+          background-size: cover;
+          margin: 0;
+          padding: 0;
+        }
+
+        body {
+          margin: 0 auto;
+          width: 100%;
+          color: #fff;
+        }
+
+        .keys {
+          display: flex;
+          flex: 1;
+          min-height: 100vh;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .key {
+          border: .3rem solid #000000;
+          border-radius: .3rem;
+          margin: 1rem;
+          font-size: 1.5em;
+          padding: 1rem .1rem;
+          transition: all .4s ease;
+           width: 10rem;
+          text-align: center;
+          background: rgba(0,0,0,0.4);
+          text-shadow: 0 0 .3rem #000;
+        }
+
+        .playing {
+          transform: scale(1.1);
+          border-color: #94b1af;
+          box-shadow: 0 0 1rem #94b1af;
+        }
+
+        kbd {
+          font-size: 2.5rem;
+          display: block;
+        }
+
+        .sounds {
+          font-size: 1rem;
+          text-transform: uppercase;
+          letter-spacing: .1rem;
+          color: #cfe4dd;
+        }
+
+        .footer {
+          padding: 10px 0;
+          text-align: center;
+          color: #262626;
+          background-color: rgba(179, 179, 179, .3);
+          font-size: 12px;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="keys">
+  <div data-key="65" class="key">
+    <kbd>A</kbd>
+    <div class="sounds">Cat</div>
+  </div>
+  
+  <div data-key="83" class="key">
+    <kbd>S</kbd>
+    <div class="sounds">Bird</div>
+  </div>
+  
+  <div data-key="68" class="key">
+    <kbd>D</kbd>
+    <div class="sounds">Horse</div>
+  </div>
+  
+  <div data-key="70" class="key">
+    <kbd>F</kbd>
+    <div class="sounds">Duck</div>
+  </div>
+  
+  <div data-key="71" class="key">
+    <kbd>G</kbd>
+    <div class="sounds">Dog</div>
+  </div>
+  
+  <div data-key="72" class="key">
+    <kbd>H</kbd>
+    <div class="sounds">Owl</div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Made by <strong>Stacie D. &#9400; <script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script></strong></p>
+</div>
+
+<!-- cat meow  -->
+<audio data-key="65" src="http://static1.grsites.com/archive/sounds/animals/animals021.wav"></audio>
+<!-- tiger growl  -->
+<audio data-key="83" src="http://static1.grsites.com/archive/sounds/animals/animals011.wav"></audio>
+<!-- horse  -->
+<audio data-key="68" src="http://static1.grsites.com/archive/sounds/animals/animals036.wav"></audio>
+<!-- duck -->
+<audio data-key="70" src="http://static1.grsites.com/archive/sounds/animals/animals039.wav"></audio>
+<!-- dogs -->
+<audio data-key="71" src="http://static1.grsites.com/archive/sounds/animals/animals079.wav"></audio>
+<!-- owl -->
+<audio data-key="72" src="http://static1.grsites.com/archive/sounds/animals/animals074.wav"></audio>    
+    
+</body>    
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</html>
