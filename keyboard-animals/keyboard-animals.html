@@ -2,6 +2,71 @@
 <head>
     <title>Keyboard animals</title>
     
+    
+    <style>
+    
+        html {
+          background-color: #000;
+          background: url(https://static.pexels.com/photos/269481/pexels-photo-269481.jpeg) bottom center;
+          background-size: cover;
+          margin: 0;
+          padding: 0;
+        }
+
+        body {
+          margin: 0 auto;
+          width: 100%;
+          color: #fff;
+        }
+
+        .keys {
+          display: flex;
+          flex: 1;
+          min-height: 100vh;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .key {
+          border: .3rem solid #333;
+          border-radius: .3rem;
+          margin: 1rem;
+          font-size: 1.5em;
+          padding: 1rem .1rem;
+          transition: all .4s ease;
+           width: 10rem;
+          text-align: center;
+          background: rgba(0,0,0,0.4);
+          text-shadow: 0 0 .3rem #000;
+        }
+
+        .playing {
+          transform: scale(1.1);
+          border-color: #94b1af;
+          box-shadow: 0 0 1rem #94b1af;
+        }
+
+        kbd {
+          font-size: 2.5rem;
+          display: block;
+        }
+
+        .sounds {
+          font-size: 1rem;
+          text-transform: uppercase;
+          letter-spacing: .1rem;
+          color: #cfe4dd;
+        }
+
+        .footer {
+          padding: 10px 0;
+          text-align: center;
+          color: #262626;
+          background-color: rgba(179, 179, 179, .3);
+          font-size: 12px;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -56,5 +121,5 @@
     
 </body>    
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </html>
